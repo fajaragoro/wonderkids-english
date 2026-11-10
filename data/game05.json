@@ -1,0 +1,1642 @@
+[
+ {
+  "id": "G5-T1-0001",
+  "game": 5,
+  "tier": 1,
+  "stage": 1,
+  "type": "pop_balloon",
+  "prompt": "apple",
+  "options": [
+   "pisang",
+   "apel",
+   "mobil"
+  ],
+  "answer": "apel",
+  "image": "",
+  "audio": "apple"
+ },
+ {
+  "id": "G5-T1-0002",
+  "game": 5,
+  "tier": 1,
+  "stage": 1,
+  "type": "pop_balloon",
+  "prompt": "book",
+  "options": [
+   "buku",
+   "topi",
+   "bola"
+  ],
+  "answer": "buku",
+  "image": "",
+  "audio": "book"
+ },
+ {
+  "id": "G5-T1-0003",
+  "game": 5,
+  "tier": 1,
+  "stage": 1,
+  "type": "pop_balloon",
+  "prompt": "ball",
+  "options": [
+   "kue",
+   "bola",
+   "buku"
+  ],
+  "answer": "bola",
+  "image": "",
+  "audio": "ball"
+ },
+ {
+  "id": "G5-T1-0004",
+  "game": 5,
+  "tier": 1,
+  "stage": 1,
+  "type": "pop_balloon",
+  "prompt": "car",
+  "options": [
+   "kapal",
+   "bus",
+   "mobil"
+  ],
+  "answer": "mobil",
+  "image": "",
+  "audio": "car"
+ },
+ {
+  "id": "G5-T1-0005",
+  "game": 5,
+  "tier": 1,
+  "stage": 1,
+  "type": "pop_balloon",
+  "prompt": "cake",
+  "options": [
+   "kue",
+   "roti",
+   "susu"
+  ],
+  "answer": "kue",
+  "image": "",
+  "audio": "cake"
+ },
+ {
+  "id": "G5-T1-0006",
+  "game": 5,
+  "tier": 1,
+  "stage": 1,
+  "type": "pop_balloon",
+  "prompt": "milk",
+  "options": [
+   "susu",
+   "air",
+   "teh"
+  ],
+  "answer": "susu",
+  "image": "",
+  "audio": "milk"
+ },
+ {
+  "id": "G5-T1-0007",
+  "game": 5,
+  "tier": 1,
+  "stage": 1,
+  "type": "pop_balloon",
+  "prompt": "egg",
+  "options": [
+   "apel",
+   "telur",
+   "nasi"
+  ],
+  "answer": "telur",
+  "image": "",
+  "audio": "egg"
+ },
+ {
+  "id": "G5-T1-0008",
+  "game": 5,
+  "tier": 1,
+  "stage": 1,
+  "type": "pop_balloon",
+  "prompt": "house",
+  "options": [
+   "pohon",
+   "rumah",
+   "sekolah"
+  ],
+  "answer": "rumah",
+  "image": "",
+  "audio": "house"
+ },
+ {
+  "id": "G5-T1-0009",
+  "game": 5,
+  "tier": 1,
+  "stage": 1,
+  "type": "pop_balloon",
+  "prompt": "tree",
+  "options": [
+   "bunga",
+   "pohon",
+   "rumah"
+  ],
+  "answer": "pohon",
+  "image": "",
+  "audio": "tree"
+ },
+ {
+  "id": "G5-T1-0010",
+  "game": 5,
+  "tier": 1,
+  "stage": 1,
+  "type": "pop_balloon",
+  "prompt": "flower",
+  "options": [
+   "pohon",
+   "bunga",
+   "daun"
+  ],
+  "answer": "bunga",
+  "image": "",
+  "audio": "flower"
+ },
+ {
+  "id": "G5-T1-0011",
+  "game": 5,
+  "tier": 1,
+  "stage": 2,
+  "type": "pop_balloon",
+  "prompt": "red",
+  "options": [
+   "merah",
+   "hijau",
+   "biru"
+  ],
+  "answer": "merah",
+  "image": "",
+  "audio": "red"
+ },
+ {
+  "id": "G5-T1-0012",
+  "game": 5,
+  "tier": 1,
+  "stage": 2,
+  "type": "pop_balloon",
+  "prompt": "blue",
+  "options": [
+   "merah",
+   "biru",
+   "kuning"
+  ],
+  "answer": "biru",
+  "image": "",
+  "audio": "blue"
+ },
+ {
+  "id": "G5-T1-0013",
+  "game": 5,
+  "tier": 1,
+  "stage": 2,
+  "type": "pop_balloon",
+  "prompt": "green",
+  "options": [
+   "hitam",
+   "biru",
+   "hijau"
+  ],
+  "answer": "hijau",
+  "image": "",
+  "audio": "green"
+ },
+ {
+  "id": "G5-T1-0014",
+  "game": 5,
+  "tier": 1,
+  "stage": 2,
+  "type": "pop_balloon",
+  "prompt": "yellow",
+  "options": [
+   "putih",
+   "merah",
+   "kuning"
+  ],
+  "answer": "kuning",
+  "image": "",
+  "audio": "yellow"
+ },
+ {
+  "id": "G5-T1-0015",
+  "game": 5,
+  "tier": 1,
+  "stage": 2,
+  "type": "pop_balloon",
+  "prompt": "black",
+  "options": [
+   "cokelat",
+   "hitam",
+   "putih"
+  ],
+  "answer": "hitam",
+  "image": "",
+  "audio": "black"
+ },
+ {
+  "id": "G5-T1-0016",
+  "game": 5,
+  "tier": 1,
+  "stage": 2,
+  "type": "pop_balloon",
+  "prompt": "one",
+  "options": [
+   "satu",
+   "dua",
+   "tiga"
+  ],
+  "answer": "satu",
+  "image": "",
+  "audio": "one"
+ },
+ {
+  "id": "G5-T1-0017",
+  "game": 5,
+  "tier": 1,
+  "stage": 2,
+  "type": "pop_balloon",
+  "prompt": "three",
+  "options": [
+   "tiga",
+   "satu",
+   "lima"
+  ],
+  "answer": "tiga",
+  "image": "",
+  "audio": "three"
+ },
+ {
+  "id": "G5-T1-0018",
+  "game": 5,
+  "tier": 1,
+  "stage": 2,
+  "type": "pop_balloon",
+  "prompt": "five",
+  "options": [
+   "empat",
+   "enam",
+   "lima"
+  ],
+  "answer": "lima",
+  "image": "",
+  "audio": "five"
+ },
+ {
+  "id": "G5-T1-0019",
+  "game": 5,
+  "tier": 1,
+  "stage": 2,
+  "type": "pop_balloon",
+  "prompt": "eight",
+  "options": [
+   "delapan",
+   "tujuh",
+   "sembilan"
+  ],
+  "answer": "delapan",
+  "image": "",
+  "audio": "eight"
+ },
+ {
+  "id": "G5-T1-0020",
+  "game": 5,
+  "tier": 1,
+  "stage": 2,
+  "type": "pop_balloon",
+  "prompt": "ten",
+  "options": [
+   "sepuluh",
+   "enam",
+   "dua"
+  ],
+  "answer": "sepuluh",
+  "image": "",
+  "audio": "ten"
+ },
+ {
+  "id": "G5-T1-0021",
+  "game": 5,
+  "tier": 1,
+  "stage": 3,
+  "type": "pop_balloon",
+  "prompt": "cat",
+  "options": [
+   "kucing",
+   "anjing",
+   "ikan"
+  ],
+  "answer": "kucing",
+  "image": "",
+  "audio": "cat"
+ },
+ {
+  "id": "G5-T1-0022",
+  "game": 5,
+  "tier": 1,
+  "stage": 3,
+  "type": "pop_balloon",
+  "prompt": "dog",
+  "options": [
+   "kucing",
+   "anjing",
+   "bebek"
+  ],
+  "answer": "anjing",
+  "image": "",
+  "audio": "dog"
+ },
+ {
+  "id": "G5-T1-0023",
+  "game": 5,
+  "tier": 1,
+  "stage": 3,
+  "type": "pop_balloon",
+  "prompt": "fish",
+  "options": [
+   "sapi",
+   "ikan",
+   "burung"
+  ],
+  "answer": "ikan",
+  "image": "",
+  "audio": "fish"
+ },
+ {
+  "id": "G5-T1-0024",
+  "game": 5,
+  "tier": 1,
+  "stage": 3,
+  "type": "pop_balloon",
+  "prompt": "bird",
+  "options": [
+   "ikan",
+   "burung",
+   "ayam"
+  ],
+  "answer": "burung",
+  "image": "",
+  "audio": "bird"
+ },
+ {
+  "id": "G5-T1-0025",
+  "game": 5,
+  "tier": 1,
+  "stage": 3,
+  "type": "pop_balloon",
+  "prompt": "chicken",
+  "options": [
+   "ayam",
+   "bebek",
+   "kambing"
+  ],
+  "answer": "ayam",
+  "image": "",
+  "audio": "chicken"
+ },
+ {
+  "id": "G5-T1-0026",
+  "game": 5,
+  "tier": 1,
+  "stage": 3,
+  "type": "pop_balloon",
+  "prompt": "mother",
+  "options": [
+   "kakak",
+   "ayah",
+   "ibu"
+  ],
+  "answer": "ibu",
+  "image": "",
+  "audio": "mother"
+ },
+ {
+  "id": "G5-T1-0027",
+  "game": 5,
+  "tier": 1,
+  "stage": 3,
+  "type": "pop_balloon",
+  "prompt": "father",
+  "options": [
+   "paman",
+   "ibu",
+   "ayah"
+  ],
+  "answer": "ayah",
+  "image": "",
+  "audio": "father"
+ },
+ {
+  "id": "G5-T1-0028",
+  "game": 5,
+  "tier": 1,
+  "stage": 3,
+  "type": "pop_balloon",
+  "prompt": "sister",
+  "options": [
+   "saudara laki-laki",
+   "nenek",
+   "saudara perempuan"
+  ],
+  "answer": "saudara perempuan",
+  "image": "",
+  "audio": "sister"
+ },
+ {
+  "id": "G5-T1-0029",
+  "game": 5,
+  "tier": 1,
+  "stage": 3,
+  "type": "pop_balloon",
+  "prompt": "brother",
+  "options": [
+   "saudara laki-laki",
+   "saudara perempuan",
+   "kakek"
+  ],
+  "answer": "saudara laki-laki",
+  "image": "",
+  "audio": "brother"
+ },
+ {
+  "id": "G5-T1-0030",
+  "game": 5,
+  "tier": 1,
+  "stage": 3,
+  "type": "pop_balloon",
+  "prompt": "grandmother",
+  "options": [
+   "bibi",
+   "kakek",
+   "nenek"
+  ],
+  "answer": "nenek",
+  "image": "",
+  "audio": "grandmother"
+ },
+ {
+  "id": "G5-T2-0001",
+  "game": 5,
+  "tier": 2,
+  "stage": 1,
+  "type": "pop_balloon",
+  "prompt": "eat",
+  "options": [
+   "tidur",
+   "makan",
+   "minum"
+  ],
+  "answer": "makan",
+  "image": "",
+  "audio": "eat"
+ },
+ {
+  "id": "G5-T2-0002",
+  "game": 5,
+  "tier": 2,
+  "stage": 1,
+  "type": "pop_balloon",
+  "prompt": "drink",
+  "options": [
+   "minum",
+   "mandi",
+   "makan"
+  ],
+  "answer": "minum",
+  "image": "",
+  "audio": "drink"
+ },
+ {
+  "id": "G5-T2-0003",
+  "game": 5,
+  "tier": 2,
+  "stage": 1,
+  "type": "pop_balloon",
+  "prompt": "sleep",
+  "options": [
+   "tidur",
+   "duduk",
+   "bangun"
+  ],
+  "answer": "tidur",
+  "image": "",
+  "audio": "sleep"
+ },
+ {
+  "id": "G5-T2-0004",
+  "game": 5,
+  "tier": 2,
+  "stage": 1,
+  "type": "pop_balloon",
+  "prompt": "run",
+  "options": [
+   "berjalan",
+   "melompat",
+   "berlari"
+  ],
+  "answer": "berlari",
+  "image": "",
+  "audio": "run"
+ },
+ {
+  "id": "G5-T2-0005",
+  "game": 5,
+  "tier": 2,
+  "stage": 1,
+  "type": "pop_balloon",
+  "prompt": "swim",
+  "options": [
+   "berenang",
+   "terbang",
+   "berlari"
+  ],
+  "answer": "berenang",
+  "image": "",
+  "audio": "swim"
+ },
+ {
+  "id": "G5-T2-0006",
+  "game": 5,
+  "tier": 2,
+  "stage": 1,
+  "type": "pop_balloon",
+  "prompt": "read",
+  "options": [
+   "menulis",
+   "membaca",
+   "bernyanyi"
+  ],
+  "answer": "membaca",
+  "image": "",
+  "audio": "read"
+ },
+ {
+  "id": "G5-T2-0007",
+  "game": 5,
+  "tier": 2,
+  "stage": 1,
+  "type": "pop_balloon",
+  "prompt": "write",
+  "options": [
+   "menggambar",
+   "membaca",
+   "menulis"
+  ],
+  "answer": "menulis",
+  "image": "",
+  "audio": "write"
+ },
+ {
+  "id": "G5-T2-0008",
+  "game": 5,
+  "tier": 2,
+  "stage": 1,
+  "type": "pop_balloon",
+  "prompt": "sing",
+  "options": [
+   "berbicara",
+   "menari",
+   "bernyanyi"
+  ],
+  "answer": "bernyanyi",
+  "image": "",
+  "audio": "sing"
+ },
+ {
+  "id": "G5-T2-0009",
+  "game": 5,
+  "tier": 2,
+  "stage": 1,
+  "type": "pop_balloon",
+  "prompt": "cook",
+  "options": [
+   "makan",
+   "mencuci",
+   "memasak"
+  ],
+  "answer": "memasak",
+  "image": "",
+  "audio": "cook"
+ },
+ {
+  "id": "G5-T2-0010",
+  "game": 5,
+  "tier": 2,
+  "stage": 1,
+  "type": "pop_balloon",
+  "prompt": "wash",
+  "options": [
+   "memasak",
+   "menyapu",
+   "mencuci"
+  ],
+  "answer": "mencuci",
+  "image": "",
+  "audio": "wash"
+ },
+ {
+  "id": "G5-T2-0011",
+  "game": 5,
+  "tier": 2,
+  "stage": 2,
+  "type": "pop_balloon",
+  "prompt": "school",
+  "options": [
+   "sekolah",
+   "pasar",
+   "taman"
+  ],
+  "answer": "sekolah",
+  "image": "",
+  "audio": "school"
+ },
+ {
+  "id": "G5-T2-0012",
+  "game": 5,
+  "tier": 2,
+  "stage": 2,
+  "type": "pop_balloon",
+  "prompt": "kitchen",
+  "options": [
+   "dapur",
+   "taman",
+   "kamar"
+  ],
+  "answer": "dapur",
+  "image": "",
+  "audio": "kitchen"
+ },
+ {
+  "id": "G5-T2-0013",
+  "game": 5,
+  "tier": 2,
+  "stage": 2,
+  "type": "pop_balloon",
+  "prompt": "bedroom",
+  "options": [
+   "dapur",
+   "kamar mandi",
+   "kamar tidur"
+  ],
+  "answer": "kamar tidur",
+  "image": "",
+  "audio": "bedroom"
+ },
+ {
+  "id": "G5-T2-0014",
+  "game": 5,
+  "tier": 2,
+  "stage": 2,
+  "type": "pop_balloon",
+  "prompt": "garden",
+  "options": [
+   "pantai",
+   "kebun",
+   "jalan"
+  ],
+  "answer": "kebun",
+  "image": "",
+  "audio": "garden"
+ },
+ {
+  "id": "G5-T2-0015",
+  "game": 5,
+  "tier": 2,
+  "stage": 2,
+  "type": "pop_balloon",
+  "prompt": "market",
+  "options": [
+   "kantor",
+   "pasar",
+   "bank"
+  ],
+  "answer": "pasar",
+  "image": "",
+  "audio": "market"
+ },
+ {
+  "id": "G5-T2-0016",
+  "game": 5,
+  "tier": 2,
+  "stage": 2,
+  "type": "pop_balloon",
+  "prompt": "beach",
+  "options": [
+   "gunung",
+   "sungai",
+   "pantai"
+  ],
+  "answer": "pantai",
+  "image": "",
+  "audio": "beach"
+ },
+ {
+  "id": "G5-T2-0017",
+  "game": 5,
+  "tier": 2,
+  "stage": 2,
+  "type": "pop_balloon",
+  "prompt": "library",
+  "options": [
+   "rumah sakit",
+   "sekolah",
+   "perpustakaan"
+  ],
+  "answer": "perpustakaan",
+  "image": "",
+  "audio": "library"
+ },
+ {
+  "id": "G5-T2-0018",
+  "game": 5,
+  "tier": 2,
+  "stage": 2,
+  "type": "pop_balloon",
+  "prompt": "hospital",
+  "options": [
+   "toko",
+   "rumah sakit",
+   "perpustakaan"
+  ],
+  "answer": "rumah sakit",
+  "image": "",
+  "audio": "hospital"
+ },
+ {
+  "id": "G5-T2-0019",
+  "game": 5,
+  "tier": 2,
+  "stage": 2,
+  "type": "pop_balloon",
+  "prompt": "rice",
+  "options": [
+   "mi",
+   "roti",
+   "nasi"
+  ],
+  "answer": "nasi",
+  "image": "",
+  "audio": "rice"
+ },
+ {
+  "id": "G5-T2-0020",
+  "game": 5,
+  "tier": 2,
+  "stage": 2,
+  "type": "pop_balloon",
+  "prompt": "bread",
+  "options": [
+   "roti",
+   "kue",
+   "nasi"
+  ],
+  "answer": "roti",
+  "image": "",
+  "audio": "bread"
+ },
+ {
+  "id": "G5-T2-0021",
+  "game": 5,
+  "tier": 2,
+  "stage": 3,
+  "type": "pop_balloon",
+  "prompt": "vegetables",
+  "options": [
+   "daging",
+   "buah",
+   "sayuran"
+  ],
+  "answer": "sayuran",
+  "image": "",
+  "audio": "vegetables"
+ },
+ {
+  "id": "G5-T2-0022",
+  "game": 5,
+  "tier": 2,
+  "stage": 3,
+  "type": "pop_balloon",
+  "prompt": "breakfast",
+  "options": [
+   "sarapan",
+   "camilan",
+   "makan malam"
+  ],
+  "answer": "sarapan",
+  "image": "",
+  "audio": "breakfast"
+ },
+ {
+  "id": "G5-T2-0023",
+  "game": 5,
+  "tier": 2,
+  "stage": 3,
+  "type": "pop_balloon",
+  "prompt": "dinner",
+  "options": [
+   "sarapan",
+   "makan siang",
+   "makan malam"
+  ],
+  "answer": "makan malam",
+  "image": "",
+  "audio": "dinner"
+ },
+ {
+  "id": "G5-T2-0024",
+  "game": 5,
+  "tier": 2,
+  "stage": 3,
+  "type": "pop_balloon",
+  "prompt": "water",
+  "options": [
+   "teh",
+   "air",
+   "susu"
+  ],
+  "answer": "air",
+  "image": "",
+  "audio": "water"
+ },
+ {
+  "id": "G5-T2-0025",
+  "game": 5,
+  "tier": 2,
+  "stage": 3,
+  "type": "pop_balloon",
+  "prompt": "morning",
+  "options": [
+   "malam",
+   "pagi",
+   "siang"
+  ],
+  "answer": "pagi",
+  "image": "",
+  "audio": "morning"
+ },
+ {
+  "id": "G5-T2-0026",
+  "game": 5,
+  "tier": 2,
+  "stage": 3,
+  "type": "pop_balloon",
+  "prompt": "night",
+  "options": [
+   "pagi",
+   "sore",
+   "malam"
+  ],
+  "answer": "malam",
+  "image": "",
+  "audio": "night"
+ },
+ {
+  "id": "G5-T2-0027",
+  "game": 5,
+  "tier": 2,
+  "stage": 3,
+  "type": "pop_balloon",
+  "prompt": "play",
+  "options": [
+   "bekerja",
+   "bermain",
+   "belajar"
+  ],
+  "answer": "bermain",
+  "image": "",
+  "audio": "play"
+ },
+ {
+  "id": "G5-T2-0028",
+  "game": 5,
+  "tier": 2,
+  "stage": 3,
+  "type": "pop_balloon",
+  "prompt": "study",
+  "options": [
+   "bermain",
+   "tidur",
+   "belajar"
+  ],
+  "answer": "belajar",
+  "image": "",
+  "audio": "study"
+ },
+ {
+  "id": "G5-T2-0029",
+  "game": 5,
+  "tier": 2,
+  "stage": 3,
+  "type": "pop_balloon",
+  "prompt": "open",
+  "options": [
+   "menutup",
+   "membuka",
+   "menarik"
+  ],
+  "answer": "membuka",
+  "image": "",
+  "audio": "open"
+ },
+ {
+  "id": "G5-T2-0030",
+  "game": 5,
+  "tier": 2,
+  "stage": 3,
+  "type": "pop_balloon",
+  "prompt": "close",
+  "options": [
+   "mendorong",
+   "menutup",
+   "membuka"
+  ],
+  "answer": "menutup",
+  "image": "",
+  "audio": "close"
+ },
+ {
+  "id": "G5-T3-0001",
+  "game": 5,
+  "tier": 3,
+  "stage": 1,
+  "type": "pop_balloon",
+  "prompt": "happy",
+  "options": [
+   "senang",
+   "sedih",
+   "marah",
+   "takut"
+  ],
+  "answer": "senang",
+  "image": "",
+  "audio": "happy"
+ },
+ {
+  "id": "G5-T3-0002",
+  "game": 5,
+  "tier": 3,
+  "stage": 1,
+  "type": "pop_balloon",
+  "prompt": "sad",
+  "options": [
+   "sedih",
+   "lelah",
+   "senang",
+   "bosan"
+  ],
+  "answer": "sedih",
+  "image": "",
+  "audio": "sad"
+ },
+ {
+  "id": "G5-T3-0003",
+  "game": 5,
+  "tier": 3,
+  "stage": 1,
+  "type": "pop_balloon",
+  "prompt": "angry",
+  "options": [
+   "sedih",
+   "malu",
+   "senang",
+   "marah"
+  ],
+  "answer": "marah",
+  "image": "",
+  "audio": "angry"
+ },
+ {
+  "id": "G5-T3-0004",
+  "game": 5,
+  "tier": 3,
+  "stage": 1,
+  "type": "pop_balloon",
+  "prompt": "afraid",
+  "options": [
+   "lelah",
+   "marah",
+   "takut",
+   "berani"
+  ],
+  "answer": "takut",
+  "image": "",
+  "audio": "afraid"
+ },
+ {
+  "id": "G5-T3-0005",
+  "game": 5,
+  "tier": 3,
+  "stage": 1,
+  "type": "pop_balloon",
+  "prompt": "tired",
+  "options": [
+   "haus",
+   "senang",
+   "lelah",
+   "lapar"
+  ],
+  "answer": "lelah",
+  "image": "",
+  "audio": "tired"
+ },
+ {
+  "id": "G5-T3-0006",
+  "game": 5,
+  "tier": 3,
+  "stage": 1,
+  "type": "pop_balloon",
+  "prompt": "hungry",
+  "options": [
+   "kenyang",
+   "lapar",
+   "haus",
+   "lelah"
+  ],
+  "answer": "lapar",
+  "image": "",
+  "audio": "hungry"
+ },
+ {
+  "id": "G5-T3-0007",
+  "game": 5,
+  "tier": 3,
+  "stage": 1,
+  "type": "pop_balloon",
+  "prompt": "thirsty",
+  "options": [
+   "lapar",
+   "haus",
+   "sakit",
+   "dingin"
+  ],
+  "answer": "haus",
+  "image": "",
+  "audio": "thirsty"
+ },
+ {
+  "id": "G5-T3-0008",
+  "game": 5,
+  "tier": 3,
+  "stage": 1,
+  "type": "pop_balloon",
+  "prompt": "bored",
+  "options": [
+   "senang",
+   "sibuk",
+   "bosan",
+   "takut"
+  ],
+  "answer": "bosan",
+  "image": "",
+  "audio": "bored"
+ },
+ {
+  "id": "G5-T3-0009",
+  "game": 5,
+  "tier": 3,
+  "stage": 1,
+  "type": "pop_balloon",
+  "prompt": "proud",
+  "options": [
+   "malu",
+   "sedih",
+   "bosan",
+   "bangga"
+  ],
+  "answer": "bangga",
+  "image": "",
+  "audio": "proud"
+ },
+ {
+  "id": "G5-T3-0010",
+  "game": 5,
+  "tier": 3,
+  "stage": 1,
+  "type": "pop_balloon",
+  "prompt": "excited",
+  "options": [
+   "bosan",
+   "marah",
+   "mengantuk",
+   "bersemangat"
+  ],
+  "answer": "bersemangat",
+  "image": "",
+  "audio": "excited"
+ },
+ {
+  "id": "G5-T3-0011",
+  "game": 5,
+  "tier": 3,
+  "stage": 2,
+  "type": "pop_balloon",
+  "prompt": "brave",
+  "options": [
+   "malas",
+   "pintar",
+   "takut",
+   "berani"
+  ],
+  "answer": "berani",
+  "image": "",
+  "audio": "brave"
+ },
+ {
+  "id": "G5-T3-0012",
+  "game": 5,
+  "tier": 3,
+  "stage": 2,
+  "type": "pop_balloon",
+  "prompt": "clever",
+  "options": [
+   "malas",
+   "berani",
+   "lucu",
+   "pintar"
+  ],
+  "answer": "pintar",
+  "image": "",
+  "audio": "clever"
+ },
+ {
+  "id": "G5-T3-0013",
+  "game": 5,
+  "tier": 3,
+  "stage": 2,
+  "type": "pop_balloon",
+  "prompt": "lazy",
+  "options": [
+   "pintar",
+   "malas",
+   "cepat",
+   "rajin"
+  ],
+  "answer": "malas",
+  "image": "",
+  "audio": "lazy"
+ },
+ {
+  "id": "G5-T3-0014",
+  "game": 5,
+  "tier": 3,
+  "stage": 2,
+  "type": "pop_balloon",
+  "prompt": "kind",
+  "options": [
+   "jahat",
+   "baik hati",
+   "sombong",
+   "malas"
+  ],
+  "answer": "baik hati",
+  "image": "",
+  "audio": "kind"
+ },
+ {
+  "id": "G5-T3-0015",
+  "game": 5,
+  "tier": 3,
+  "stage": 2,
+  "type": "pop_balloon",
+  "prompt": "funny",
+  "options": [
+   "lucu",
+   "serius",
+   "pintar",
+   "sedih"
+  ],
+  "answer": "lucu",
+  "image": "",
+  "audio": "funny"
+ },
+ {
+  "id": "G5-T3-0016",
+  "game": 5,
+  "tier": 3,
+  "stage": 2,
+  "type": "pop_balloon",
+  "prompt": "heavy",
+  "options": [
+   "kuat",
+   "ringan",
+   "berat",
+   "tinggi"
+  ],
+  "answer": "berat",
+  "image": "",
+  "audio": "heavy"
+ },
+ {
+  "id": "G5-T3-0017",
+  "game": 5,
+  "tier": 3,
+  "stage": 2,
+  "type": "pop_balloon",
+  "prompt": "light",
+  "options": [
+   "ringan",
+   "berat",
+   "pendek",
+   "gelap"
+  ],
+  "answer": "ringan",
+  "image": "",
+  "audio": "light"
+ },
+ {
+  "id": "G5-T3-0018",
+  "game": 5,
+  "tier": 3,
+  "stage": 2,
+  "type": "pop_balloon",
+  "prompt": "quiet",
+  "options": [
+   "keras",
+   "tenang",
+   "cepat",
+   "ramai"
+  ],
+  "answer": "tenang",
+  "image": "",
+  "audio": "quiet"
+ },
+ {
+  "id": "G5-T3-0019",
+  "game": 5,
+  "tier": 3,
+  "stage": 2,
+  "type": "pop_balloon",
+  "prompt": "dangerous",
+  "options": [
+   "aman",
+   "mudah",
+   "berbahaya",
+   "sulit"
+  ],
+  "answer": "berbahaya",
+  "image": "",
+  "audio": "dangerous"
+ },
+ {
+  "id": "G5-T3-0020",
+  "game": 5,
+  "tier": 3,
+  "stage": 2,
+  "type": "pop_balloon",
+  "prompt": "beautiful",
+  "options": [
+   "kotor",
+   "indah",
+   "kecil",
+   "jelek"
+  ],
+  "answer": "indah",
+  "image": "",
+  "audio": "beautiful"
+ },
+ {
+  "id": "G5-T3-0021",
+  "game": 5,
+  "tier": 3,
+  "stage": 3,
+  "type": "pop_balloon",
+  "prompt": "because",
+  "options": [
+   "atau",
+   "jika",
+   "karena",
+   "tetapi"
+  ],
+  "answer": "karena",
+  "image": "",
+  "audio": "because"
+ },
+ {
+  "id": "G5-T3-0022",
+  "game": 5,
+  "tier": 3,
+  "stage": 3,
+  "type": "pop_balloon",
+  "prompt": "but",
+  "options": [
+   "karena",
+   "jadi",
+   "dan",
+   "tetapi"
+  ],
+  "answer": "tetapi",
+  "image": "",
+  "audio": "but"
+ },
+ {
+  "id": "G5-T3-0023",
+  "game": 5,
+  "tier": 3,
+  "stage": 3,
+  "type": "pop_balloon",
+  "prompt": "or",
+  "options": [
+   "jika",
+   "dan",
+   "atau",
+   "tetapi"
+  ],
+  "answer": "atau",
+  "image": "",
+  "audio": "or"
+ },
+ {
+  "id": "G5-T3-0024",
+  "game": 5,
+  "tier": 3,
+  "stage": 3,
+  "type": "pop_balloon",
+  "prompt": "so",
+  "options": [
+   "lalu",
+   "jadi",
+   "karena",
+   "atau"
+  ],
+  "answer": "jadi",
+  "image": "",
+  "audio": "so"
+ },
+ {
+  "id": "G5-T3-0025",
+  "game": 5,
+  "tier": 3,
+  "stage": 3,
+  "type": "pop_balloon",
+  "prompt": "if",
+  "options": [
+   "jika",
+   "karena",
+   "atau",
+   "tetapi"
+  ],
+  "answer": "jika",
+  "image": "",
+  "audio": "if"
+ },
+ {
+  "id": "G5-T3-0026",
+  "game": 5,
+  "tier": 3,
+  "stage": 3,
+  "type": "pop_balloon",
+  "prompt": "before",
+  "options": [
+   "sesudah",
+   "sebelum",
+   "selama",
+   "sejak"
+  ],
+  "answer": "sebelum",
+  "image": "",
+  "audio": "before"
+ },
+ {
+  "id": "G5-T3-0027",
+  "game": 5,
+  "tier": 3,
+  "stage": 3,
+  "type": "pop_balloon",
+  "prompt": "after",
+  "options": [
+   "saat",
+   "sampai",
+   "sebelum",
+   "sesudah"
+  ],
+  "answer": "sesudah",
+  "image": "",
+  "audio": "after"
+ },
+ {
+  "id": "G5-T3-0028",
+  "game": 5,
+  "tier": 3,
+  "stage": 3,
+  "type": "pop_balloon",
+  "prompt": "always",
+  "options": [
+   "jarang",
+   "kadang",
+   "tidak pernah",
+   "selalu"
+  ],
+  "answer": "selalu",
+  "image": "",
+  "audio": "always"
+ },
+ {
+  "id": "G5-T3-0029",
+  "game": 5,
+  "tier": 3,
+  "stage": 3,
+  "type": "pop_balloon",
+  "prompt": "sometimes",
+  "options": [
+   "selalu",
+   "tidak pernah",
+   "kadang-kadang",
+   "sering"
+  ],
+  "answer": "kadang-kadang",
+  "image": "",
+  "audio": "sometimes"
+ },
+ {
+  "id": "G5-T3-0030",
+  "game": 5,
+  "tier": 3,
+  "stage": 3,
+  "type": "pop_balloon",
+  "prompt": "never",
+  "options": [
+   "kadang",
+   "selalu",
+   "tidak pernah",
+   "sering"
+  ],
+  "answer": "tidak pernah",
+  "image": "",
+  "audio": "never"
+ },
+ {
+  "id": "G5-T3-0031",
+  "game": 5,
+  "tier": 3,
+  "stage": 4,
+  "type": "pop_balloon",
+  "prompt": "went",
+  "options": [
+   "makan (lampau)",
+   "pergi (lampau)",
+   "melihat (lampau)",
+   "datang (lampau)"
+  ],
+  "answer": "pergi (lampau)",
+  "image": "",
+  "audio": "went"
+ },
+ {
+  "id": "G5-T3-0032",
+  "game": 5,
+  "tier": 3,
+  "stage": 4,
+  "type": "pop_balloon",
+  "prompt": "ate",
+  "options": [
+   "makan (lampau)",
+   "tidur (lampau)",
+   "minum (lampau)",
+   "pergi (lampau)"
+  ],
+  "answer": "makan (lampau)",
+  "image": "",
+  "audio": "ate"
+ },
+ {
+  "id": "G5-T3-0033",
+  "game": 5,
+  "tier": 3,
+  "stage": 4,
+  "type": "pop_balloon",
+  "prompt": "saw",
+  "options": [
+   "pergi (lampau)",
+   "melihat (lampau)",
+   "mendengar (lampau)",
+   "menulis (lampau)"
+  ],
+  "answer": "melihat (lampau)",
+  "image": "",
+  "audio": "saw"
+ },
+ {
+  "id": "G5-T3-0034",
+  "game": 5,
+  "tier": 3,
+  "stage": 4,
+  "type": "pop_balloon",
+  "prompt": "bought",
+  "options": [
+   "berpikir (lampau)",
+   "menjual (lampau)",
+   "membeli (lampau)",
+   "membawa (lampau)"
+  ],
+  "answer": "membeli (lampau)",
+  "image": "",
+  "audio": "bought"
+ },
+ {
+  "id": "G5-T3-0035",
+  "game": 5,
+  "tier": 3,
+  "stage": 4,
+  "type": "pop_balloon",
+  "prompt": "wrote",
+  "options": [
+   "membaca (lampau)",
+   "menulis (lampau)",
+   "berlari (lampau)",
+   "makan (lampau)"
+  ],
+  "answer": "menulis (lampau)",
+  "image": "",
+  "audio": "wrote"
+ },
+ {
+  "id": "G5-T3-0036",
+  "game": 5,
+  "tier": 3,
+  "stage": 4,
+  "type": "pop_balloon",
+  "prompt": "borrow",
+  "options": [
+   "membeli",
+   "meminjamkan",
+   "meminjam",
+   "mengembalikan"
+  ],
+  "answer": "meminjam",
+  "image": "",
+  "audio": "borrow"
+ },
+ {
+  "id": "G5-T3-0037",
+  "game": 5,
+  "tier": 3,
+  "stage": 4,
+  "type": "pop_balloon",
+  "prompt": "remember",
+  "options": [
+   "melupakan",
+   "mengingat",
+   "menunggu",
+   "menjelaskan"
+  ],
+  "answer": "mengingat",
+  "image": "",
+  "audio": "remember"
+ },
+ {
+  "id": "G5-T3-0038",
+  "game": 5,
+  "tier": 3,
+  "stage": 4,
+  "type": "pop_balloon",
+  "prompt": "forget",
+  "options": [
+   "lupa",
+   "mencari",
+   "ingat",
+   "menemukan"
+  ],
+  "answer": "lupa",
+  "image": "",
+  "audio": "forget"
+ },
+ {
+  "id": "G5-T3-0039",
+  "game": 5,
+  "tier": 3,
+  "stage": 4,
+  "type": "pop_balloon",
+  "prompt": "explain",
+  "options": [
+   "menjawab",
+   "bertanya",
+   "menjelaskan",
+   "mendengar"
+  ],
+  "answer": "menjelaskan",
+  "image": "",
+  "audio": "explain"
+ },
+ {
+  "id": "G5-T3-0040",
+  "game": 5,
+  "tier": 3,
+  "stage": 4,
+  "type": "pop_balloon",
+  "prompt": "protect",
+  "options": [
+   "melindungi",
+   "merusak",
+   "membuang",
+   "menghitung"
+  ],
+  "answer": "melindungi",
+  "image": "",
+  "audio": "protect"
+ }
+]

@@ -1,0 +1,16 @@
+{
+  "name": "Wonder Kids English",
+  "short_name": "Wonder Kids",
+  "description": "Belajar bahasa Inggris sambil bermain untuk anak 5–10 tahun.",
+  "lang": "id",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#fff7e0",
+  "theme_color": "#fff7e0",
+  "icons": [
+    { "src": "assets/images/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "assets/images/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}

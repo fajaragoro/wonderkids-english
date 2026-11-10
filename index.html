@@ -1,0 +1,292 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#fff7e0">
+  <meta name="description" content="Wonder Kids English: belajar bahasa Inggris sambil bermain untuk anak 5–10 tahun.">
+  <title>Wonder Kids English</title>
+  <link rel="icon" type="image/png" href="assets/images/favicon.png">
+  <link rel="apple-touch-icon" href="assets/images/icon-192.png">
+  <link rel="manifest" href="manifest.webmanifest">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="Wonder Kids">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Baloo+2:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="app">
+
+    <!-- Bar atas: logo kecil + pengaturan (tampil setelah masuk) -->
+    <header class="topbar" id="topbar" hidden>
+      <img class="topbar-logo" src="assets/images/logo.webp" alt="Wonder Kids English" width="900" height="351">
+      <button class="round" id="btn-settings" type="button" aria-label="Pengaturan">
+        <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><path fill="currentColor" d="M19.4 13a7.6 7.6 0 0 0 0-2l2.1-1.6-2-3.5-2.5 1a7.4 7.4 0 0 0-1.7-1L15 3.3h-4l-.4 2.6a7.4 7.4 0 0 0-1.7 1l-2.5-1-2 3.5L6.6 11a7.6 7.6 0 0 0 0 2l-2.1 1.6 2 3.5 2.5-1a7.4 7.4 0 0 0 1.7 1l.4 2.6h4l.4-2.6a7.4 7.4 0 0 0 1.7-1l2.5 1 2-3.5zM13 15.5a3.5 3.5 0 1 1 0-7 3.5 3.5 0 0 1 0 7z" transform="translate(-1 0)"/></svg>
+      </button>
+    </header>
+
+    <!-- LAYAR 1: Gerbang kode masuk -->
+    <section class="screen" id="screen-gate" data-screen="gate" hidden>
+      <h1 class="logo-wrap">
+        <img class="logo" src="assets/images/logo.webp" alt="Wonder Kids English" width="900" height="351">
+        <span class="logo-sub">ENGLISH</span>
+      </h1>
+
+      <div class="panel hero">
+        <div class="hero-grid">
+          <img class="mascot mfloat" src="assets/images/mascot.svg" alt="" width="200" height="240">
+          <div class="bubble">
+            <p class="bubble-title display">Halo! Aku Wondi!</p>
+            <p>Masukkan kode rahasia untuk mulai bermain.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel code-panel">
+        <p class="label display" id="code-label">Kode masuk</p>
+        <div class="code-box" id="code-box" role="group" aria-labelledby="code-label">
+          <span class="slot"></span><span class="slot"></span><span class="slot"></span><span class="slot"></span>
+        </div>
+        <p class="code-msg" id="code-msg" role="status" aria-live="polite"></p>
+
+        <div class="keypad" id="keypad">
+          <button type="button" data-key="1">1</button>
+          <button type="button" data-key="2">2</button>
+          <button type="button" data-key="3">3</button>
+          <button type="button" data-key="4">4</button>
+          <button type="button" data-key="5">5</button>
+          <button type="button" data-key="6">6</button>
+          <button type="button" data-key="7">7</button>
+          <button type="button" data-key="8">8</button>
+          <button type="button" data-key="9">9</button>
+          <span aria-hidden="true"></span>
+          <button type="button" data-key="0">0</button>
+          <button type="button" class="key-back" data-action="back" aria-label="Hapus angka">
+            <svg viewBox="0 0 24 24" width="28" height="28" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" d="M9 5h11v14H9l-6-7zM12 9l5 6M17 9l-5 6"/></svg>
+          </button>
+        </div>
+      </div>
+      <p class="hint">Belum tahu kodenya? Tanya Ayah, Bunda, atau Guru, ya.</p>
+    </section>
+
+    <!-- LAYAR 2: Beranda setelah masuk -->
+    <section class="screen" id="screen-home" data-screen="home" hidden>
+      <div class="panel hero">
+        <div class="hero-grid">
+          <div class="home-avatar mfloat" id="home-avatar"></div>
+          <div class="bubble">
+            <p class="bubble-title display" id="home-greet">Hello, friend!</p>
+            <p>Ayo belajar bahasa Inggris sambil bermain!</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel info-panel">
+        <div class="row">
+          <span class="chip"><span aria-hidden="true">⭐</span> <span id="home-stars">0</span></span>
+          <span class="chip" id="home-tier">Belum pilih tingkat</span>
+        </div>
+      </div>
+
+      <button class="btn big sun" id="btn-play" type="button">Ayo Main!</button>
+      <button class="btn white" id="btn-edit-avatar" type="button">Ubah Avatar</button>
+    </section>
+
+    <!-- LAYAR 3: Buat / ubah avatar -->
+    <section class="screen" id="screen-avatar" data-screen="avatar" hidden>
+      <div class="avatar-head">
+        <p class="step-label" id="avatar-step-label">Langkah 1 dari 7</p>
+        <p class="title display" id="avatar-step-title" tabindex="-1">Pilih karakter</p>
+        <nav class="dots" id="avatar-dots" aria-label="Langkah membuat avatar"></nav>
+      </div>
+
+      <div class="avatar-layout">
+        <div class="panel preview-panel">
+          <div class="preview-stage">
+            <div id="avatar-preview" class="preview-avatar"></div>
+            <p class="preview-placeholder" id="avatar-preview-empty">Pilih Girl atau Boy dulu, ya!</p>
+          </div>
+          <p class="name-tag display" id="avatar-preview-name" hidden></p>
+        </div>
+
+        <div class="panel options-panel">
+          <div class="seg" id="avatar-tabs" role="tablist" hidden>
+            <button type="button" role="tab" data-tab="hair">Rambut</button>
+            <button type="button" role="tab" data-tab="hijab">Kerudung</button>
+          </div>
+          <div id="avatar-options"></div>
+          <div class="name-field" id="avatar-name-field" hidden>
+            <label class="label display" for="avatar-name">Siapa nama panggilanmu?</label>
+            <input id="avatar-name" type="text" maxlength="12" autocomplete="off" autocapitalize="words"
+                   spellcheck="false" placeholder="Ketik namamu" enterkeyhint="done">
+            <p class="sub">Boleh dikosongkan. Maksimal 12 huruf.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row two nav-row">
+        <button class="btn white" type="button" id="avatar-back">Kembali</button>
+        <button class="btn sun" type="button" id="avatar-next">Lanjut</button>
+      </div>
+    </section>
+
+    <!-- LAYAR 4: Pilih tingkat -->
+    <section class="screen" id="screen-tier" data-screen="tier" hidden>
+      <div>
+        <p class="title display">Pilih tingkat</p>
+        <p class="sub">Pilih sesuai usia. Setiap tingkat punya progres sendiri.</p>
+      </div>
+      <div class="tier-list" id="tier-list"></div>
+      <button class="btn white" type="button" data-go="home">Kembali</button>
+    </section>
+
+    <!-- LAYAR 5: Peta petualangan -->
+    <section class="screen" id="screen-map" data-screen="map" hidden>
+      <div class="map-head panel">
+        <div class="row map-head-row">
+          <button class="round" type="button" data-go="home" aria-label="Kembali ke beranda">
+            <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" d="M15 5l-7 7 7 7"/></svg>
+          </button>
+          <div class="grow">
+            <p class="title display map-title">Peta Petualangan</p>
+            <button class="tier-switch" type="button" id="map-tier-btn" data-go="tier">
+              <span id="map-tier">Tingkat 1</span> <span aria-hidden="true">▾</span>
+            </button>
+          </div>
+        </div>
+        <div class="row">
+          <span class="chip"><span aria-hidden="true">⭐</span> <span id="map-stars">0/0</span></span>
+          <span class="chip"><span aria-hidden="true">🏁</span> <span id="map-done">0/10</span> game</span>
+        </div>
+      </div>
+      <div class="map-scroll">
+        <div class="map-track" id="map-track"></div>
+      </div>
+    </section>
+
+    <!-- LAYAR 6: Stage (main soal) -->
+    <section class="screen" id="screen-stage" data-screen="stage" hidden>
+      <div class="stage-top">
+        <button class="round" type="button" id="stage-quit" aria-label="Keluar dari stage">
+          <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="3.4" stroke-linecap="round" d="M6 6l12 12M18 6L6 18"/></svg>
+        </button>
+        <div class="segs" id="stage-segs" aria-hidden="true"></div>
+        <span class="chip" id="stage-count" aria-live="polite"></span>
+      </div>
+      <div class="stage-sub row">
+        <p class="stage-title display grow" id="stage-title">Game · Stage</p>
+        <button class="btn small sky replay-btn" type="button" id="stage-replay" aria-label="Dengarkan lagi" hidden><span aria-hidden="true">🔊</span><span class="rl">Dengarkan lagi</span></button>
+      </div>
+      <p class="sample-note" id="stage-sample" hidden>Mode contoh: soal masih sedikit.</p>
+      <div class="panel q-panel" id="q-area"></div>
+
+      <div class="feedback" id="stage-feedback" role="status" aria-live="assertive" hidden>
+        <div class="fb-text">
+          <p class="fb-title display" id="fb-title"></p>
+          <p class="fb-detail" id="fb-detail"></p>
+        </div>
+        <button class="btn berry" type="button" id="fb-next" hidden>Lanjut</button>
+      </div>
+    </section>
+
+    <!-- LAYAR 7: Ringkasan stage -->
+    <section class="screen" id="screen-summary" data-screen="summary" hidden>
+      <div class="panel sum-panel">
+        <p class="sub" id="sum-game"></p>
+        <img class="sum-mascot" id="sum-mascot" src="assets/images/mascot.svg" alt="Wondi" width="200" height="240">
+        <p class="title display" id="sum-title">Hebat!</p>
+        <p class="sum-en display" id="sum-en" lang="en">Great job!</p>
+        <div class="sum-stars" id="sum-stars" role="img"></div>
+        <p class="sum-score" id="sum-score"></p>
+        <p class="sub" id="sum-sub"></p>
+      </div>
+
+      <p class="note-pop" id="sum-unlock" hidden></p>
+
+      <div class="panel reward-panel" id="sum-reward" hidden>
+        <div class="reward-art"><div id="sum-reward-avatar"></div></div>
+        <div class="reward-info">
+          <p class="label display">Hadiah baru!</p>
+          <p class="reward-name" id="sum-reward-name"></p>
+          <button class="btn small sun" type="button" id="sum-reward-wear">Pakai sekarang</button>
+        </div>
+      </div>
+
+      <button class="btn big sun" type="button" id="sum-next">Lanjut</button>
+      <div class="row two">
+        <button class="btn white" type="button" id="sum-retry">Ulangi</button>
+        <button class="btn white" type="button" id="sum-map">Peta</button>
+      </div>
+    </section>
+  </div>
+
+  <!-- Dialog pengaturan -->
+  <dialog class="sheet" id="dlg-settings" aria-labelledby="settings-title">
+    <form method="dialog" class="sheet-body">
+      <p class="title display" id="settings-title">Pengaturan</p>
+      <p class="sub">Untuk orang tua.</p>
+      <button class="btn small-full white sound-toggle" type="button" id="btn-sound" aria-pressed="true">🔊 Suara: Nyala</button>
+      <p class="voice-info" id="voice-info"></p>
+      <button class="btn small-full sun" type="button" id="btn-settings-avatar">Ubah avatar</button>
+      <button class="btn small-full berry" type="button" id="btn-reset">Reset progres</button>
+      <button class="btn small-full white" type="button" id="btn-logout">Keluar</button>
+      <button class="btn small-full sky" value="close">Tutup</button>
+    </form>
+  </dialog>
+
+  <!-- Dialog konfirmasi -->
+  <dialog class="sheet" id="dlg-confirm" aria-labelledby="confirm-title">
+    <form method="dialog" class="sheet-body">
+      <p class="title display" id="confirm-title">Yakin?</p>
+      <p class="sub" id="confirm-text"></p>
+      <div class="row two">
+        <button class="btn small-full white" value="no">Batal</button>
+        <button class="btn small-full berry" value="yes" id="confirm-yes">Ya</button>
+      </div>
+    </form>
+  </dialog>
+
+  <!-- Dialog detail game -->
+  <dialog class="sheet game-sheet" id="dlg-game" aria-labelledby="game-sheet-title">
+    <form method="dialog" class="sheet-body">
+      <div class="game-sheet-head">
+        <span class="game-sheet-icon" id="game-sheet-icon" aria-hidden="true">🧩</span>
+        <div>
+          <p class="title display" id="game-sheet-title">Game 1</p>
+          <p class="sub" id="game-sheet-desc"></p>
+        </div>
+      </div>
+      <div class="stage-list" id="game-sheet-stages"></div>
+      <button class="btn small-full white" value="close">Tutup</button>
+    </form>
+  </dialog>
+
+  <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+
+  <script src="js/storage.js"></script>
+  <script src="js/access.js"></script>
+  <script src="js/config.js"></script>
+  <script src="js/speech.js"></script>
+  <script src="js/avatar-items.js"></script>
+  <script src="js/avatar.js"></script>
+  <script src="js/map.js"></script>
+  <script src="js/stage.js"></script>
+  <script src="js/games/kit.js"></script>
+  <script src="js/games/choice.js"></script>
+  <script src="js/games/game01.js"></script>
+  <script src="js/games/game02.js"></script>
+  <script src="js/games/game03.js"></script>
+  <script src="js/games/game04.js"></script>
+  <script src="js/games/game05.js"></script>
+  <script src="js/games/game06.js"></script>
+  <script src="js/games/game07.js"></script>
+  <script src="js/games/game08.js"></script>
+  <script src="js/games/game09.js"></script>
+  <script src="js/games/game10.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

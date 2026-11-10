@@ -1,0 +1,1342 @@
+[
+ {
+  "id": "G2-T1-0001",
+  "game": 2,
+  "tier": 1,
+  "stage": 1,
+  "type": "spell_letters",
+  "prompt": "",
+  "options": [],
+  "answer": "bus",
+  "image": "🚌",
+  "audio": "bus"
+ },
+ {
+  "id": "G2-T1-0002",
+  "game": 2,
+  "tier": 1,
+  "stage": 1,
+  "type": "spell_letters",
+  "prompt": "",
+  "options": [],
+  "answer": "cup",
+  "image": "☕",
+  "audio": "cup"
+ },
+ {
+  "id": "G2-T1-0003",
+  "game": 2,
+  "tier": 1,
+  "stage": 1,
+  "type": "spell_letters",
+  "prompt": "",
+  "options": [],
+  "answer": "hat",
+  "image": "🎩",
+  "audio": "hat"
+ },
+ {
+  "id": "G2-T1-0004",
+  "game": 2,
+  "tier": 1,
+  "stage": 1,
+  "type": "spell_letters",
+  "prompt": "",
+  "options": [],
+  "answer": "pen",
+  "image": "🖊️",
+  "audio": "pen"
+ },
+ {
+  "id": "G2-T1-0005",
+  "game": 2,
+  "tier": 1,
+  "stage": 1,
+  "type": "spell_letters",
+  "prompt": "",
+  "options": [],
+  "answer": "car",
+  "image": "🚗",
+  "audio": "car"
+ },
+ {
+  "id": "G2-T1-0006",
+  "game": 2,
+  "tier": 1,
+  "stage": 1,
+  "type": "spell_letters",
+  "prompt": "",
+  "options": [],
+  "answer": "bed",
+  "image": "🛏️",
+  "audio": "bed"
+ },
+ {
+  "id": "G2-T1-0007",
+  "game": 2,
+  "tier": 1,
+  "stage": 1,
+  "type": "spell_letters",
+  "prompt": "",
+  "options": [],
+  "answer": "bag",
+  "image": "🎒",
+  "audio": "bag"
+ },
+ {
+  "id": "G2-T1-0008",
+  "game": 2,
+  "tier": 1,
+  "stage": 1,
+  "type": "spell_letters",
+  "prompt": "",
+  "options": [],
+  "answer": "egg",
+  "image": "🥚",
+  "audio": "egg"
+ },
+ {
+  "id": "G2-T1-0009",
+  "game": 2,
+  "tier": 1,
+  "stage": 1,
+  "type": "spell_letters",
+  "prompt": "",
+  "options": [],
+  "answer": "sun",
+  "image": "☀️",
+  "audio": "sun"
+ },
+ {
+  "id": "G2-T1-0010",
+  "game": 2,
+  "tier": 1,
+  "stage": 1,
+  "type": "spell_letters",
+  "prompt": "",
+  "options": [],
+  "answer": "key",
+  "image": "🔑",
+  "audio": "key"
+ },
+ {
+  "id": "G2-T1-0011",
+  "game": 2,
+  "tier": 1,
+  "stage": 2,
+  "type": "spell_letters",
+  "prompt": "",
+  "options": [],
+  "answer": "cat",
+  "image": "animals/cat.svg",
+  "audio": "cat"
+ },
+ {
+  "id": "G2-T1-0012",
+  "game": 2,
+  "tier": 1,
+  "stage": 2,
+  "type": "spell_letters",
+  "prompt": "",
+  "options": [],
+  "answer": "dog",
+  "image": "animals/dog.svg",
+  "audio": "dog"
+ },
+ {
+  "id": "G2-T1-0013",
+  "game": 2,
+  "tier": 1,
+  "stage": 2,
+  "type": "spell_letters",
+  "prompt": "",
+  "options": [],
+  "answer": "pig",
+  "image": "animals/pig.svg",
+  "audio": "pig"
+ },
+ {
+  "id": "G2-T1-0014",
+  "game": 2,
+  "tier": 1,
+  "stage": 2,
+  "type": "spell_letters",
+  "prompt": "",
+  "options": [],
+  "answer": "cow",
+  "image": "animals/cow.svg",
+  "audio": "cow"
+ },
+ {
+  "id": "G2-T1-0015",
+  "game": 2,
+  "tier": 1,
+  "stage": 2,
+  "type": "spell_letters",
+  "prompt": "",
+  "options": [],
+  "answer": "red",
+  "image": "🟥",
+  "audio": "red"
+ },
+ {
+  "id": "G2-T1-0016",
+  "game": 2,
+  "tier": 1,
+  "stage": 2,
+  "type": "spell_letters",
+  "prompt": "",
+  "options": [],
+  "answer": "box",
+  "image": "📦",
+  "audio": "box"
+ },
+ {
+  "id": "G2-T1-0017",
+  "game": 2,
+  "tier": 1,
+  "stage": 2,
+  "type": "spell_letters",
+  "prompt": "",
+  "options": [],
+  "answer": "map",
+  "image": "🗺️",
+  "audio": "map"
+ },
+ {
+  "id": "G2-T1-0018",
+  "game": 2,
+  "tier": 1,
+  "stage": 2,
+  "type": "spell_letters",
+  "prompt": "",
+  "options": [],
+  "answer": "cap",
+  "image": "🧢",
+  "audio": "cap"
+ },
+ {
+  "id": "G2-T1-0019",
+  "game": 2,
+  "tier": 1,
+  "stage": 2,
+  "type": "spell_letters",
+  "prompt": "",
+  "options": [],
+  "answer": "pie",
+  "image": "🥧",
+  "audio": "pie"
+ },
+ {
+  "id": "G2-T1-0020",
+  "game": 2,
+  "tier": 1,
+  "stage": 2,
+  "type": "spell_letters",
+  "prompt": "",
+  "options": [],
+  "answer": "sock",
+  "image": "🧦",
+  "audio": "sock"
+ },
+ {
+  "id": "G2-T1-0021",
+  "game": 2,
+  "tier": 1,
+  "stage": 3,
+  "type": "spell_letters",
+  "prompt": "",
+  "options": [],
+  "answer": "ball",
+  "image": "⚽",
+  "audio": "ball"
+ },
+ {
+  "id": "G2-T1-0022",
+  "game": 2,
+  "tier": 1,
+  "stage": 3,
+  "type": "spell_letters",
+  "prompt": "",
+  "options": [],
+  "answer": "book",
+  "image": "📕",
+  "audio": "book"
+ },
+ {
+  "id": "G2-T1-0023",
+  "game": 2,
+  "tier": 1,
+  "stage": 3,
+  "type": "spell_letters",
+  "prompt": "",
+  "options": [],
+  "answer": "cake",
+  "image": "🎂",
+  "audio": "cake"
+ },
+ {
+  "id": "G2-T1-0024",
+  "game": 2,
+  "tier": 1,
+  "stage": 3,
+  "type": "spell_letters",
+  "prompt": "",
+  "options": [],
+  "answer": "moon",
+  "image": "🌙",
+  "audio": "moon"
+ },
+ {
+  "id": "G2-T1-0025",
+  "game": 2,
+  "tier": 1,
+  "stage": 3,
+  "type": "spell_letters",
+  "prompt": "",
+  "options": [],
+  "answer": "star",
+  "image": "⭐",
+  "audio": "star"
+ },
+ {
+  "id": "G2-T1-0026",
+  "game": 2,
+  "tier": 1,
+  "stage": 3,
+  "type": "spell_letters",
+  "prompt": "",
+  "options": [],
+  "answer": "kite",
+  "image": "🪁",
+  "audio": "kite"
+ },
+ {
+  "id": "G2-T1-0027",
+  "game": 2,
+  "tier": 1,
+  "stage": 3,
+  "type": "spell_letters",
+  "prompt": "",
+  "options": [],
+  "answer": "drum",
+  "image": "🥁",
+  "audio": "drum"
+ },
+ {
+  "id": "G2-T1-0028",
+  "game": 2,
+  "tier": 1,
+  "stage": 3,
+  "type": "spell_letters",
+  "prompt": "",
+  "options": [],
+  "answer": "fish",
+  "image": "animals/fish.svg",
+  "audio": "fish"
+ },
+ {
+  "id": "G2-T1-0029",
+  "game": 2,
+  "tier": 1,
+  "stage": 3,
+  "type": "spell_letters",
+  "prompt": "",
+  "options": [],
+  "answer": "duck",
+  "image": "animals/duck.svg",
+  "audio": "duck"
+ },
+ {
+  "id": "G2-T1-0030",
+  "game": 2,
+  "tier": 1,
+  "stage": 3,
+  "type": "spell_letters",
+  "prompt": "",
+  "options": [],
+  "answer": "blue",
+  "image": "🟦",
+  "audio": "blue"
+ },
+ {
+  "id": "G2-T2-0001",
+  "game": 2,
+  "tier": 2,
+  "stage": 1,
+  "type": "spell_letters",
+  "prompt": "",
+  "options": [],
+  "answer": "door",
+  "image": "🚪",
+  "audio": "door"
+ },
+ {
+  "id": "G2-T2-0002",
+  "game": 2,
+  "tier": 2,
+  "stage": 1,
+  "type": "spell_letters",
+  "prompt": "",
+  "options": [],
+  "answer": "milk",
+  "image": "🥛",
+  "audio": "milk"
+ },
+ {
+  "id": "G2-T2-0003",
+  "game": 2,
+  "tier": 2,
+  "stage": 1,
+  "type": "spell_letters",
+  "prompt": "",
+  "options": [],
+  "answer": "rice",
+  "image": "🍚",
+  "audio": "rice"
+ },
+ {
+  "id": "G2-T2-0004",
+  "game": 2,
+  "tier": 2,
+  "stage": 1,
+  "type": "spell_letters",
+  "prompt": "",
+  "options": [],
+  "answer": "soup",
+  "image": "🍲",
+  "audio": "soup"
+ },
+ {
+  "id": "G2-T2-0005",
+  "game": 2,
+  "tier": 2,
+  "stage": 1,
+  "type": "spell_letters",
+  "prompt": "",
+  "options": [],
+  "answer": "tree",
+  "image": "🌳",
+  "audio": "tree"
+ },
+ {
+  "id": "G2-T2-0006",
+  "game": 2,
+  "tier": 2,
+  "stage": 1,
+  "type": "spell_letters",
+  "prompt": "",
+  "options": [],
+  "answer": "soap",
+  "image": "🧼",
+  "audio": "soap"
+ },
+ {
+  "id": "G2-T2-0007",
+  "game": 2,
+  "tier": 2,
+  "stage": 1,
+  "type": "spell_letters",
+  "prompt": "",
+  "options": [],
+  "answer": "train",
+  "image": "🚂",
+  "audio": "train"
+ },
+ {
+  "id": "G2-T2-0008",
+  "game": 2,
+  "tier": 2,
+  "stage": 1,
+  "type": "spell_letters",
+  "prompt": "",
+  "options": [],
+  "answer": "bread",
+  "image": "🍞",
+  "audio": "bread"
+ },
+ {
+  "id": "G2-T2-0009",
+  "game": 2,
+  "tier": 2,
+  "stage": 1,
+  "type": "spell_letters",
+  "prompt": "",
+  "options": [],
+  "answer": "apple",
+  "image": "🍎",
+  "audio": "apple"
+ },
+ {
+  "id": "G2-T2-0010",
+  "game": 2,
+  "tier": 2,
+  "stage": 1,
+  "type": "spell_letters",
+  "prompt": "",
+  "options": [],
+  "answer": "chair",
+  "image": "🪑",
+  "audio": "chair"
+ },
+ {
+  "id": "G2-T2-0011",
+  "game": 2,
+  "tier": 2,
+  "stage": 2,
+  "type": "spell_letters",
+  "prompt": "",
+  "options": [
+   "k"
+  ],
+  "answer": "flower",
+  "image": "🌸",
+  "audio": "flower"
+ },
+ {
+  "id": "G2-T2-0012",
+  "game": 2,
+  "tier": 2,
+  "stage": 2,
+  "type": "spell_letters",
+  "prompt": "",
+  "options": [
+   "r"
+  ],
+  "answer": "house",
+  "image": "🏠",
+  "audio": "house"
+ },
+ {
+  "id": "G2-T2-0013",
+  "game": 2,
+  "tier": 2,
+  "stage": 2,
+  "type": "spell_letters",
+  "prompt": "",
+  "options": [
+   "a"
+  ],
+  "answer": "cook",
+  "image": "🍳",
+  "audio": "cook"
+ },
+ {
+  "id": "G2-T2-0014",
+  "game": 2,
+  "tier": 2,
+  "stage": 2,
+  "type": "spell_letters",
+  "prompt": "",
+  "options": [
+   "e"
+  ],
+  "answer": "bath",
+  "image": "🛁",
+  "audio": "bath"
+ },
+ {
+  "id": "G2-T2-0015",
+  "game": 2,
+  "tier": 2,
+  "stage": 2,
+  "type": "spell_letters",
+  "prompt": "",
+  "options": [
+   "o"
+  ],
+  "answer": "read",
+  "image": "📖",
+  "audio": "read"
+ },
+ {
+  "id": "G2-T2-0016",
+  "game": 2,
+  "tier": 2,
+  "stage": 2,
+  "type": "spell_letters",
+  "prompt": "",
+  "options": [
+   "e"
+  ],
+  "answer": "paint",
+  "image": "🎨",
+  "audio": "paint"
+ },
+ {
+  "id": "G2-T2-0017",
+  "game": 2,
+  "tier": 2,
+  "stage": 2,
+  "type": "spell_letters",
+  "prompt": "",
+  "options": [
+   "o"
+  ],
+  "answer": "plate",
+  "image": "🍽️",
+  "audio": "plate"
+ },
+ {
+  "id": "G2-T2-0018",
+  "game": 2,
+  "tier": 2,
+  "stage": 2,
+  "type": "spell_letters",
+  "prompt": "",
+  "options": [
+   "a"
+  ],
+  "answer": "juice",
+  "image": "🧃",
+  "audio": "juice"
+ },
+ {
+  "id": "G2-T2-0019",
+  "game": 2,
+  "tier": 2,
+  "stage": 2,
+  "type": "spell_letters",
+  "prompt": "",
+  "options": [
+   "e"
+  ],
+  "answer": "banana",
+  "image": "🍌",
+  "audio": "banana"
+ },
+ {
+  "id": "G2-T2-0020",
+  "game": 2,
+  "tier": 2,
+  "stage": 2,
+  "type": "spell_letters",
+  "prompt": "",
+  "options": [
+   "a"
+  ],
+  "answer": "corn",
+  "image": "🌽",
+  "audio": "corn"
+ },
+ {
+  "id": "G2-T2-0021",
+  "game": 2,
+  "tier": 2,
+  "stage": 3,
+  "type": "spell_letters",
+  "prompt": "",
+  "options": [
+   "a"
+  ],
+  "answer": "school",
+  "image": "🏫",
+  "audio": "school"
+ },
+ {
+  "id": "G2-T2-0022",
+  "game": 2,
+  "tier": 2,
+  "stage": 3,
+  "type": "spell_letters",
+  "prompt": "",
+  "options": [
+   "o"
+  ],
+  "answer": "park",
+  "image": "🏞️",
+  "audio": "park"
+ },
+ {
+  "id": "G2-T2-0023",
+  "game": 2,
+  "tier": 2,
+  "stage": 3,
+  "type": "spell_letters",
+  "prompt": "",
+  "options": [
+   "a"
+  ],
+  "answer": "shop",
+  "image": "🏪",
+  "audio": "shop"
+ },
+ {
+  "id": "G2-T2-0024",
+  "game": 2,
+  "tier": 2,
+  "stage": 3,
+  "type": "spell_letters",
+  "prompt": "",
+  "options": [
+   "e"
+  ],
+  "answer": "carrot",
+  "image": "🥕",
+  "audio": "carrot"
+ },
+ {
+  "id": "G2-T2-0025",
+  "game": 2,
+  "tier": 2,
+  "stage": 3,
+  "type": "spell_letters",
+  "prompt": "",
+  "options": [
+   "a"
+  ],
+  "answer": "tomato",
+  "image": "🍅",
+  "audio": "tomato"
+ },
+ {
+  "id": "G2-T2-0026",
+  "game": 2,
+  "tier": 2,
+  "stage": 3,
+  "type": "spell_letters",
+  "prompt": "",
+  "options": [
+   "a"
+  ],
+  "answer": "cheese",
+  "image": "🧀",
+  "audio": "cheese"
+ },
+ {
+  "id": "G2-T2-0027",
+  "game": 2,
+  "tier": 2,
+  "stage": 3,
+  "type": "spell_letters",
+  "prompt": "",
+  "options": [
+   "a"
+  ],
+  "answer": "cookie",
+  "image": "🍪",
+  "audio": "cookie"
+ },
+ {
+  "id": "G2-T2-0028",
+  "game": 2,
+  "tier": 2,
+  "stage": 3,
+  "type": "spell_letters",
+  "prompt": "",
+  "options": [
+   "a"
+  ],
+  "answer": "spoon",
+  "image": "🥄",
+  "audio": "spoon"
+ },
+ {
+  "id": "G2-T2-0029",
+  "game": 2,
+  "tier": 2,
+  "stage": 3,
+  "type": "spell_letters",
+  "prompt": "",
+  "options": [
+   "e"
+  ],
+  "answer": "broom",
+  "image": "🧹",
+  "audio": "broom"
+ },
+ {
+  "id": "G2-T2-0030",
+  "game": 2,
+  "tier": 2,
+  "stage": 3,
+  "type": "spell_letters",
+  "prompt": "",
+  "options": [
+   "a"
+  ],
+  "answer": "sing",
+  "image": "🎤",
+  "audio": "sing"
+ },
+ {
+  "id": "G2-T3-0001",
+  "game": 2,
+  "tier": 3,
+  "stage": 1,
+  "type": "spell_letters",
+  "prompt": "",
+  "options": [
+   "o"
+  ],
+  "answer": "umbrella",
+  "image": "☂️",
+  "audio": "umbrella"
+ },
+ {
+  "id": "G2-T3-0002",
+  "game": 2,
+  "tier": 3,
+  "stage": 1,
+  "type": "spell_letters",
+  "prompt": "",
+  "options": [
+   "a"
+  ],
+  "answer": "computer",
+  "image": "💻",
+  "audio": "computer"
+ },
+ {
+  "id": "G2-T3-0003",
+  "game": 2,
+  "tier": 3,
+  "stage": 1,
+  "type": "spell_letters",
+  "prompt": "",
+  "options": [
+   "e"
+  ],
+  "answer": "rainbow",
+  "image": "🌈",
+  "audio": "rainbow"
+ },
+ {
+  "id": "G2-T3-0004",
+  "game": 2,
+  "tier": 3,
+  "stage": 1,
+  "type": "spell_letters",
+  "prompt": "",
+  "options": [
+   "e"
+  ],
+  "answer": "island",
+  "image": "🏝️",
+  "audio": "island"
+ },
+ {
+  "id": "G2-T3-0005",
+  "game": 2,
+  "tier": 3,
+  "stage": 1,
+  "type": "spell_letters",
+  "prompt": "",
+  "options": [
+   "e"
+  ],
+  "answer": "volcano",
+  "image": "🌋",
+  "audio": "volcano"
+ },
+ {
+  "id": "G2-T3-0006",
+  "game": 2,
+  "tier": 3,
+  "stage": 1,
+  "type": "spell_letters",
+  "prompt": "",
+  "options": [
+   "a"
+  ],
+  "answer": "telescope",
+  "image": "🔭",
+  "audio": "telescope"
+ },
+ {
+  "id": "G2-T3-0007",
+  "game": 2,
+  "tier": 3,
+  "stage": 1,
+  "type": "spell_letters",
+  "prompt": "",
+  "options": [
+   "o"
+  ],
+  "answer": "magnet",
+  "image": "🧲",
+  "audio": "magnet"
+ },
+ {
+  "id": "G2-T3-0008",
+  "game": 2,
+  "tier": 3,
+  "stage": 1,
+  "type": "spell_letters",
+  "prompt": "",
+  "options": [
+   "o"
+  ],
+  "answer": "battery",
+  "image": "🔋",
+  "audio": "battery"
+ },
+ {
+  "id": "G2-T3-0009",
+  "game": 2,
+  "tier": 3,
+  "stage": 1,
+  "type": "spell_letters",
+  "prompt": "",
+  "options": [
+   "o"
+  ],
+  "answer": "ladder",
+  "image": "🪜",
+  "audio": "ladder"
+ },
+ {
+  "id": "G2-T3-0010",
+  "game": 2,
+  "tier": 3,
+  "stage": 1,
+  "type": "spell_letters",
+  "prompt": "",
+  "options": [
+   "a"
+  ],
+  "answer": "bridge",
+  "image": "🌉",
+  "audio": "bridge"
+ },
+ {
+  "id": "G2-T3-0011",
+  "game": 2,
+  "tier": 3,
+  "stage": 2,
+  "type": "spell_letters",
+  "prompt": "",
+  "options": [
+   "e"
+  ],
+  "answer": "violin",
+  "image": "🎻",
+  "audio": "violin"
+ },
+ {
+  "id": "G2-T3-0012",
+  "game": 2,
+  "tier": 3,
+  "stage": 2,
+  "type": "spell_letters",
+  "prompt": "",
+  "options": [
+   "e"
+  ],
+  "answer": "guitar",
+  "image": "🎸",
+  "audio": "guitar"
+ },
+ {
+  "id": "G2-T3-0013",
+  "game": 2,
+  "tier": 3,
+  "stage": 2,
+  "type": "spell_letters",
+  "prompt": "",
+  "options": [
+   "a"
+  ],
+  "answer": "trumpet",
+  "image": "🎺",
+  "audio": "trumpet"
+ },
+ {
+  "id": "G2-T3-0014",
+  "game": 2,
+  "tier": 3,
+  "stage": 2,
+  "type": "spell_letters",
+  "prompt": "",
+  "options": [
+   "e"
+  ],
+  "answer": "piano",
+  "image": "🎹",
+  "audio": "piano"
+ },
+ {
+  "id": "G2-T3-0015",
+  "game": 2,
+  "tier": 3,
+  "stage": 2,
+  "type": "spell_letters",
+  "prompt": "",
+  "options": [
+   "a"
+  ],
+  "answer": "helicopter",
+  "image": "🚁",
+  "audio": "helicopter"
+ },
+ {
+  "id": "G2-T3-0016",
+  "game": 2,
+  "tier": 3,
+  "stage": 2,
+  "type": "spell_letters",
+  "prompt": "",
+  "options": [
+   "a"
+  ],
+  "answer": "rocket",
+  "image": "🚀",
+  "audio": "rocket"
+ },
+ {
+  "id": "G2-T3-0017",
+  "game": 2,
+  "tier": 3,
+  "stage": 2,
+  "type": "spell_letters",
+  "prompt": "",
+  "options": [
+   "o"
+  ],
+  "answer": "ambulance",
+  "image": "🚑",
+  "audio": "ambulance"
+ },
+ {
+  "id": "G2-T3-0018",
+  "game": 2,
+  "tier": 3,
+  "stage": 2,
+  "type": "spell_letters",
+  "prompt": "",
+  "options": [
+   "o"
+  ],
+  "answer": "planet",
+  "image": "🪐",
+  "audio": "planet"
+ },
+ {
+  "id": "G2-T3-0019",
+  "game": 2,
+  "tier": 3,
+  "stage": 2,
+  "type": "spell_letters",
+  "prompt": "",
+  "options": [
+   "o"
+  ],
+  "answer": "castle",
+  "image": "🏰",
+  "audio": "castle"
+ },
+ {
+  "id": "G2-T3-0020",
+  "game": 2,
+  "tier": 3,
+  "stage": 2,
+  "type": "spell_letters",
+  "prompt": "",
+  "options": [
+   "a",
+   "i"
+  ],
+  "answer": "tent",
+  "image": "⛺",
+  "audio": "tent"
+ },
+ {
+  "id": "G2-T3-0021",
+  "game": 2,
+  "tier": 3,
+  "stage": 3,
+  "type": "spell_letters",
+  "prompt": "",
+  "options": [
+   "a",
+   "i"
+  ],
+  "answer": "ocean",
+  "image": "🌊",
+  "audio": "ocean"
+ },
+ {
+  "id": "G2-T3-0022",
+  "game": 2,
+  "tier": 3,
+  "stage": 3,
+  "type": "spell_letters",
+  "prompt": "",
+  "options": [
+   "e"
+  ],
+  "answer": "mountain",
+  "image": "🏔️",
+  "audio": "mountain"
+ },
+ {
+  "id": "G2-T3-0023",
+  "game": 2,
+  "tier": 3,
+  "stage": 3,
+  "type": "spell_letters",
+  "prompt": "",
+  "options": [
+   "a",
+   "i"
+  ],
+  "answer": "desert",
+  "image": "🏜️",
+  "audio": "desert"
+ },
+ {
+  "id": "G2-T3-0024",
+  "game": 2,
+  "tier": 3,
+  "stage": 3,
+  "type": "spell_letters",
+  "prompt": "",
+  "options": [
+   "a",
+   "i"
+  ],
+  "answer": "forest",
+  "image": "🌲",
+  "audio": "forest"
+ },
+ {
+  "id": "G2-T3-0025",
+  "game": 2,
+  "tier": 3,
+  "stage": 3,
+  "type": "spell_letters",
+  "prompt": "",
+  "options": [
+   "a",
+   "o"
+  ],
+  "answer": "winter",
+  "image": "❄️",
+  "audio": "winter"
+ },
+ {
+  "id": "G2-T3-0026",
+  "game": 2,
+  "tier": 3,
+  "stage": 3,
+  "type": "spell_letters",
+  "prompt": "",
+  "options": [
+   "a",
+   "i"
+  ],
+  "answer": "summer",
+  "image": "🌻",
+  "audio": "summer"
+ },
+ {
+  "id": "G2-T3-0027",
+  "game": 2,
+  "tier": 3,
+  "stage": 3,
+  "type": "spell_letters",
+  "prompt": "",
+  "options": [
+   "e",
+   "o"
+  ],
+  "answer": "autumn",
+  "image": "🍂",
+  "audio": "autumn"
+ },
+ {
+  "id": "G2-T3-0028",
+  "game": 2,
+  "tier": 3,
+  "stage": 3,
+  "type": "spell_letters",
+  "prompt": "",
+  "options": [
+   "a",
+   "e"
+  ],
+  "answer": "spring",
+  "image": "🌷",
+  "audio": "spring"
+ },
+ {
+  "id": "G2-T3-0029",
+  "game": 2,
+  "tier": 3,
+  "stage": 3,
+  "type": "spell_letters",
+  "prompt": "",
+  "options": [
+   "a",
+   "e"
+  ],
+  "answer": "morning",
+  "image": "🌅",
+  "audio": "morning"
+ },
+ {
+  "id": "G2-T3-0030",
+  "game": 2,
+  "tier": 3,
+  "stage": 3,
+  "type": "spell_letters",
+  "prompt": "",
+  "options": [
+   "a",
+   "o"
+  ],
+  "answer": "night",
+  "image": "🌙",
+  "audio": "night"
+ },
+ {
+  "id": "G2-T3-0031",
+  "game": 2,
+  "tier": 3,
+  "stage": 4,
+  "type": "spell_letters",
+  "prompt": "",
+  "options": [
+   "i",
+   "o"
+  ],
+  "answer": "calendar",
+  "image": "📅",
+  "audio": "calendar"
+ },
+ {
+  "id": "G2-T3-0032",
+  "game": 2,
+  "tier": 3,
+  "stage": 4,
+  "type": "spell_letters",
+  "prompt": "",
+  "options": [
+   "a",
+   "i"
+  ],
+  "answer": "present",
+  "image": "🎁",
+  "audio": "present"
+ },
+ {
+  "id": "G2-T3-0033",
+  "game": 2,
+  "tier": 3,
+  "stage": 4,
+  "type": "spell_letters",
+  "prompt": "",
+  "options": [
+   "e",
+   "o"
+  ],
+  "answer": "library",
+  "image": "📚",
+  "audio": "library"
+ },
+ {
+  "id": "G2-T3-0034",
+  "game": 2,
+  "tier": 3,
+  "stage": 4,
+  "type": "spell_letters",
+  "prompt": "",
+  "options": [
+   "a",
+   "i"
+  ],
+  "answer": "puzzle",
+  "image": "🧩",
+  "audio": "puzzle"
+ },
+ {
+  "id": "G2-T3-0035",
+  "game": 2,
+  "tier": 3,
+  "stage": 4,
+  "type": "spell_letters",
+  "prompt": "",
+  "options": [
+   "a",
+   "e"
+  ],
+  "answer": "trophy",
+  "image": "🏆",
+  "audio": "trophy"
+ },
+ {
+  "id": "G2-T3-0036",
+  "game": 2,
+  "tier": 3,
+  "stage": 4,
+  "type": "spell_letters",
+  "prompt": "",
+  "options": [
+   "i",
+   "o"
+  ],
+  "answer": "camera",
+  "image": "📷",
+  "audio": "camera"
+ },
+ {
+  "id": "G2-T3-0037",
+  "game": 2,
+  "tier": 3,
+  "stage": 4,
+  "type": "spell_letters",
+  "prompt": "",
+  "options": [
+   "i",
+   "o"
+  ],
+  "answer": "candle",
+  "image": "🕯️",
+  "audio": "candle"
+ },
+ {
+  "id": "G2-T3-0038",
+  "game": 2,
+  "tier": 3,
+  "stage": 4,
+  "type": "spell_letters",
+  "prompt": "",
+  "options": [
+   "e",
+   "i"
+  ],
+  "answer": "compass",
+  "image": "🧭",
+  "audio": "compass"
+ },
+ {
+  "id": "G2-T3-0039",
+  "game": 2,
+  "tier": 3,
+  "stage": 4,
+  "type": "spell_letters",
+  "prompt": "",
+  "options": [
+   "a",
+   "o"
+  ],
+  "answer": "suitcase",
+  "image": "🧳",
+  "audio": "suitcase"
+ },
+ {
+  "id": "G2-T3-0040",
+  "game": 2,
+  "tier": 3,
+  "stage": 4,
+  "type": "spell_letters",
+  "prompt": "",
+  "options": [
+   "e",
+   "i"
+  ],
+  "answer": "balloon",
+  "image": "🎈",
+  "audio": "balloon"
+ }
+]

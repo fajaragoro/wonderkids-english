@@ -1,0 +1,1642 @@
+[
+ {
+  "id": "G1-T1-0001",
+  "game": 1,
+  "tier": 1,
+  "stage": 1,
+  "type": "match_image",
+  "prompt": "",
+  "options": [
+   "apple",
+   "car",
+   "banana"
+  ],
+  "answer": "apple",
+  "image": "🍎",
+  "audio": "apple"
+ },
+ {
+  "id": "G1-T1-0002",
+  "game": 1,
+  "tier": 1,
+  "stage": 1,
+  "type": "match_image",
+  "prompt": "",
+  "options": [
+   "banana",
+   "apple",
+   "ball"
+  ],
+  "answer": "banana",
+  "image": "🍌",
+  "audio": "banana"
+ },
+ {
+  "id": "G1-T1-0003",
+  "game": 1,
+  "tier": 1,
+  "stage": 1,
+  "type": "match_image",
+  "prompt": "",
+  "options": [
+   "grapes",
+   "orange",
+   "egg"
+  ],
+  "answer": "orange",
+  "image": "🍊",
+  "audio": "orange"
+ },
+ {
+  "id": "G1-T1-0004",
+  "game": 1,
+  "tier": 1,
+  "stage": 1,
+  "type": "match_image",
+  "prompt": "",
+  "options": [
+   "grapes",
+   "orange",
+   "cake"
+  ],
+  "answer": "grapes",
+  "image": "🍇",
+  "audio": "grapes"
+ },
+ {
+  "id": "G1-T1-0005",
+  "game": 1,
+  "tier": 1,
+  "stage": 1,
+  "type": "match_image",
+  "prompt": "",
+  "options": [
+   "cherry",
+   "bread",
+   "strawberry"
+  ],
+  "answer": "strawberry",
+  "image": "🍓",
+  "audio": "strawberry"
+ },
+ {
+  "id": "G1-T1-0006",
+  "game": 1,
+  "tier": 1,
+  "stage": 1,
+  "type": "match_image",
+  "prompt": "",
+  "options": [
+   "watermelon",
+   "lemon",
+   "book"
+  ],
+  "answer": "watermelon",
+  "image": "🍉",
+  "audio": "watermelon"
+ },
+ {
+  "id": "G1-T1-0007",
+  "game": 1,
+  "tier": 1,
+  "stage": 1,
+  "type": "match_image",
+  "prompt": "",
+  "options": [
+   "milk",
+   "apple",
+   "cake"
+  ],
+  "answer": "cake",
+  "image": "🎂",
+  "audio": "cake"
+ },
+ {
+  "id": "G1-T1-0008",
+  "game": 1,
+  "tier": 1,
+  "stage": 1,
+  "type": "match_image",
+  "prompt": "",
+  "options": [
+   "cake",
+   "ball",
+   "egg"
+  ],
+  "answer": "egg",
+  "image": "🥚",
+  "audio": "egg"
+ },
+ {
+  "id": "G1-T1-0009",
+  "game": 1,
+  "tier": 1,
+  "stage": 1,
+  "type": "match_image",
+  "prompt": "",
+  "options": [
+   "milk",
+   "egg",
+   "juice"
+  ],
+  "answer": "milk",
+  "image": "🥛",
+  "audio": "milk"
+ },
+ {
+  "id": "G1-T1-0010",
+  "game": 1,
+  "tier": 1,
+  "stage": 1,
+  "type": "match_image",
+  "prompt": "",
+  "options": [
+   "pen",
+   "bread",
+   "cake"
+  ],
+  "answer": "bread",
+  "image": "🍞",
+  "audio": "bread"
+ },
+ {
+  "id": "G1-T1-0011",
+  "game": 1,
+  "tier": 1,
+  "stage": 2,
+  "type": "match_image",
+  "prompt": "",
+  "options": [
+   "bag",
+   "book",
+   "ball"
+  ],
+  "answer": "ball",
+  "image": "⚽",
+  "audio": "ball"
+ },
+ {
+  "id": "G1-T1-0012",
+  "game": 1,
+  "tier": 1,
+  "stage": 2,
+  "type": "match_image",
+  "prompt": "",
+  "options": [
+   "ball",
+   "box",
+   "book"
+  ],
+  "answer": "book",
+  "image": "📕",
+  "audio": "book"
+ },
+ {
+  "id": "G1-T1-0013",
+  "game": 1,
+  "tier": 1,
+  "stage": 2,
+  "type": "match_image",
+  "prompt": "",
+  "options": [
+   "pen",
+   "pencil",
+   "cup"
+  ],
+  "answer": "pencil",
+  "image": "✏️",
+  "audio": "pencil"
+ },
+ {
+  "id": "G1-T1-0014",
+  "game": 1,
+  "tier": 1,
+  "stage": 2,
+  "type": "match_image",
+  "prompt": "",
+  "options": [
+   "bed",
+   "bag",
+   "hat"
+  ],
+  "answer": "bag",
+  "image": "🎒",
+  "audio": "bag"
+ },
+ {
+  "id": "G1-T1-0015",
+  "game": 1,
+  "tier": 1,
+  "stage": 2,
+  "type": "match_image",
+  "prompt": "",
+  "options": [
+   "bag",
+   "cup",
+   "hat"
+  ],
+  "answer": "hat",
+  "image": "🎩",
+  "audio": "hat"
+ },
+ {
+  "id": "G1-T1-0016",
+  "game": 1,
+  "tier": 1,
+  "stage": 2,
+  "type": "match_image",
+  "prompt": "",
+  "options": [
+   "bus",
+   "car",
+   "bike"
+  ],
+  "answer": "car",
+  "image": "🚗",
+  "audio": "car"
+ },
+ {
+  "id": "G1-T1-0017",
+  "game": 1,
+  "tier": 1,
+  "stage": 2,
+  "type": "match_image",
+  "prompt": "",
+  "options": [
+   "bus",
+   "boat",
+   "car"
+  ],
+  "answer": "bus",
+  "image": "🚌",
+  "audio": "bus"
+ },
+ {
+  "id": "G1-T1-0018",
+  "game": 1,
+  "tier": 1,
+  "stage": 2,
+  "type": "match_image",
+  "prompt": "",
+  "options": [
+   "bike",
+   "kite",
+   "car"
+  ],
+  "answer": "bike",
+  "image": "🚲",
+  "audio": "bike"
+ },
+ {
+  "id": "G1-T1-0019",
+  "game": 1,
+  "tier": 1,
+  "stage": 2,
+  "type": "match_image",
+  "prompt": "",
+  "options": [
+   "train",
+   "plane",
+   "boat"
+  ],
+  "answer": "plane",
+  "image": "✈️",
+  "audio": "plane"
+ },
+ {
+  "id": "G1-T1-0020",
+  "game": 1,
+  "tier": 1,
+  "stage": 2,
+  "type": "match_image",
+  "prompt": "",
+  "options": [
+   "bus",
+   "boat",
+   "plane"
+  ],
+  "answer": "boat",
+  "image": "⛵",
+  "audio": "boat"
+ },
+ {
+  "id": "G1-T1-0021",
+  "game": 1,
+  "tier": 1,
+  "stage": 3,
+  "type": "match_image",
+  "prompt": "",
+  "options": [
+   "cat",
+   "fish",
+   "dog"
+  ],
+  "answer": "cat",
+  "image": "animals/cat.svg",
+  "audio": "cat"
+ },
+ {
+  "id": "G1-T1-0022",
+  "game": 1,
+  "tier": 1,
+  "stage": 3,
+  "type": "match_image",
+  "prompt": "",
+  "options": [
+   "cat",
+   "dog",
+   "duck"
+  ],
+  "answer": "dog",
+  "image": "animals/dog.svg",
+  "audio": "dog"
+ },
+ {
+  "id": "G1-T1-0023",
+  "game": 1,
+  "tier": 1,
+  "stage": 3,
+  "type": "match_image",
+  "prompt": "",
+  "options": [
+   "fish",
+   "bird",
+   "frog"
+  ],
+  "answer": "fish",
+  "image": "animals/fish.svg",
+  "audio": "fish"
+ },
+ {
+  "id": "G1-T1-0024",
+  "game": 1,
+  "tier": 1,
+  "stage": 3,
+  "type": "match_image",
+  "prompt": "",
+  "options": [
+   "fish",
+   "bird",
+   "cow"
+  ],
+  "answer": "bird",
+  "image": "animals/bird.svg",
+  "audio": "bird"
+ },
+ {
+  "id": "G1-T1-0025",
+  "game": 1,
+  "tier": 1,
+  "stage": 3,
+  "type": "match_image",
+  "prompt": "",
+  "options": [
+   "dog",
+   "pig",
+   "duck"
+  ],
+  "answer": "duck",
+  "image": "animals/duck.svg",
+  "audio": "duck"
+ },
+ {
+  "id": "G1-T1-0026",
+  "game": 1,
+  "tier": 1,
+  "stage": 3,
+  "type": "match_image",
+  "prompt": "",
+  "options": [
+   "cow",
+   "pig",
+   "cat"
+  ],
+  "answer": "cow",
+  "image": "animals/cow.svg",
+  "audio": "cow"
+ },
+ {
+  "id": "G1-T1-0027",
+  "game": 1,
+  "tier": 1,
+  "stage": 3,
+  "type": "match_image",
+  "prompt": "",
+  "options": [
+   "green",
+   "blue",
+   "red"
+  ],
+  "answer": "red",
+  "image": "🟥",
+  "audio": "red"
+ },
+ {
+  "id": "G1-T1-0028",
+  "game": 1,
+  "tier": 1,
+  "stage": 3,
+  "type": "match_image",
+  "prompt": "",
+  "options": [
+   "blue",
+   "yellow",
+   "red"
+  ],
+  "answer": "blue",
+  "image": "🟦",
+  "audio": "blue"
+ },
+ {
+  "id": "G1-T1-0029",
+  "game": 1,
+  "tier": 1,
+  "stage": 3,
+  "type": "match_image",
+  "prompt": "",
+  "options": [
+   "yellow",
+   "green",
+   "red"
+  ],
+  "answer": "green",
+  "image": "🟩",
+  "audio": "green"
+ },
+ {
+  "id": "G1-T1-0030",
+  "game": 1,
+  "tier": 1,
+  "stage": 3,
+  "type": "match_image",
+  "prompt": "",
+  "options": [
+   "blue",
+   "yellow",
+   "green"
+  ],
+  "answer": "yellow",
+  "image": "🟨",
+  "audio": "yellow"
+ },
+ {
+  "id": "G1-T2-0001",
+  "game": 1,
+  "tier": 2,
+  "stage": 1,
+  "type": "match_image",
+  "prompt": "",
+  "options": [
+   "shop",
+   "school",
+   "park"
+  ],
+  "answer": "school",
+  "image": "🏫",
+  "audio": "school"
+ },
+ {
+  "id": "G1-T2-0002",
+  "game": 1,
+  "tier": 2,
+  "stage": 1,
+  "type": "match_image",
+  "prompt": "",
+  "options": [
+   "house",
+   "school",
+   "hospital"
+  ],
+  "answer": "house",
+  "image": "🏠",
+  "audio": "house"
+ },
+ {
+  "id": "G1-T2-0003",
+  "game": 1,
+  "tier": 2,
+  "stage": 1,
+  "type": "match_image",
+  "prompt": "",
+  "options": [
+   "house",
+   "hospital",
+   "library"
+  ],
+  "answer": "hospital",
+  "image": "🏥",
+  "audio": "hospital"
+ },
+ {
+  "id": "G1-T2-0004",
+  "game": 1,
+  "tier": 2,
+  "stage": 1,
+  "type": "match_image",
+  "prompt": "",
+  "options": [
+   "kitchen",
+   "beach",
+   "park"
+  ],
+  "answer": "park",
+  "image": "🏞️",
+  "audio": "park"
+ },
+ {
+  "id": "G1-T2-0005",
+  "game": 1,
+  "tier": 2,
+  "stage": 1,
+  "type": "match_image",
+  "prompt": "",
+  "options": [
+   "farm",
+   "park",
+   "beach"
+  ],
+  "answer": "beach",
+  "image": "🏖️",
+  "audio": "beach"
+ },
+ {
+  "id": "G1-T2-0006",
+  "game": 1,
+  "tier": 2,
+  "stage": 1,
+  "type": "match_image",
+  "prompt": "",
+  "options": [
+   "school",
+   "bank",
+   "shop"
+  ],
+  "answer": "shop",
+  "image": "🏪",
+  "audio": "shop"
+ },
+ {
+  "id": "G1-T2-0007",
+  "game": 1,
+  "tier": 2,
+  "stage": 1,
+  "type": "match_image",
+  "prompt": "",
+  "options": [
+   "bedroom",
+   "garden",
+   "kitchen"
+  ],
+  "answer": "kitchen",
+  "image": "🍳",
+  "audio": "kitchen"
+ },
+ {
+  "id": "G1-T2-0008",
+  "game": 1,
+  "tier": 2,
+  "stage": 1,
+  "type": "match_image",
+  "prompt": "",
+  "options": [
+   "kitchen",
+   "bedroom",
+   "bathroom"
+  ],
+  "answer": "bathroom",
+  "image": "🛁",
+  "audio": "bathroom"
+ },
+ {
+  "id": "G1-T2-0009",
+  "game": 1,
+  "tier": 2,
+  "stage": 1,
+  "type": "match_image",
+  "prompt": "",
+  "options": [
+   "shop",
+   "beach",
+   "farm"
+  ],
+  "answer": "farm",
+  "image": "🚜",
+  "audio": "farm"
+ },
+ {
+  "id": "G1-T2-0010",
+  "game": 1,
+  "tier": 2,
+  "stage": 1,
+  "type": "match_image",
+  "prompt": "",
+  "options": [
+   "hospital",
+   "shop",
+   "bank"
+  ],
+  "answer": "bank",
+  "image": "🏦",
+  "audio": "bank"
+ },
+ {
+  "id": "G1-T2-0011",
+  "game": 1,
+  "tier": 2,
+  "stage": 2,
+  "type": "match_image",
+  "prompt": "",
+  "options": [
+   "salad",
+   "sandwich",
+   "noodles"
+  ],
+  "answer": "sandwich",
+  "image": "🥪",
+  "audio": "sandwich"
+ },
+ {
+  "id": "G1-T2-0012",
+  "game": 1,
+  "tier": 2,
+  "stage": 2,
+  "type": "match_image",
+  "prompt": "",
+  "options": [
+   "rice",
+   "soup",
+   "noodles"
+  ],
+  "answer": "noodles",
+  "image": "🍜",
+  "audio": "noodles"
+ },
+ {
+  "id": "G1-T2-0013",
+  "game": 1,
+  "tier": 2,
+  "stage": 2,
+  "type": "match_image",
+  "prompt": "",
+  "options": [
+   "rice",
+   "bread",
+   "noodles"
+  ],
+  "answer": "rice",
+  "image": "🍚",
+  "audio": "rice"
+ },
+ {
+  "id": "G1-T2-0014",
+  "game": 1,
+  "tier": 2,
+  "stage": 2,
+  "type": "match_image",
+  "prompt": "",
+  "options": [
+   "tea",
+   "salad",
+   "soup"
+  ],
+  "answer": "soup",
+  "image": "🍲",
+  "audio": "soup"
+ },
+ {
+  "id": "G1-T2-0015",
+  "game": 1,
+  "tier": 2,
+  "stage": 2,
+  "type": "match_image",
+  "prompt": "",
+  "options": [
+   "pizza",
+   "soup",
+   "salad"
+  ],
+  "answer": "salad",
+  "image": "🥗",
+  "audio": "salad"
+ },
+ {
+  "id": "G1-T2-0016",
+  "game": 1,
+  "tier": 2,
+  "stage": 2,
+  "type": "match_image",
+  "prompt": "",
+  "options": [
+   "sandwich",
+   "pizza",
+   "cookie"
+  ],
+  "answer": "pizza",
+  "image": "🍕",
+  "audio": "pizza"
+ },
+ {
+  "id": "G1-T2-0017",
+  "game": 1,
+  "tier": 2,
+  "stage": 2,
+  "type": "match_image",
+  "prompt": "",
+  "options": [
+   "candy",
+   "pizza",
+   "cookie"
+  ],
+  "answer": "cookie",
+  "image": "🍪",
+  "audio": "cookie"
+ },
+ {
+  "id": "G1-T2-0018",
+  "game": 1,
+  "tier": 2,
+  "stage": 2,
+  "type": "match_image",
+  "prompt": "",
+  "options": [
+   "tea",
+   "soup",
+   "juice"
+  ],
+  "answer": "tea",
+  "image": "🍵",
+  "audio": "tea"
+ },
+ {
+  "id": "G1-T2-0019",
+  "game": 1,
+  "tier": 2,
+  "stage": 2,
+  "type": "match_image",
+  "prompt": "",
+  "options": [
+   "carrot",
+   "tomato",
+   "corn"
+  ],
+  "answer": "carrot",
+  "image": "🥕",
+  "audio": "carrot"
+ },
+ {
+  "id": "G1-T2-0020",
+  "game": 1,
+  "tier": 2,
+  "stage": 2,
+  "type": "match_image",
+  "prompt": "",
+  "options": [
+   "rice",
+   "corn",
+   "carrot"
+  ],
+  "answer": "corn",
+  "image": "🌽",
+  "audio": "corn"
+ },
+ {
+  "id": "G1-T2-0021",
+  "game": 1,
+  "tier": 2,
+  "stage": 3,
+  "type": "match_image",
+  "prompt": "",
+  "options": [
+   "toothbrush",
+   "soap",
+   "comb"
+  ],
+  "answer": "toothbrush",
+  "image": "🪥",
+  "audio": "toothbrush"
+ },
+ {
+  "id": "G1-T2-0022",
+  "game": 1,
+  "tier": 2,
+  "stage": 3,
+  "type": "match_image",
+  "prompt": "",
+  "options": [
+   "soap",
+   "towel",
+   "toothbrush"
+  ],
+  "answer": "soap",
+  "image": "🧼",
+  "audio": "soap"
+ },
+ {
+  "id": "G1-T2-0023",
+  "game": 1,
+  "tier": 2,
+  "stage": 3,
+  "type": "match_image",
+  "prompt": "",
+  "options": [
+   "broom",
+   "brush",
+   "spoon"
+  ],
+  "answer": "broom",
+  "image": "🧹",
+  "audio": "broom"
+ },
+ {
+  "id": "G1-T2-0024",
+  "game": 1,
+  "tier": 2,
+  "stage": 3,
+  "type": "match_image",
+  "prompt": "",
+  "options": [
+   "fork",
+   "broom",
+   "spoon"
+  ],
+  "answer": "spoon",
+  "image": "🥄",
+  "audio": "spoon"
+ },
+ {
+  "id": "G1-T2-0025",
+  "game": 1,
+  "tier": 2,
+  "stage": 3,
+  "type": "match_image",
+  "prompt": "",
+  "options": [
+   "cup",
+   "fork",
+   "spoon"
+  ],
+  "answer": "fork",
+  "image": "🍴",
+  "audio": "fork"
+ },
+ {
+  "id": "G1-T2-0026",
+  "game": 1,
+  "tier": 2,
+  "stage": 3,
+  "type": "match_image",
+  "prompt": "",
+  "options": [
+   "radio",
+   "clock",
+   "television"
+  ],
+  "answer": "television",
+  "image": "📺",
+  "audio": "television"
+ },
+ {
+  "id": "G1-T2-0027",
+  "game": 1,
+  "tier": 2,
+  "stage": 3,
+  "type": "match_image",
+  "prompt": "",
+  "options": [
+   "clock",
+   "phone",
+   "lamp"
+  ],
+  "answer": "clock",
+  "image": "⏰",
+  "audio": "clock"
+ },
+ {
+  "id": "G1-T2-0028",
+  "game": 1,
+  "tier": 2,
+  "stage": 3,
+  "type": "match_image",
+  "prompt": "",
+  "options": [
+   "bed",
+   "chair",
+   "table"
+  ],
+  "answer": "chair",
+  "image": "🪑",
+  "audio": "chair"
+ },
+ {
+  "id": "G1-T2-0029",
+  "game": 1,
+  "tier": 2,
+  "stage": 3,
+  "type": "match_image",
+  "prompt": "",
+  "options": [
+   "door",
+   "chair",
+   "bed"
+  ],
+  "answer": "bed",
+  "image": "🛏️",
+  "audio": "bed"
+ },
+ {
+  "id": "G1-T2-0030",
+  "game": 1,
+  "tier": 2,
+  "stage": 3,
+  "type": "match_image",
+  "prompt": "",
+  "options": [
+   "bed",
+   "window",
+   "door"
+  ],
+  "answer": "door",
+  "image": "🚪",
+  "audio": "door"
+ },
+ {
+  "id": "G1-T3-0001",
+  "game": 1,
+  "tier": 3,
+  "stage": 1,
+  "type": "match_image",
+  "prompt": "",
+  "options": [
+   "desert",
+   "mountain",
+   "island",
+   "volcano"
+  ],
+  "answer": "volcano",
+  "image": "🌋",
+  "audio": "volcano"
+ },
+ {
+  "id": "G1-T3-0002",
+  "game": 1,
+  "tier": 3,
+  "stage": 1,
+  "type": "match_image",
+  "prompt": "",
+  "options": [
+   "island",
+   "volcano",
+   "forest",
+   "river"
+  ],
+  "answer": "island",
+  "image": "🏝️",
+  "audio": "island"
+ },
+ {
+  "id": "G1-T3-0003",
+  "game": 1,
+  "tier": 3,
+  "stage": 1,
+  "type": "match_image",
+  "prompt": "",
+  "options": [
+   "desert",
+   "island",
+   "jungle",
+   "beach"
+  ],
+  "answer": "desert",
+  "image": "🏜️",
+  "audio": "desert"
+ },
+ {
+  "id": "G1-T3-0004",
+  "game": 1,
+  "tier": 3,
+  "stage": 1,
+  "type": "match_image",
+  "prompt": "",
+  "options": [
+   "mountain",
+   "cave",
+   "volcano",
+   "valley"
+  ],
+  "answer": "mountain",
+  "image": "🏔️",
+  "audio": "mountain"
+ },
+ {
+  "id": "G1-T3-0005",
+  "game": 1,
+  "tier": 3,
+  "stage": 1,
+  "type": "match_image",
+  "prompt": "",
+  "options": [
+   "cloud",
+   "rainbow",
+   "lightning",
+   "storm"
+  ],
+  "answer": "rainbow",
+  "image": "🌈",
+  "audio": "rainbow"
+ },
+ {
+  "id": "G1-T3-0006",
+  "game": 1,
+  "tier": 3,
+  "stage": 1,
+  "type": "match_image",
+  "prompt": "",
+  "options": [
+   "snow",
+   "rainbow",
+   "lightning",
+   "wind"
+  ],
+  "answer": "lightning",
+  "image": "⚡",
+  "audio": "lightning"
+ },
+ {
+  "id": "G1-T3-0007",
+  "game": 1,
+  "tier": 3,
+  "stage": 1,
+  "type": "match_image",
+  "prompt": "",
+  "options": [
+   "leaf",
+   "raindrop",
+   "snowflake",
+   "star"
+  ],
+  "answer": "snowflake",
+  "image": "❄️",
+  "audio": "snowflake"
+ },
+ {
+  "id": "G1-T3-0008",
+  "game": 1,
+  "tier": 3,
+  "stage": 1,
+  "type": "match_image",
+  "prompt": "",
+  "options": [
+   "sunrise",
+   "fog",
+   "rainbow",
+   "storm"
+  ],
+  "answer": "storm",
+  "image": "⛈️",
+  "audio": "storm"
+ },
+ {
+  "id": "G1-T3-0009",
+  "game": 1,
+  "tier": 3,
+  "stage": 1,
+  "type": "match_image",
+  "prompt": "",
+  "options": [
+   "sunset",
+   "sunrise",
+   "night",
+   "storm"
+  ],
+  "answer": "sunrise",
+  "image": "🌅",
+  "audio": "sunrise"
+ },
+ {
+  "id": "G1-T3-0010",
+  "game": 1,
+  "tier": 3,
+  "stage": 1,
+  "type": "match_image",
+  "prompt": "",
+  "options": [
+   "wave",
+   "cloud",
+   "river",
+   "sand"
+  ],
+  "answer": "wave",
+  "image": "🌊",
+  "audio": "wave"
+ },
+ {
+  "id": "G1-T3-0011",
+  "game": 1,
+  "tier": 3,
+  "stage": 2,
+  "type": "match_image",
+  "prompt": "",
+  "options": [
+   "camera",
+   "telescope",
+   "microscope",
+   "magnet"
+  ],
+  "answer": "telescope",
+  "image": "🔭",
+  "audio": "telescope"
+ },
+ {
+  "id": "G1-T3-0012",
+  "game": 1,
+  "tier": 3,
+  "stage": 2,
+  "type": "match_image",
+  "prompt": "",
+  "options": [
+   "telescope",
+   "compass",
+   "microscope",
+   "battery"
+  ],
+  "answer": "microscope",
+  "image": "🔬",
+  "audio": "microscope"
+ },
+ {
+  "id": "G1-T3-0013",
+  "game": 1,
+  "tier": 3,
+  "stage": 2,
+  "type": "match_image",
+  "prompt": "",
+  "options": [
+   "magnet",
+   "ladder",
+   "battery",
+   "compass"
+  ],
+  "answer": "magnet",
+  "image": "🧲",
+  "audio": "magnet"
+ },
+ {
+  "id": "G1-T3-0014",
+  "game": 1,
+  "tier": 3,
+  "stage": 2,
+  "type": "match_image",
+  "prompt": "",
+  "options": [
+   "clock",
+   "magnet",
+   "compass",
+   "map"
+  ],
+  "answer": "compass",
+  "image": "🧭",
+  "audio": "compass"
+ },
+ {
+  "id": "G1-T3-0015",
+  "game": 1,
+  "tier": 3,
+  "stage": 2,
+  "type": "match_image",
+  "prompt": "",
+  "options": [
+   "candle",
+   "magnet",
+   "battery",
+   "bulb"
+  ],
+  "answer": "battery",
+  "image": "🔋",
+  "audio": "battery"
+ },
+ {
+  "id": "G1-T3-0016",
+  "game": 1,
+  "tier": 3,
+  "stage": 2,
+  "type": "match_image",
+  "prompt": "",
+  "options": [
+   "battery",
+   "lantern",
+   "candle",
+   "light bulb"
+  ],
+  "answer": "light bulb",
+  "image": "💡",
+  "audio": "light bulb"
+ },
+ {
+  "id": "G1-T3-0017",
+  "game": 1,
+  "tier": 3,
+  "stage": 2,
+  "type": "match_image",
+  "prompt": "",
+  "options": [
+   "torch",
+   "candle",
+   "lantern",
+   "light bulb"
+  ],
+  "answer": "candle",
+  "image": "🕯️",
+  "audio": "candle"
+ },
+ {
+  "id": "G1-T3-0018",
+  "game": 1,
+  "tier": 3,
+  "stage": 2,
+  "type": "match_image",
+  "prompt": "",
+  "options": [
+   "rope",
+   "bridge",
+   "ladder",
+   "fence"
+  ],
+  "answer": "ladder",
+  "image": "🪜",
+  "audio": "ladder"
+ },
+ {
+  "id": "G1-T3-0019",
+  "game": 1,
+  "tier": 3,
+  "stage": 2,
+  "type": "match_image",
+  "prompt": "",
+  "options": [
+   "tunnel",
+   "tower",
+   "bridge",
+   "ladder"
+  ],
+  "answer": "bridge",
+  "image": "🌉",
+  "audio": "bridge"
+ },
+ {
+  "id": "G1-T3-0020",
+  "game": 1,
+  "tier": 3,
+  "stage": 2,
+  "type": "match_image",
+  "prompt": "",
+  "options": [
+   "map",
+   "flag",
+   "ticket",
+   "compass"
+  ],
+  "answer": "map",
+  "image": "🗺️",
+  "audio": "map"
+ },
+ {
+  "id": "G1-T3-0021",
+  "game": 1,
+  "tier": 3,
+  "stage": 3,
+  "type": "match_image",
+  "prompt": "",
+  "options": [
+   "guitar",
+   "drum",
+   "violin",
+   "trumpet"
+  ],
+  "answer": "violin",
+  "image": "🎻",
+  "audio": "violin"
+ },
+ {
+  "id": "G1-T3-0022",
+  "game": 1,
+  "tier": 3,
+  "stage": 3,
+  "type": "match_image",
+  "prompt": "",
+  "options": [
+   "piano",
+   "violin",
+   "flute",
+   "guitar"
+  ],
+  "answer": "guitar",
+  "image": "🎸",
+  "audio": "guitar"
+ },
+ {
+  "id": "G1-T3-0023",
+  "game": 1,
+  "tier": 3,
+  "stage": 3,
+  "type": "match_image",
+  "prompt": "",
+  "options": [
+   "violin",
+   "saxophone",
+   "drum",
+   "trumpet"
+  ],
+  "answer": "trumpet",
+  "image": "🎺",
+  "audio": "trumpet"
+ },
+ {
+  "id": "G1-T3-0024",
+  "game": 1,
+  "tier": 3,
+  "stage": 3,
+  "type": "match_image",
+  "prompt": "",
+  "options": [
+   "trumpet",
+   "drum",
+   "bell",
+   "piano"
+  ],
+  "answer": "drum",
+  "image": "🥁",
+  "audio": "drum"
+ },
+ {
+  "id": "G1-T3-0025",
+  "game": 1,
+  "tier": 3,
+  "stage": 3,
+  "type": "match_image",
+  "prompt": "",
+  "options": [
+   "keyboard",
+   "guitar",
+   "drum",
+   "piano"
+  ],
+  "answer": "piano",
+  "image": "🎹",
+  "audio": "piano"
+ },
+ {
+  "id": "G1-T3-0026",
+  "game": 1,
+  "tier": 3,
+  "stage": 3,
+  "type": "match_image",
+  "prompt": "",
+  "options": [
+   "parachute",
+   "helicopter",
+   "rocket",
+   "airplane"
+  ],
+  "answer": "helicopter",
+  "image": "🚁",
+  "audio": "helicopter"
+ },
+ {
+  "id": "G1-T3-0027",
+  "game": 1,
+  "tier": 3,
+  "stage": 3,
+  "type": "match_image",
+  "prompt": "",
+  "options": [
+   "airplane",
+   "rocket",
+   "helicopter",
+   "satellite"
+  ],
+  "answer": "rocket",
+  "image": "🚀",
+  "audio": "rocket"
+ },
+ {
+  "id": "G1-T3-0028",
+  "game": 1,
+  "tier": 3,
+  "stage": 3,
+  "type": "match_image",
+  "prompt": "",
+  "options": [
+   "tractor",
+   "train",
+   "subway",
+   "truck"
+  ],
+  "answer": "train",
+  "image": "🚂",
+  "audio": "train"
+ },
+ {
+  "id": "G1-T3-0029",
+  "game": 1,
+  "tier": 3,
+  "stage": 3,
+  "type": "match_image",
+  "prompt": "",
+  "options": [
+   "fire engine",
+   "ambulance",
+   "taxi",
+   "police car"
+  ],
+  "answer": "ambulance",
+  "image": "🚑",
+  "audio": "ambulance"
+ },
+ {
+  "id": "G1-T3-0030",
+  "game": 1,
+  "tier": 3,
+  "stage": 3,
+  "type": "match_image",
+  "prompt": "",
+  "options": [
+   "truck",
+   "bus",
+   "ambulance",
+   "fire engine"
+  ],
+  "answer": "fire engine",
+  "image": "🚒",
+  "audio": "fire engine"
+ },
+ {
+  "id": "G1-T3-0031",
+  "game": 1,
+  "tier": 3,
+  "stage": 4,
+  "type": "match_image",
+  "prompt": "",
+  "options": [
+   "star",
+   "comet",
+   "planet",
+   "moon"
+  ],
+  "answer": "planet",
+  "image": "🪐",
+  "audio": "planet"
+ },
+ {
+  "id": "G1-T3-0032",
+  "game": 1,
+  "tier": 3,
+  "stage": 4,
+  "type": "match_image",
+  "prompt": "",
+  "options": [
+   "meteor shower",
+   "rocket",
+   "comet",
+   "planet"
+  ],
+  "answer": "comet",
+  "image": "☄️",
+  "audio": "comet"
+ },
+ {
+  "id": "G1-T3-0033",
+  "game": 1,
+  "tier": 3,
+  "stage": 4,
+  "type": "match_image",
+  "prompt": "",
+  "options": [
+   "Earth",
+   "Mars",
+   "sun",
+   "moon"
+  ],
+  "answer": "Earth",
+  "image": "🌍",
+  "audio": "Earth"
+ },
+ {
+  "id": "G1-T3-0034",
+  "game": 1,
+  "tier": 3,
+  "stage": 4,
+  "type": "match_image",
+  "prompt": "",
+  "options": [
+   "castle",
+   "cabin",
+   "hut",
+   "tent"
+  ],
+  "answer": "tent",
+  "image": "⛺",
+  "audio": "tent"
+ },
+ {
+  "id": "G1-T3-0035",
+  "game": 1,
+  "tier": 3,
+  "stage": 4,
+  "type": "match_image",
+  "prompt": "",
+  "options": [
+   "tent",
+   "palace",
+   "castle",
+   "tower"
+  ],
+  "answer": "castle",
+  "image": "🏰",
+  "audio": "castle"
+ },
+ {
+  "id": "G1-T3-0036",
+  "game": 1,
+  "tier": 3,
+  "stage": 4,
+  "type": "match_image",
+  "prompt": "",
+  "options": [
+   "carousel",
+   "roller coaster",
+   "Ferris wheel",
+   "slide"
+  ],
+  "answer": "Ferris wheel",
+  "image": "🎡",
+  "audio": "Ferris wheel"
+ },
+ {
+  "id": "G1-T3-0037",
+  "game": 1,
+  "tier": 3,
+  "stage": 4,
+  "type": "match_image",
+  "prompt": "",
+  "options": [
+   "card",
+   "dice",
+   "board game",
+   "puzzle"
+  ],
+  "answer": "puzzle",
+  "image": "🧩",
+  "audio": "puzzle"
+ },
+ {
+  "id": "G1-T3-0038",
+  "game": 1,
+  "tier": 3,
+  "stage": 4,
+  "type": "match_image",
+  "prompt": "",
+  "options": [
+   "dice",
+   "coin",
+   "button",
+   "puzzle"
+  ],
+  "answer": "dice",
+  "image": "🎲",
+  "audio": "dice"
+ },
+ {
+  "id": "G1-T3-0039",
+  "game": 1,
+  "tier": 3,
+  "stage": 4,
+  "type": "match_image",
+  "prompt": "",
+  "options": [
+   "medal",
+   "button",
+   "dice",
+   "coin"
+  ],
+  "answer": "coin",
+  "image": "🪙",
+  "audio": "coin"
+ },
+ {
+  "id": "G1-T3-0040",
+  "game": 1,
+  "tier": 3,
+  "stage": 4,
+  "type": "match_image",
+  "prompt": "",
+  "options": [
+   "trophy",
+   "crown",
+   "cup",
+   "medal"
+  ],
+  "answer": "trophy",
+  "image": "🏆",
+  "audio": "trophy"
+ }
+]

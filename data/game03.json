@@ -1,0 +1,1642 @@
+[
+ {
+  "id": "G3-T1-0001",
+  "game": 3,
+  "tier": 1,
+  "stage": 1,
+  "type": "guess_image",
+  "prompt": "It is red. You eat it.",
+  "options": [
+   "apple",
+   "car",
+   "ball"
+  ],
+  "answer": "apple",
+  "image": "🍎",
+  "audio": "apple"
+ },
+ {
+  "id": "G3-T1-0002",
+  "game": 3,
+  "tier": 1,
+  "stage": 1,
+  "type": "guess_image",
+  "prompt": "It is yellow and long.",
+  "options": [
+   "banana",
+   "egg",
+   "bus"
+  ],
+  "answer": "banana",
+  "image": "🍌",
+  "audio": "banana"
+ },
+ {
+  "id": "G3-T1-0003",
+  "game": 3,
+  "tier": 1,
+  "stage": 1,
+  "type": "guess_image",
+  "prompt": "It shines at night.",
+  "options": [
+   "cup",
+   "star",
+   "hat"
+  ],
+  "answer": "star",
+  "image": "⭐",
+  "audio": "star"
+ },
+ {
+  "id": "G3-T1-0004",
+  "game": 3,
+  "tier": 1,
+  "stage": 1,
+  "type": "guess_image",
+  "prompt": "You read it.",
+  "options": [
+   "cake",
+   "book",
+   "bed"
+  ],
+  "answer": "book",
+  "image": "📕",
+  "audio": "book"
+ },
+ {
+  "id": "G3-T1-0005",
+  "game": 3,
+  "tier": 1,
+  "stage": 1,
+  "type": "guess_image",
+  "prompt": "It is sweet. Happy birthday!",
+  "options": [
+   "sun",
+   "cake",
+   "pen"
+  ],
+  "answer": "cake",
+  "image": "🎂",
+  "audio": "cake"
+ },
+ {
+  "id": "G3-T1-0006",
+  "game": 3,
+  "tier": 1,
+  "stage": 1,
+  "type": "guess_image",
+  "prompt": "It is white. You drink it.",
+  "options": [
+   "kite",
+   "milk",
+   "bread"
+  ],
+  "answer": "milk",
+  "image": "🥛",
+  "audio": "milk"
+ },
+ {
+  "id": "G3-T1-0007",
+  "game": 3,
+  "tier": 1,
+  "stage": 1,
+  "type": "guess_image",
+  "prompt": "It is hot and bright.",
+  "options": [
+   "tree",
+   "sun",
+   "moon"
+  ],
+  "answer": "sun",
+  "image": "☀️",
+  "audio": "sun"
+ },
+ {
+  "id": "G3-T1-0008",
+  "game": 3,
+  "tier": 1,
+  "stage": 1,
+  "type": "guess_image",
+  "prompt": "You see it at night.",
+  "options": [
+   "moon",
+   "box",
+   "sun"
+  ],
+  "answer": "moon",
+  "image": "🌙",
+  "audio": "moon"
+ },
+ {
+  "id": "G3-T1-0009",
+  "game": 3,
+  "tier": 1,
+  "stage": 1,
+  "type": "guess_image",
+  "prompt": "You sleep on it.",
+  "options": [
+   "bed",
+   "car",
+   "chair"
+  ],
+  "answer": "bed",
+  "image": "🛏️",
+  "audio": "bed"
+ },
+ {
+  "id": "G3-T1-0010",
+  "game": 3,
+  "tier": 1,
+  "stage": 1,
+  "type": "guess_image",
+  "prompt": "It is round. It can fly.",
+  "options": [
+   "egg",
+   "balloon",
+   "ball"
+  ],
+  "answer": "balloon",
+  "image": "🎈",
+  "audio": "balloon"
+ },
+ {
+  "id": "G3-T1-0011",
+  "game": 3,
+  "tier": 1,
+  "stage": 2,
+  "type": "guess_image",
+  "prompt": "It is big. Many people ride it.",
+  "options": [
+   "bike",
+   "cup",
+   "bus"
+  ],
+  "answer": "bus",
+  "image": "🚌",
+  "audio": "bus"
+ },
+ {
+  "id": "G3-T1-0012",
+  "game": 3,
+  "tier": 1,
+  "stage": 2,
+  "type": "guess_image",
+  "prompt": "It has two wheels.",
+  "options": [
+   "bike",
+   "bed",
+   "car"
+  ],
+  "answer": "bike",
+  "image": "🚲",
+  "audio": "bike"
+ },
+ {
+  "id": "G3-T1-0013",
+  "game": 3,
+  "tier": 1,
+  "stage": 2,
+  "type": "guess_image",
+  "prompt": "It flies in the sky.",
+  "options": [
+   "train",
+   "boat",
+   "plane"
+  ],
+  "answer": "plane",
+  "image": "✈️",
+  "audio": "plane"
+ },
+ {
+  "id": "G3-T1-0014",
+  "game": 3,
+  "tier": 1,
+  "stage": 2,
+  "type": "guess_image",
+  "prompt": "It goes on the water.",
+  "options": [
+   "plane",
+   "car",
+   "boat"
+  ],
+  "answer": "boat",
+  "image": "⛵",
+  "audio": "boat"
+ },
+ {
+  "id": "G3-T1-0015",
+  "game": 3,
+  "tier": 1,
+  "stage": 2,
+  "type": "guess_image",
+  "prompt": "You kick it.",
+  "options": [
+   "cake",
+   "book",
+   "ball"
+  ],
+  "answer": "ball",
+  "image": "⚽",
+  "audio": "ball"
+ },
+ {
+  "id": "G3-T1-0016",
+  "game": 3,
+  "tier": 1,
+  "stage": 2,
+  "type": "guess_image",
+  "prompt": "You write with it.",
+  "options": [
+   "spoon",
+   "pencil",
+   "sock"
+  ],
+  "answer": "pencil",
+  "image": "✏️",
+  "audio": "pencil"
+ },
+ {
+  "id": "G3-T1-0017",
+  "game": 3,
+  "tier": 1,
+  "stage": 2,
+  "type": "guess_image",
+  "prompt": "You wear it on your head.",
+  "options": [
+   "shoe",
+   "hat",
+   "bag"
+  ],
+  "answer": "hat",
+  "image": "🎩",
+  "audio": "hat"
+ },
+ {
+  "id": "G3-T1-0018",
+  "game": 3,
+  "tier": 1,
+  "stage": 2,
+  "type": "guess_image",
+  "prompt": "You wear it on your foot.",
+  "options": [
+   "shoe",
+   "cup",
+   "hat"
+  ],
+  "answer": "shoe",
+  "image": "👟",
+  "audio": "shoe"
+ },
+ {
+  "id": "G3-T1-0019",
+  "game": 3,
+  "tier": 1,
+  "stage": 2,
+  "type": "guess_image",
+  "prompt": "It opens a door.",
+  "options": [
+   "pen",
+   "box",
+   "key"
+  ],
+  "answer": "key",
+  "image": "🔑",
+  "audio": "key"
+ },
+ {
+  "id": "G3-T1-0020",
+  "game": 3,
+  "tier": 1,
+  "stage": 2,
+  "type": "guess_image",
+  "prompt": "It is tall and green.",
+  "options": [
+   "flower",
+   "tree",
+   "house"
+  ],
+  "answer": "tree",
+  "image": "🌳",
+  "audio": "tree"
+ },
+ {
+  "id": "G3-T1-0021",
+  "game": 3,
+  "tier": 1,
+  "stage": 3,
+  "type": "guess_image",
+  "prompt": "It says meow.",
+  "options": [
+   "cow",
+   "cat",
+   "dog"
+  ],
+  "answer": "cat",
+  "image": "animals/cat.svg",
+  "audio": "cat"
+ },
+ {
+  "id": "G3-T1-0022",
+  "game": 3,
+  "tier": 1,
+  "stage": 3,
+  "type": "guess_image",
+  "prompt": "It says woof.",
+  "options": [
+   "dog",
+   "cat",
+   "duck"
+  ],
+  "answer": "dog",
+  "image": "animals/dog.svg",
+  "audio": "dog"
+ },
+ {
+  "id": "G3-T1-0023",
+  "game": 3,
+  "tier": 1,
+  "stage": 3,
+  "type": "guess_image",
+  "prompt": "It says moo. It gives milk.",
+  "options": [
+   "horse",
+   "pig",
+   "cow"
+  ],
+  "answer": "cow",
+  "image": "animals/cow.svg",
+  "audio": "cow"
+ },
+ {
+  "id": "G3-T1-0024",
+  "game": 3,
+  "tier": 1,
+  "stage": 3,
+  "type": "guess_image",
+  "prompt": "It says quack.",
+  "options": [
+   "duck",
+   "bird",
+   "fish"
+  ],
+  "answer": "duck",
+  "image": "animals/duck.svg",
+  "audio": "duck"
+ },
+ {
+  "id": "G3-T1-0025",
+  "game": 3,
+  "tier": 1,
+  "stage": 3,
+  "type": "guess_image",
+  "prompt": "It swims in the water.",
+  "options": [
+   "fish",
+   "cat",
+   "bird"
+  ],
+  "answer": "fish",
+  "image": "animals/fish.svg",
+  "audio": "fish"
+ },
+ {
+  "id": "G3-T1-0026",
+  "game": 3,
+  "tier": 1,
+  "stage": 3,
+  "type": "guess_image",
+  "prompt": "It can fly. It sings.",
+  "options": [
+   "pig",
+   "bird",
+   "fish"
+  ],
+  "answer": "bird",
+  "image": "animals/bird.svg",
+  "audio": "bird"
+ },
+ {
+  "id": "G3-T1-0027",
+  "game": 3,
+  "tier": 1,
+  "stage": 3,
+  "type": "guess_image",
+  "prompt": "It is pink. It says oink.",
+  "options": [
+   "cow",
+   "pig",
+   "sheep"
+  ],
+  "answer": "pig",
+  "image": "animals/pig.svg",
+  "audio": "pig"
+ },
+ {
+  "id": "G3-T1-0028",
+  "game": 3,
+  "tier": 1,
+  "stage": 3,
+  "type": "guess_image",
+  "prompt": "It is white and soft. It says baa.",
+  "options": [
+   "sheep",
+   "pig",
+   "dog"
+  ],
+  "answer": "sheep",
+  "image": "animals/sheep.svg",
+  "audio": "sheep"
+ },
+ {
+  "id": "G3-T1-0029",
+  "game": 3,
+  "tier": 1,
+  "stage": 3,
+  "type": "guess_image",
+  "prompt": "It has long ears. It hops.",
+  "options": [
+   "rabbit",
+   "duck",
+   "cat"
+  ],
+  "answer": "rabbit",
+  "image": "animals/rabbit.svg",
+  "audio": "rabbit"
+ },
+ {
+  "id": "G3-T1-0030",
+  "game": 3,
+  "tier": 1,
+  "stage": 3,
+  "type": "guess_image",
+  "prompt": "It is very big. It has a long nose.",
+  "options": [
+   "elephant",
+   "cow",
+   "horse"
+  ],
+  "answer": "elephant",
+  "image": "animals/elephant.svg",
+  "audio": "elephant"
+ },
+ {
+  "id": "G3-T2-0001",
+  "game": 3,
+  "tier": 2,
+  "stage": 1,
+  "type": "guess_image",
+  "prompt": "You learn here with your teacher.",
+  "options": [
+   "shop",
+   "park",
+   "school"
+  ],
+  "answer": "school",
+  "image": "🏫",
+  "audio": "school"
+ },
+ {
+  "id": "G3-T2-0002",
+  "game": 3,
+  "tier": 2,
+  "stage": 1,
+  "type": "guess_image",
+  "prompt": "You cook food here.",
+  "options": [
+   "garden",
+   "kitchen",
+   "bedroom"
+  ],
+  "answer": "kitchen",
+  "image": "🍳",
+  "audio": "kitchen"
+ },
+ {
+  "id": "G3-T2-0003",
+  "game": 3,
+  "tier": 2,
+  "stage": 1,
+  "type": "guess_image",
+  "prompt": "You take a bath here.",
+  "options": [
+   "bathroom",
+   "classroom",
+   "kitchen"
+  ],
+  "answer": "bathroom",
+  "image": "🛁",
+  "audio": "bathroom"
+ },
+ {
+  "id": "G3-T2-0004",
+  "game": 3,
+  "tier": 2,
+  "stage": 1,
+  "type": "guess_image",
+  "prompt": "Sick people go here.",
+  "options": [
+   "school",
+   "hospital",
+   "beach"
+  ],
+  "answer": "hospital",
+  "image": "🏥",
+  "audio": "hospital"
+ },
+ {
+  "id": "G3-T2-0005",
+  "game": 3,
+  "tier": 2,
+  "stage": 1,
+  "type": "guess_image",
+  "prompt": "There is sand and sea.",
+  "options": [
+   "library",
+   "beach",
+   "farm"
+  ],
+  "answer": "beach",
+  "image": "🏖️",
+  "audio": "beach"
+ },
+ {
+  "id": "G3-T2-0006",
+  "game": 3,
+  "tier": 2,
+  "stage": 1,
+  "type": "guess_image",
+  "prompt": "You borrow books here.",
+  "options": [
+   "kitchen",
+   "bank",
+   "library"
+  ],
+  "answer": "library",
+  "image": "📚",
+  "audio": "library"
+ },
+ {
+  "id": "G3-T2-0007",
+  "game": 3,
+  "tier": 2,
+  "stage": 1,
+  "type": "guess_image",
+  "prompt": "You buy things here.",
+  "options": [
+   "school",
+   "shop",
+   "hospital"
+  ],
+  "answer": "shop",
+  "image": "🏪",
+  "audio": "shop"
+ },
+ {
+  "id": "G3-T2-0008",
+  "game": 3,
+  "tier": 2,
+  "stage": 1,
+  "type": "guess_image",
+  "prompt": "Farmers grow food here.",
+  "options": [
+   "bank",
+   "beach",
+   "farm"
+  ],
+  "answer": "farm",
+  "image": "🚜",
+  "audio": "farm"
+ },
+ {
+  "id": "G3-T2-0009",
+  "game": 3,
+  "tier": 2,
+  "stage": 1,
+  "type": "guess_image",
+  "prompt": "You play and run here. There are trees.",
+  "options": [
+   "shop",
+   "park",
+   "bathroom"
+  ],
+  "answer": "park",
+  "image": "🏞️",
+  "audio": "park"
+ },
+ {
+  "id": "G3-T2-0010",
+  "game": 3,
+  "tier": 2,
+  "stage": 1,
+  "type": "guess_image",
+  "prompt": "You keep your money here.",
+  "options": [
+   "park",
+   "bank",
+   "farm"
+  ],
+  "answer": "bank",
+  "image": "🏦",
+  "audio": "bank"
+ },
+ {
+  "id": "G3-T2-0011",
+  "game": 3,
+  "tier": 2,
+  "stage": 2,
+  "type": "guess_image",
+  "prompt": "You brush your teeth with it.",
+  "options": [
+   "toothbrush",
+   "comb",
+   "spoon"
+  ],
+  "answer": "toothbrush",
+  "image": "🪥",
+  "audio": "toothbrush"
+ },
+ {
+  "id": "G3-T2-0012",
+  "game": 3,
+  "tier": 2,
+  "stage": 2,
+  "type": "guess_image",
+  "prompt": "You wash your hands with it.",
+  "options": [
+   "towel",
+   "soap",
+   "cup"
+  ],
+  "answer": "soap",
+  "image": "🧼",
+  "audio": "soap"
+ },
+ {
+  "id": "G3-T2-0013",
+  "game": 3,
+  "tier": 2,
+  "stage": 2,
+  "type": "guess_image",
+  "prompt": "You eat soup with it.",
+  "options": [
+   "knife",
+   "spoon",
+   "brush"
+  ],
+  "answer": "spoon",
+  "image": "🥄",
+  "audio": "spoon"
+ },
+ {
+  "id": "G3-T2-0014",
+  "game": 3,
+  "tier": 2,
+  "stage": 2,
+  "type": "guess_image",
+  "prompt": "You use it when it rains.",
+  "options": [
+   "blanket",
+   "umbrella",
+   "kite"
+  ],
+  "answer": "umbrella",
+  "image": "☂️",
+  "audio": "umbrella"
+ },
+ {
+  "id": "G3-T2-0015",
+  "game": 3,
+  "tier": 2,
+  "stage": 2,
+  "type": "guess_image",
+  "prompt": "It tells you the time.",
+  "options": [
+   "lamp",
+   "phone",
+   "clock"
+  ],
+  "answer": "clock",
+  "image": "⏰",
+  "audio": "clock"
+ },
+ {
+  "id": "G3-T2-0016",
+  "game": 3,
+  "tier": 2,
+  "stage": 2,
+  "type": "guess_image",
+  "prompt": "You watch cartoons on it.",
+  "options": [
+   "window",
+   "radio",
+   "television"
+  ],
+  "answer": "television",
+  "image": "📺",
+  "audio": "television"
+ },
+ {
+  "id": "G3-T2-0017",
+  "game": 3,
+  "tier": 2,
+  "stage": 2,
+  "type": "guess_image",
+  "prompt": "You clean the floor with it.",
+  "options": [
+   "pillow",
+   "broom",
+   "spoon"
+  ],
+  "answer": "broom",
+  "image": "🧹",
+  "audio": "broom"
+ },
+ {
+  "id": "G3-T2-0018",
+  "game": 3,
+  "tier": 2,
+  "stage": 2,
+  "type": "guess_image",
+  "prompt": "You sit on it.",
+  "options": [
+   "bed",
+   "chair",
+   "door"
+  ],
+  "answer": "chair",
+  "image": "🪑",
+  "audio": "chair"
+ },
+ {
+  "id": "G3-T2-0019",
+  "game": 3,
+  "tier": 2,
+  "stage": 2,
+  "type": "guess_image",
+  "prompt": "You open it to go in.",
+  "options": [
+   "table",
+   "window",
+   "door"
+  ],
+  "answer": "door",
+  "image": "🚪",
+  "audio": "door"
+ },
+ {
+  "id": "G3-T2-0020",
+  "game": 3,
+  "tier": 2,
+  "stage": 2,
+  "type": "guess_image",
+  "prompt": "You wear them inside your shoes.",
+  "options": [
+   "gloves",
+   "socks",
+   "hats"
+  ],
+  "answer": "socks",
+  "image": "🧦",
+  "audio": "socks"
+ },
+ {
+  "id": "G3-T2-0021",
+  "game": 3,
+  "tier": 2,
+  "stage": 3,
+  "type": "guess_image",
+  "prompt": "You eat them for breakfast with honey.",
+  "options": [
+   "noodles",
+   "pancakes",
+   "salad"
+  ],
+  "answer": "pancakes",
+  "image": "🥞",
+  "audio": "pancakes"
+ },
+ {
+  "id": "G3-T2-0022",
+  "game": 3,
+  "tier": 2,
+  "stage": 3,
+  "type": "guess_image",
+  "prompt": "It is round. It has cheese on top.",
+  "options": [
+   "soup",
+   "cookie",
+   "pizza"
+  ],
+  "answer": "pizza",
+  "image": "🍕",
+  "audio": "pizza"
+ },
+ {
+  "id": "G3-T2-0023",
+  "game": 3,
+  "tier": 2,
+  "stage": 3,
+  "type": "guess_image",
+  "prompt": "They are long. You eat them with chopsticks.",
+  "options": [
+   "noodles",
+   "bread",
+   "eggs"
+  ],
+  "answer": "noodles",
+  "image": "🍜",
+  "audio": "noodles"
+ },
+ {
+  "id": "G3-T2-0024",
+  "game": 3,
+  "tier": 2,
+  "stage": 3,
+  "type": "guess_image",
+  "prompt": "It is orange. Rabbits like it.",
+  "options": [
+   "tomato",
+   "corn",
+   "carrot"
+  ],
+  "answer": "carrot",
+  "image": "🥕",
+  "audio": "carrot"
+ },
+ {
+  "id": "G3-T2-0025",
+  "game": 3,
+  "tier": 2,
+  "stage": 3,
+  "type": "guess_image",
+  "prompt": "It is cold and sweet.",
+  "options": [
+   "soup",
+   "ice cream",
+   "tea"
+  ],
+  "answer": "ice cream",
+  "image": "🍦",
+  "audio": "ice cream"
+ },
+ {
+  "id": "G3-T2-0026",
+  "game": 3,
+  "tier": 2,
+  "stage": 3,
+  "type": "guess_image",
+  "prompt": "It is green outside and red inside.",
+  "options": [
+   "lemon",
+   "apple",
+   "watermelon"
+  ],
+  "answer": "watermelon",
+  "image": "🍉",
+  "audio": "watermelon"
+ },
+ {
+  "id": "G3-T2-0027",
+  "game": 3,
+  "tier": 2,
+  "stage": 3,
+  "type": "guess_image",
+  "prompt": "It is yellow and sour.",
+  "options": [
+   "lemon",
+   "grapes",
+   "banana"
+  ],
+  "answer": "lemon",
+  "image": "🍋",
+  "audio": "lemon"
+ },
+ {
+  "id": "G3-T2-0028",
+  "game": 3,
+  "tier": 2,
+  "stage": 3,
+  "type": "guess_image",
+  "prompt": "You drink it. It is made from fruit.",
+  "options": [
+   "rice",
+   "soup",
+   "juice"
+  ],
+  "answer": "juice",
+  "image": "🧃",
+  "audio": "juice"
+ },
+ {
+  "id": "G3-T2-0029",
+  "game": 3,
+  "tier": 2,
+  "stage": 3,
+  "type": "guess_image",
+  "prompt": "You make a sandwich with it.",
+  "options": [
+   "egg",
+   "milk",
+   "bread"
+  ],
+  "answer": "bread",
+  "image": "🍞",
+  "audio": "bread"
+ },
+ {
+  "id": "G3-T2-0030",
+  "game": 3,
+  "tier": 2,
+  "stage": 3,
+  "type": "guess_image",
+  "prompt": "A chicken lays it.",
+  "options": [
+   "apple",
+   "egg",
+   "milk"
+  ],
+  "answer": "egg",
+  "image": "🥚",
+  "audio": "egg"
+ },
+ {
+  "id": "G3-T3-0001",
+  "game": 3,
+  "tier": 3,
+  "stage": 1,
+  "type": "guess_image",
+  "prompt": "It is a mountain. Hot lava comes out of it.",
+  "options": [
+   "river",
+   "volcano",
+   "desert",
+   "island"
+  ],
+  "answer": "volcano",
+  "image": "🌋",
+  "audio": "volcano"
+ },
+ {
+  "id": "G3-T3-0002",
+  "game": 3,
+  "tier": 3,
+  "stage": 1,
+  "type": "guess_image",
+  "prompt": "It is very hot and dry. There is a lot of sand.",
+  "options": [
+   "ocean",
+   "valley",
+   "forest",
+   "desert"
+  ],
+  "answer": "desert",
+  "image": "🏜️",
+  "audio": "desert"
+ },
+ {
+  "id": "G3-T3-0003",
+  "game": 3,
+  "tier": 3,
+  "stage": 1,
+  "type": "guess_image",
+  "prompt": "It is land with water all around it.",
+  "options": [
+   "mountain",
+   "island",
+   "desert",
+   "cave"
+  ],
+  "answer": "island",
+  "image": "🏝️",
+  "audio": "island"
+ },
+ {
+  "id": "G3-T3-0004",
+  "game": 3,
+  "tier": 3,
+  "stage": 1,
+  "type": "guess_image",
+  "prompt": "You can see it after the rain. It has seven colors.",
+  "options": [
+   "cloud",
+   "sunset",
+   "rainbow",
+   "storm"
+  ],
+  "answer": "rainbow",
+  "image": "🌈",
+  "audio": "rainbow"
+ },
+ {
+  "id": "G3-T3-0005",
+  "game": 3,
+  "tier": 3,
+  "stage": 1,
+  "type": "guess_image",
+  "prompt": "It is cold and white. It falls in winter.",
+  "options": [
+   "snow",
+   "sand",
+   "rain",
+   "wind"
+  ],
+  "answer": "snow",
+  "image": "❄️",
+  "audio": "snow"
+ },
+ {
+  "id": "G3-T3-0006",
+  "game": 3,
+  "tier": 3,
+  "stage": 1,
+  "type": "guess_image",
+  "prompt": "It is a bright light in the sky during a storm.",
+  "options": [
+   "sunshine",
+   "fog",
+   "rainbow",
+   "lightning"
+  ],
+  "answer": "lightning",
+  "image": "⚡",
+  "audio": "lightning"
+ },
+ {
+  "id": "G3-T3-0007",
+  "game": 3,
+  "tier": 3,
+  "stage": 1,
+  "type": "guess_image",
+  "prompt": "It moves on the sea. Surfers love it.",
+  "options": [
+   "lake",
+   "cloud",
+   "river",
+   "wave"
+  ],
+  "answer": "wave",
+  "image": "🌊",
+  "audio": "wave"
+ },
+ {
+  "id": "G3-T3-0008",
+  "game": 3,
+  "tier": 3,
+  "stage": 1,
+  "type": "guess_image",
+  "prompt": "There are many trees here.",
+  "options": [
+   "desert",
+   "island",
+   "forest",
+   "beach"
+  ],
+  "answer": "forest",
+  "image": "🌲",
+  "audio": "forest"
+ },
+ {
+  "id": "G3-T3-0009",
+  "game": 3,
+  "tier": 3,
+  "stage": 1,
+  "type": "guess_image",
+  "prompt": "You can see it early in the morning when the sun comes up.",
+  "options": [
+   "midnight",
+   "sunset",
+   "sunrise",
+   "storm"
+  ],
+  "answer": "sunrise",
+  "image": "🌅",
+  "audio": "sunrise"
+ },
+ {
+  "id": "G3-T3-0010",
+  "game": 3,
+  "tier": 3,
+  "stage": 1,
+  "type": "guess_image",
+  "prompt": "In this season, leaves fall from the trees.",
+  "options": [
+   "autumn",
+   "winter",
+   "summer",
+   "spring"
+  ],
+  "answer": "autumn",
+  "image": "🍂",
+  "audio": "autumn"
+ },
+ {
+  "id": "G3-T3-0011",
+  "game": 3,
+  "tier": 3,
+  "stage": 2,
+  "type": "guess_image",
+  "prompt": "You use it to look at the stars and planets.",
+  "options": [
+   "telescope",
+   "mirror",
+   "microscope",
+   "camera"
+  ],
+  "answer": "telescope",
+  "image": "🔭",
+  "audio": "telescope"
+ },
+ {
+  "id": "G3-T3-0012",
+  "game": 3,
+  "tier": 3,
+  "stage": 2,
+  "type": "guess_image",
+  "prompt": "Scientists use it to see very tiny things.",
+  "options": [
+   "telescope",
+   "magnet",
+   "microscope",
+   "compass"
+  ],
+  "answer": "microscope",
+  "image": "🔬",
+  "audio": "microscope"
+ },
+ {
+  "id": "G3-T3-0013",
+  "game": 3,
+  "tier": 3,
+  "stage": 2,
+  "type": "guess_image",
+  "prompt": "It pulls iron and steel toward it.",
+  "options": [
+   "compass",
+   "ruler",
+   "magnet",
+   "battery"
+  ],
+  "answer": "magnet",
+  "image": "🧲",
+  "audio": "magnet"
+ },
+ {
+  "id": "G3-T3-0014",
+  "game": 3,
+  "tier": 3,
+  "stage": 2,
+  "type": "guess_image",
+  "prompt": "It shows you north, south, east, and west.",
+  "options": [
+   "map",
+   "magnet",
+   "clock",
+   "compass"
+  ],
+  "answer": "compass",
+  "image": "🧭",
+  "audio": "compass"
+ },
+ {
+  "id": "G3-T3-0015",
+  "game": 3,
+  "tier": 3,
+  "stage": 2,
+  "type": "guess_image",
+  "prompt": "It shows roads, rivers, and cities on paper.",
+  "options": [
+   "poster",
+   "map",
+   "ticket",
+   "calendar"
+  ],
+  "answer": "map",
+  "image": "🗺️",
+  "audio": "map"
+ },
+ {
+  "id": "G3-T3-0016",
+  "game": 3,
+  "tier": 3,
+  "stage": 2,
+  "type": "guess_image",
+  "prompt": "It gives power to toys and remote controls.",
+  "options": [
+   "magnet",
+   "candle",
+   "cable",
+   "battery"
+  ],
+  "answer": "battery",
+  "image": "🔋",
+  "audio": "battery"
+ },
+ {
+  "id": "G3-T3-0017",
+  "game": 3,
+  "tier": 3,
+  "stage": 2,
+  "type": "guess_image",
+  "prompt": "You use it to take photos.",
+  "options": [
+   "phone",
+   "camera",
+   "radio",
+   "telescope"
+  ],
+  "answer": "camera",
+  "image": "📷",
+  "audio": "camera"
+ },
+ {
+  "id": "G3-T3-0018",
+  "game": 3,
+  "tier": 3,
+  "stage": 2,
+  "type": "guess_image",
+  "prompt": "It tells you how hot or cold it is.",
+  "options": [
+   "thermometer",
+   "clock",
+   "ruler",
+   "scale"
+  ],
+  "answer": "thermometer",
+  "image": "🌡️",
+  "audio": "thermometer"
+ },
+ {
+  "id": "G3-T3-0019",
+  "game": 3,
+  "tier": 3,
+  "stage": 2,
+  "type": "guess_image",
+  "prompt": "You use it to measure how long something is.",
+  "options": [
+   "scale",
+   "eraser",
+   "compass",
+   "ruler"
+  ],
+  "answer": "ruler",
+  "image": "📏",
+  "audio": "ruler"
+ },
+ {
+  "id": "G3-T3-0020",
+  "game": 3,
+  "tier": 3,
+  "stage": 2,
+  "type": "guess_image",
+  "prompt": "You climb it to reach high places.",
+  "options": [
+   "rope",
+   "slide",
+   "bridge",
+   "ladder"
+  ],
+  "answer": "ladder",
+  "image": "🪜",
+  "audio": "ladder"
+ },
+ {
+  "id": "G3-T3-0021",
+  "game": 3,
+  "tier": 3,
+  "stage": 3,
+  "type": "guess_image",
+  "prompt": "It takes sick or hurt people to the hospital.",
+  "options": [
+   "bus",
+   "fire engine",
+   "taxi",
+   "ambulance"
+  ],
+  "answer": "ambulance",
+  "image": "🚑",
+  "audio": "ambulance"
+ },
+ {
+  "id": "G3-T3-0022",
+  "game": 3,
+  "tier": 3,
+  "stage": 3,
+  "type": "guess_image",
+  "prompt": "Firefighters drive it to put out fires.",
+  "options": [
+   "tractor",
+   "ambulance",
+   "truck",
+   "fire engine"
+  ],
+  "answer": "fire engine",
+  "image": "🚒",
+  "audio": "fire engine"
+ },
+ {
+  "id": "G3-T3-0023",
+  "game": 3,
+  "tier": 3,
+  "stage": 3,
+  "type": "guess_image",
+  "prompt": "It can fly and stay in one place in the air.",
+  "options": [
+   "airplane",
+   "helicopter",
+   "balloon",
+   "rocket"
+  ],
+  "answer": "helicopter",
+  "image": "🚁",
+  "audio": "helicopter"
+ },
+ {
+  "id": "G3-T3-0024",
+  "game": 3,
+  "tier": 3,
+  "stage": 3,
+  "type": "guess_image",
+  "prompt": "It flies into space.",
+  "options": [
+   "helicopter",
+   "kite",
+   "rocket",
+   "parachute"
+  ],
+  "answer": "rocket",
+  "image": "🚀",
+  "audio": "rocket"
+ },
+ {
+  "id": "G3-T3-0025",
+  "game": 3,
+  "tier": 3,
+  "stage": 3,
+  "type": "guess_image",
+  "prompt": "It runs on tracks and pulls many cars.",
+  "options": [
+   "ship",
+   "bus",
+   "train",
+   "truck"
+  ],
+  "answer": "train",
+  "image": "🚂",
+  "audio": "train"
+ },
+ {
+  "id": "G3-T3-0026",
+  "game": 3,
+  "tier": 3,
+  "stage": 3,
+  "type": "guess_image",
+  "prompt": "It is a very big boat that carries many people.",
+  "options": [
+   "train",
+   "ship",
+   "canoe",
+   "submarine"
+  ],
+  "answer": "ship",
+  "image": "🚢",
+  "audio": "ship"
+ },
+ {
+  "id": "G3-T3-0027",
+  "game": 3,
+  "tier": 3,
+  "stage": 3,
+  "type": "guess_image",
+  "prompt": "Saturn is one of these. It goes around the sun.",
+  "options": [
+   "comet",
+   "star",
+   "moon",
+   "planet"
+  ],
+  "answer": "planet",
+  "image": "🪐",
+  "audio": "planet"
+ },
+ {
+  "id": "G3-T3-0028",
+  "game": 3,
+  "tier": 3,
+  "stage": 3,
+  "type": "guess_image",
+  "prompt": "This is our home planet.",
+  "options": [
+   "Earth",
+   "Mars",
+   "Jupiter",
+   "Venus"
+  ],
+  "answer": "Earth",
+  "image": "🌍",
+  "audio": "Earth"
+ },
+ {
+  "id": "G3-T3-0029",
+  "game": 3,
+  "tier": 3,
+  "stage": 3,
+  "type": "guess_image",
+  "prompt": "It has strings. You play it with a bow.",
+  "options": [
+   "flute",
+   "guitar",
+   "drum",
+   "violin"
+  ],
+  "answer": "violin",
+  "image": "🎻",
+  "audio": "violin"
+ },
+ {
+  "id": "G3-T3-0030",
+  "game": 3,
+  "tier": 3,
+  "stage": 3,
+  "type": "guess_image",
+  "prompt": "You blow into it to make a loud sound.",
+  "options": [
+   "piano",
+   "violin",
+   "trumpet",
+   "drum"
+  ],
+  "answer": "trumpet",
+  "image": "🎺",
+  "audio": "trumpet"
+ },
+ {
+  "id": "G3-T3-0031",
+  "game": 3,
+  "tier": 3,
+  "stage": 4,
+  "type": "guess_image",
+  "prompt": "You hit it with sticks.",
+  "options": [
+   "bell",
+   "trumpet",
+   "drum",
+   "guitar"
+  ],
+  "answer": "drum",
+  "image": "🥁",
+  "audio": "drum"
+ },
+ {
+  "id": "G3-T3-0032",
+  "game": 3,
+  "tier": 3,
+  "stage": 4,
+  "type": "guess_image",
+  "prompt": "It has black and white keys.",
+  "options": [
+   "piano",
+   "harp",
+   "guitar",
+   "violin"
+  ],
+  "answer": "piano",
+  "image": "🎹",
+  "audio": "piano"
+ },
+ {
+  "id": "G3-T3-0033",
+  "game": 3,
+  "tier": 3,
+  "stage": 4,
+  "type": "guess_image",
+  "prompt": "Kings and queens lived in it long ago.",
+  "options": [
+   "library",
+   "castle",
+   "tent",
+   "cabin"
+  ],
+  "answer": "castle",
+  "image": "🏰",
+  "audio": "castle"
+ },
+ {
+  "id": "G3-T3-0034",
+  "game": 3,
+  "tier": 3,
+  "stage": 4,
+  "type": "guess_image",
+  "prompt": "You sleep in it when you go camping.",
+  "options": [
+   "hotel",
+   "cave",
+   "tent",
+   "castle"
+  ],
+  "answer": "tent",
+  "image": "⛺",
+  "audio": "tent"
+ },
+ {
+  "id": "G3-T3-0035",
+  "game": 3,
+  "tier": 3,
+  "stage": 4,
+  "type": "guess_image",
+  "prompt": "The winner of a competition gets it.",
+  "options": [
+   "ticket",
+   "gift",
+   "trophy",
+   "medal"
+  ],
+  "answer": "trophy",
+  "image": "🏆",
+  "audio": "trophy"
+ },
+ {
+  "id": "G3-T3-0036",
+  "game": 3,
+  "tier": 3,
+  "stage": 4,
+  "type": "guess_image",
+  "prompt": "It shows the days, weeks, and months.",
+  "options": [
+   "diary",
+   "clock",
+   "calendar",
+   "map"
+  ],
+  "answer": "calendar",
+  "image": "📅",
+  "audio": "calendar"
+ },
+ {
+  "id": "G3-T3-0037",
+  "game": 3,
+  "tier": 3,
+  "stage": 4,
+  "type": "guess_image",
+  "prompt": "You pack your clothes in it for a trip.",
+  "options": [
+   "basket",
+   "backpack",
+   "suitcase",
+   "drawer"
+  ],
+  "answer": "suitcase",
+  "image": "🧳",
+  "audio": "suitcase"
+ },
+ {
+  "id": "G3-T3-0038",
+  "game": 3,
+  "tier": 3,
+  "stage": 4,
+  "type": "guess_image",
+  "prompt": "It gives light when there is no electricity.",
+  "options": [
+   "candle",
+   "battery",
+   "mirror",
+   "lamp post"
+  ],
+  "answer": "candle",
+  "image": "🕯️",
+  "audio": "candle"
+ },
+ {
+  "id": "G3-T3-0039",
+  "game": 3,
+  "tier": 3,
+  "stage": 4,
+  "type": "guess_image",
+  "prompt": "You put the pieces together to make a picture.",
+  "options": [
+   "puzzle",
+   "card",
+   "dice",
+   "painting"
+  ],
+  "answer": "puzzle",
+  "image": "🧩",
+  "audio": "puzzle"
+ },
+ {
+  "id": "G3-T3-0040",
+  "game": 3,
+  "tier": 3,
+  "stage": 4,
+  "type": "guess_image",
+  "prompt": "It is a giant wheel you ride at a fair.",
+  "options": [
+   "slide",
+   "roller coaster",
+   "carousel",
+   "Ferris wheel"
+  ],
+  "answer": "Ferris wheel",
+  "image": "🎡",
+  "audio": "Ferris wheel"
+ }
+]

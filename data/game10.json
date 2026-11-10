@@ -1,0 +1,1602 @@
+[
+ {
+  "id": "G10-T1-0001",
+  "game": 10,
+  "tier": 1,
+  "stage": 1,
+  "type": "speak_repeat",
+  "prompt": "apple",
+  "options": [
+   "ample",
+   "april",
+   "apple"
+  ],
+  "answer": "apple",
+  "image": "🍎",
+  "audio": "apple"
+ },
+ {
+  "id": "G10-T1-0002",
+  "game": 10,
+  "tier": 1,
+  "stage": 1,
+  "type": "speak_repeat",
+  "prompt": "ball",
+  "options": [
+   "bell",
+   "ball",
+   "bowl"
+  ],
+  "answer": "ball",
+  "image": "⚽",
+  "audio": "ball"
+ },
+ {
+  "id": "G10-T1-0003",
+  "game": 10,
+  "tier": 1,
+  "stage": 1,
+  "type": "speak_repeat",
+  "prompt": "star",
+  "options": [
+   "stair",
+   "star",
+   "stay"
+  ],
+  "answer": "star",
+  "image": "⭐",
+  "audio": "star"
+ },
+ {
+  "id": "G10-T1-0004",
+  "game": 10,
+  "tier": 1,
+  "stage": 1,
+  "type": "speak_repeat",
+  "prompt": "cake",
+  "options": [
+   "cape",
+   "case",
+   "cake"
+  ],
+  "answer": "cake",
+  "image": "🎂",
+  "audio": "cake"
+ },
+ {
+  "id": "G10-T1-0005",
+  "game": 10,
+  "tier": 1,
+  "stage": 1,
+  "type": "speak_repeat",
+  "prompt": "blue",
+  "options": [
+   "glue",
+   "blue",
+   "blow"
+  ],
+  "answer": "blue",
+  "image": "🟦",
+  "audio": "blue"
+ },
+ {
+  "id": "G10-T1-0006",
+  "game": 10,
+  "tier": 1,
+  "stage": 1,
+  "type": "speak_repeat",
+  "prompt": "book",
+  "options": [
+   "cook",
+   "look",
+   "book"
+  ],
+  "answer": "book",
+  "image": "📕",
+  "audio": "book"
+ },
+ {
+  "id": "G10-T1-0007",
+  "game": 10,
+  "tier": 1,
+  "stage": 1,
+  "type": "speak_repeat",
+  "prompt": "car",
+  "options": [
+   "card",
+   "jar",
+   "car"
+  ],
+  "answer": "car",
+  "image": "🚗",
+  "audio": "car"
+ },
+ {
+  "id": "G10-T1-0008",
+  "game": 10,
+  "tier": 1,
+  "stage": 1,
+  "type": "speak_repeat",
+  "prompt": "hat",
+  "options": [
+   "hot",
+   "hut",
+   "hat"
+  ],
+  "answer": "hat",
+  "image": "🎩",
+  "audio": "hat"
+ },
+ {
+  "id": "G10-T1-0009",
+  "game": 10,
+  "tier": 1,
+  "stage": 1,
+  "type": "speak_repeat",
+  "prompt": "sun",
+  "options": [
+   "sun",
+   "sum",
+   "son"
+  ],
+  "answer": "sun",
+  "image": "☀️",
+  "audio": "sun"
+ },
+ {
+  "id": "G10-T1-0010",
+  "game": 10,
+  "tier": 1,
+  "stage": 1,
+  "type": "speak_repeat",
+  "prompt": "moon",
+  "options": [
+   "noon",
+   "moan",
+   "moon"
+  ],
+  "answer": "moon",
+  "image": "🌙",
+  "audio": "moon"
+ },
+ {
+  "id": "G10-T1-0011",
+  "game": 10,
+  "tier": 1,
+  "stage": 2,
+  "type": "speak_repeat",
+  "prompt": "milk",
+  "options": [
+   "milk",
+   "silk",
+   "mill"
+  ],
+  "answer": "milk",
+  "image": "🥛",
+  "audio": "milk"
+ },
+ {
+  "id": "G10-T1-0012",
+  "game": 10,
+  "tier": 1,
+  "stage": 2,
+  "type": "speak_repeat",
+  "prompt": "banana",
+  "options": [
+   "cabana",
+   "bandana",
+   "banana"
+  ],
+  "answer": "banana",
+  "image": "🍌",
+  "audio": "banana"
+ },
+ {
+  "id": "G10-T1-0013",
+  "game": 10,
+  "tier": 1,
+  "stage": 2,
+  "type": "speak_repeat",
+  "prompt": "tree",
+  "options": [
+   "three",
+   "tree",
+   "free"
+  ],
+  "answer": "tree",
+  "image": "🌳",
+  "audio": "tree"
+ },
+ {
+  "id": "G10-T1-0014",
+  "game": 10,
+  "tier": 1,
+  "stage": 2,
+  "type": "speak_repeat",
+  "prompt": "balloon",
+  "options": [
+   "salon",
+   "baboon",
+   "balloon"
+  ],
+  "answer": "balloon",
+  "image": "🎈",
+  "audio": "balloon"
+ },
+ {
+  "id": "G10-T1-0015",
+  "game": 10,
+  "tier": 1,
+  "stage": 2,
+  "type": "speak_repeat",
+  "prompt": "egg",
+  "options": [
+   "egg",
+   "peg",
+   "leg"
+  ],
+  "answer": "egg",
+  "image": "🥚",
+  "audio": "egg"
+ },
+ {
+  "id": "G10-T1-0016",
+  "game": 10,
+  "tier": 1,
+  "stage": 2,
+  "type": "speak_repeat",
+  "prompt": "bed",
+  "options": [
+   "bread",
+   "bad",
+   "bed"
+  ],
+  "answer": "bed",
+  "image": "🛏️",
+  "audio": "bed"
+ },
+ {
+  "id": "G10-T1-0017",
+  "game": 10,
+  "tier": 1,
+  "stage": 2,
+  "type": "speak_repeat",
+  "prompt": "bus",
+  "options": [
+   "buzz",
+   "bush",
+   "bus"
+  ],
+  "answer": "bus",
+  "image": "🚌",
+  "audio": "bus"
+ },
+ {
+  "id": "G10-T1-0018",
+  "game": 10,
+  "tier": 1,
+  "stage": 2,
+  "type": "speak_repeat",
+  "prompt": "red",
+  "options": [
+   "red",
+   "read",
+   "rod"
+  ],
+  "answer": "red",
+  "image": "🟥",
+  "audio": "red"
+ },
+ {
+  "id": "G10-T1-0019",
+  "game": 10,
+  "tier": 1,
+  "stage": 2,
+  "type": "speak_repeat",
+  "prompt": "green",
+  "options": [
+   "grin",
+   "grain",
+   "green"
+  ],
+  "answer": "green",
+  "image": "🟩",
+  "audio": "green"
+ },
+ {
+  "id": "G10-T1-0020",
+  "game": 10,
+  "tier": 1,
+  "stage": 2,
+  "type": "speak_repeat",
+  "prompt": "yellow",
+  "options": [
+   "yellow",
+   "hello",
+   "mellow"
+  ],
+  "answer": "yellow",
+  "image": "🟨",
+  "audio": "yellow"
+ },
+ {
+  "id": "G10-T1-0021",
+  "game": 10,
+  "tier": 1,
+  "stage": 3,
+  "type": "speak_repeat",
+  "prompt": "cat",
+  "options": [
+   "coat",
+   "cat",
+   "cut"
+  ],
+  "answer": "cat",
+  "image": "animals/cat.svg",
+  "audio": "cat"
+ },
+ {
+  "id": "G10-T1-0022",
+  "game": 10,
+  "tier": 1,
+  "stage": 3,
+  "type": "speak_repeat",
+  "prompt": "dog",
+  "options": [
+   "dog",
+   "dock",
+   "dig"
+  ],
+  "answer": "dog",
+  "image": "animals/dog.svg",
+  "audio": "dog"
+ },
+ {
+  "id": "G10-T1-0023",
+  "game": 10,
+  "tier": 1,
+  "stage": 3,
+  "type": "speak_repeat",
+  "prompt": "fish",
+  "options": [
+   "wish",
+   "fish",
+   "dish"
+  ],
+  "answer": "fish",
+  "image": "animals/fish.svg",
+  "audio": "fish"
+ },
+ {
+  "id": "G10-T1-0024",
+  "game": 10,
+  "tier": 1,
+  "stage": 3,
+  "type": "speak_repeat",
+  "prompt": "duck",
+  "options": [
+   "duck",
+   "dark",
+   "deck"
+  ],
+  "answer": "duck",
+  "image": "animals/duck.svg",
+  "audio": "duck"
+ },
+ {
+  "id": "G10-T1-0025",
+  "game": 10,
+  "tier": 1,
+  "stage": 3,
+  "type": "speak_repeat",
+  "prompt": "pig",
+  "options": [
+   "pig",
+   "peg",
+   "big"
+  ],
+  "answer": "pig",
+  "image": "animals/pig.svg",
+  "audio": "pig"
+ },
+ {
+  "id": "G10-T1-0026",
+  "game": 10,
+  "tier": 1,
+  "stage": 3,
+  "type": "speak_repeat",
+  "prompt": "cow",
+  "options": [
+   "car",
+   "cow",
+   "crow"
+  ],
+  "answer": "cow",
+  "image": "animals/cow.svg",
+  "audio": "cow"
+ },
+ {
+  "id": "G10-T1-0027",
+  "game": 10,
+  "tier": 1,
+  "stage": 3,
+  "type": "speak_repeat",
+  "prompt": "sheep",
+  "options": [
+   "ship",
+   "sheep",
+   "shop"
+  ],
+  "answer": "sheep",
+  "image": "animals/sheep.svg",
+  "audio": "sheep"
+ },
+ {
+  "id": "G10-T1-0028",
+  "game": 10,
+  "tier": 1,
+  "stage": 3,
+  "type": "speak_repeat",
+  "prompt": "bird",
+  "options": [
+   "bud",
+   "board",
+   "bird"
+  ],
+  "answer": "bird",
+  "image": "animals/bird.svg",
+  "audio": "bird"
+ },
+ {
+  "id": "G10-T1-0029",
+  "game": 10,
+  "tier": 1,
+  "stage": 3,
+  "type": "speak_repeat",
+  "prompt": "mother",
+  "options": [
+   "mother",
+   "brother",
+   "other"
+  ],
+  "answer": "mother",
+  "image": "",
+  "audio": "mother"
+ },
+ {
+  "id": "G10-T1-0030",
+  "game": 10,
+  "tier": 1,
+  "stage": 3,
+  "type": "speak_repeat",
+  "prompt": "father",
+  "options": [
+   "farther",
+   "feather",
+   "father"
+  ],
+  "answer": "father",
+  "image": "",
+  "audio": "father"
+ },
+ {
+  "id": "G10-T2-0001",
+  "game": 10,
+  "tier": 2,
+  "stage": 1,
+  "type": "speak_repeat",
+  "prompt": "I like milk.",
+  "options": [
+   "I lick milk.",
+   "I like silk.",
+   "I like milk."
+  ],
+  "answer": "I like milk.",
+  "image": "🥛",
+  "audio": "I like milk."
+ },
+ {
+  "id": "G10-T2-0002",
+  "game": 10,
+  "tier": 2,
+  "stage": 1,
+  "type": "speak_repeat",
+  "prompt": "This is my bag.",
+  "options": [
+   "This is my bug.",
+   "This is my back.",
+   "This is my bag."
+  ],
+  "answer": "This is my bag.",
+  "image": "🎒",
+  "audio": "This is my bag."
+ },
+ {
+  "id": "G10-T2-0003",
+  "game": 10,
+  "tier": 2,
+  "stage": 1,
+  "type": "speak_repeat",
+  "prompt": "I have a book.",
+  "options": [
+   "I had a book.",
+   "I have a hook.",
+   "I have a book."
+  ],
+  "answer": "I have a book.",
+  "image": "📕",
+  "audio": "I have a book."
+ },
+ {
+  "id": "G10-T2-0004",
+  "game": 10,
+  "tier": 2,
+  "stage": 1,
+  "type": "speak_repeat",
+  "prompt": "I like apples.",
+  "options": [
+   "I like apples.",
+   "I like maples.",
+   "I lick apples."
+  ],
+  "answer": "I like apples.",
+  "image": "🍎",
+  "audio": "I like apples."
+ },
+ {
+  "id": "G10-T2-0005",
+  "game": 10,
+  "tier": 2,
+  "stage": 1,
+  "type": "speak_repeat",
+  "prompt": "I ride a bike.",
+  "options": [
+   "I ride a bike.",
+   "I ride a kite.",
+   "I hide a bike."
+  ],
+  "answer": "I ride a bike.",
+  "image": "🚲",
+  "audio": "I ride a bike."
+ },
+ {
+  "id": "G10-T2-0006",
+  "game": 10,
+  "tier": 2,
+  "stage": 1,
+  "type": "speak_repeat",
+  "prompt": "I go to bed.",
+  "options": [
+   "I go to bed.",
+   "I go to bread.",
+   "I got a bed."
+  ],
+  "answer": "I go to bed.",
+  "image": "🛏️",
+  "audio": "I go to bed."
+ },
+ {
+  "id": "G10-T2-0007",
+  "game": 10,
+  "tier": 2,
+  "stage": 1,
+  "type": "speak_repeat",
+  "prompt": "I go to school.",
+  "options": [
+   "I got to school.",
+   "I go to pool.",
+   "I go to school."
+  ],
+  "answer": "I go to school.",
+  "image": "🏫",
+  "audio": "I go to school."
+ },
+ {
+  "id": "G10-T2-0008",
+  "game": 10,
+  "tier": 2,
+  "stage": 1,
+  "type": "speak_repeat",
+  "prompt": "I read a book.",
+  "options": [
+   "I read a book.",
+   "I rid a book.",
+   "I read a look."
+  ],
+  "answer": "I read a book.",
+  "image": "📖",
+  "audio": "I read a book."
+ },
+ {
+  "id": "G10-T2-0009",
+  "game": 10,
+  "tier": 2,
+  "stage": 1,
+  "type": "speak_repeat",
+  "prompt": "We play football.",
+  "options": [
+   "We pay football.",
+   "We play foot ball game.",
+   "We play football."
+  ],
+  "answer": "We play football.",
+  "image": "⚽",
+  "audio": "We play football."
+ },
+ {
+  "id": "G10-T2-0010",
+  "game": 10,
+  "tier": 2,
+  "stage": 1,
+  "type": "speak_repeat",
+  "prompt": "I brush my teeth.",
+  "options": [
+   "I rush my teeth.",
+   "I brush my feet.",
+   "I brush my teeth."
+  ],
+  "answer": "I brush my teeth.",
+  "image": "🪥",
+  "audio": "I brush my teeth."
+ },
+ {
+  "id": "G10-T2-0011",
+  "game": 10,
+  "tier": 2,
+  "stage": 2,
+  "type": "speak_repeat",
+  "prompt": "Mom is cooking.",
+  "options": [
+   "Mom is cooling.",
+   "Mom is cooking.",
+   "Mom is looking."
+  ],
+  "answer": "Mom is cooking.",
+  "image": "🍳",
+  "audio": "Mom is cooking."
+ },
+ {
+  "id": "G10-T2-0012",
+  "game": 10,
+  "tier": 2,
+  "stage": 2,
+  "type": "speak_repeat",
+  "prompt": "Wash your hands.",
+  "options": [
+   "Wash your hens.",
+   "Wash your hands.",
+   "Watch your hands."
+  ],
+  "answer": "Wash your hands.",
+  "image": "🧼",
+  "audio": "Wash your hands."
+ },
+ {
+  "id": "G10-T2-0013",
+  "game": 10,
+  "tier": 2,
+  "stage": 2,
+  "type": "speak_repeat",
+  "prompt": "I like to draw.",
+  "options": [
+   "I like the drum.",
+   "I like to drive.",
+   "I like to draw."
+  ],
+  "answer": "I like to draw.",
+  "image": "🎨",
+  "audio": "I like to draw."
+ },
+ {
+  "id": "G10-T2-0014",
+  "game": 10,
+  "tier": 2,
+  "stage": 2,
+  "type": "speak_repeat",
+  "prompt": "Let's sing a song.",
+  "options": [
+   "Let's sing a song.",
+   "Let's sink a song.",
+   "Let's sing along."
+  ],
+  "answer": "Let's sing a song.",
+  "image": "🎤",
+  "audio": "Let's sing a song."
+ },
+ {
+  "id": "G10-T2-0015",
+  "game": 10,
+  "tier": 2,
+  "stage": 2,
+  "type": "speak_repeat",
+  "prompt": "It is raining.",
+  "options": [
+   "It is raining.",
+   "It is training.",
+   "It is rainy day."
+  ],
+  "answer": "It is raining.",
+  "image": "🌧️",
+  "audio": "It is raining."
+ },
+ {
+  "id": "G10-T2-0016",
+  "game": 10,
+  "tier": 2,
+  "stage": 2,
+  "type": "speak_repeat",
+  "prompt": "It is sunny.",
+  "options": [
+   "It is sunny.",
+   "It is funny.",
+   "It is Sunday."
+  ],
+  "answer": "It is sunny.",
+  "image": "☀️",
+  "audio": "It is sunny."
+ },
+ {
+  "id": "G10-T2-0017",
+  "game": 10,
+  "tier": 2,
+  "stage": 2,
+  "type": "speak_repeat",
+  "prompt": "Good morning!",
+  "options": [
+   "Good evening!",
+   "Good night!",
+   "Good morning!"
+  ],
+  "answer": "Good morning!",
+  "image": "",
+  "audio": "Good morning!"
+ },
+ {
+  "id": "G10-T2-0018",
+  "game": 10,
+  "tier": 2,
+  "stage": 2,
+  "type": "speak_repeat",
+  "prompt": "Thank you very much.",
+  "options": [
+   "Thanks very much.",
+   "Thank you, Mary.",
+   "Thank you very much."
+  ],
+  "answer": "Thank you very much.",
+  "image": "",
+  "audio": "Thank you very much."
+ },
+ {
+  "id": "G10-T2-0019",
+  "game": 10,
+  "tier": 2,
+  "stage": 2,
+  "type": "speak_repeat",
+  "prompt": "How are you?",
+  "options": [
+   "How are you?",
+   "Who are you?",
+   "How old are you?"
+  ],
+  "answer": "How are you?",
+  "image": "",
+  "audio": "How are you?"
+ },
+ {
+  "id": "G10-T2-0020",
+  "game": 10,
+  "tier": 2,
+  "stage": 2,
+  "type": "speak_repeat",
+  "prompt": "I am fine.",
+  "options": [
+   "I am mine.",
+   "I am five.",
+   "I am fine."
+  ],
+  "answer": "I am fine.",
+  "image": "",
+  "audio": "I am fine."
+ },
+ {
+  "id": "G10-T2-0021",
+  "game": 10,
+  "tier": 2,
+  "stage": 3,
+  "type": "speak_repeat",
+  "prompt": "What is your name?",
+  "options": [
+   "What is your name?",
+   "What is your game?",
+   "Where is your name?"
+  ],
+  "answer": "What is your name?",
+  "image": "",
+  "audio": "What is your name?"
+ },
+ {
+  "id": "G10-T2-0022",
+  "game": 10,
+  "tier": 2,
+  "stage": 3,
+  "type": "speak_repeat",
+  "prompt": "My name is Budi.",
+  "options": [
+   "My game is Budi.",
+   "My name is Rudi.",
+   "My name is Budi."
+  ],
+  "answer": "My name is Budi.",
+  "image": "",
+  "audio": "My name is Budi."
+ },
+ {
+  "id": "G10-T2-0023",
+  "game": 10,
+  "tier": 2,
+  "stage": 3,
+  "type": "speak_repeat",
+  "prompt": "Nice to meet you.",
+  "options": [
+   "Nice to meet two.",
+   "Nice to meet you.",
+   "Nice to eat you."
+  ],
+  "answer": "Nice to meet you.",
+  "image": "",
+  "audio": "Nice to meet you."
+ },
+ {
+  "id": "G10-T2-0024",
+  "game": 10,
+  "tier": 2,
+  "stage": 3,
+  "type": "speak_repeat",
+  "prompt": "See you tomorrow.",
+  "options": [
+   "See you today.",
+   "See you to borrow.",
+   "See you tomorrow."
+  ],
+  "answer": "See you tomorrow.",
+  "image": "",
+  "audio": "See you tomorrow."
+ },
+ {
+  "id": "G10-T2-0025",
+  "game": 10,
+  "tier": 2,
+  "stage": 3,
+  "type": "speak_repeat",
+  "prompt": "I am seven years old.",
+  "options": [
+   "I am seven years old.",
+   "I am eleven years old.",
+   "I am seven years cold."
+  ],
+  "answer": "I am seven years old.",
+  "image": "",
+  "audio": "I am seven years old."
+ },
+ {
+  "id": "G10-T2-0026",
+  "game": 10,
+  "tier": 2,
+  "stage": 3,
+  "type": "speak_repeat",
+  "prompt": "She is my sister.",
+  "options": [
+   "She is my sister.",
+   "She is my sitter.",
+   "He is my sister."
+  ],
+  "answer": "She is my sister.",
+  "image": "",
+  "audio": "She is my sister."
+ },
+ {
+  "id": "G10-T2-0027",
+  "game": 10,
+  "tier": 2,
+  "stage": 3,
+  "type": "speak_repeat",
+  "prompt": "Where is the cat?",
+  "options": [
+   "Where is the hat?",
+   "Where is the cat?",
+   "Where is the cap?"
+  ],
+  "answer": "Where is the cat?",
+  "image": "",
+  "audio": "Where is the cat?"
+ },
+ {
+  "id": "G10-T2-0028",
+  "game": 10,
+  "tier": 2,
+  "stage": 3,
+  "type": "speak_repeat",
+  "prompt": "Can I help you?",
+  "options": [
+   "Can I help you?",
+   "Can I hold you?",
+   "Can I yell you?"
+  ],
+  "answer": "Can I help you?",
+  "image": "",
+  "audio": "Can I help you?"
+ },
+ {
+  "id": "G10-T2-0029",
+  "game": 10,
+  "tier": 2,
+  "stage": 3,
+  "type": "speak_repeat",
+  "prompt": "Please sit down.",
+  "options": [
+   "Please sit down.",
+   "Please sit town.",
+   "Please sing down."
+  ],
+  "answer": "Please sit down.",
+  "image": "",
+  "audio": "Please sit down."
+ },
+ {
+  "id": "G10-T2-0030",
+  "game": 10,
+  "tier": 2,
+  "stage": 3,
+  "type": "speak_repeat",
+  "prompt": "Excuse me, please.",
+  "options": [
+   "Excuse me, please.",
+   "Excuse my peas.",
+   "Excuse me, police."
+  ],
+  "answer": "Excuse me, please.",
+  "image": "",
+  "audio": "Excuse me, please."
+ },
+ {
+  "id": "G10-T3-0001",
+  "game": 10,
+  "tier": 3,
+  "stage": 1,
+  "type": "speak_repeat",
+  "prompt": "I went to school.",
+  "options": [
+   "I went to school.",
+   "I went to pool.",
+   "I want to school."
+  ],
+  "answer": "I went to school.",
+  "image": "🏫",
+  "audio": "I went to school."
+ },
+ {
+  "id": "G10-T3-0002",
+  "game": 10,
+  "tier": 3,
+  "stage": 1,
+  "type": "speak_repeat",
+  "prompt": "She is very happy.",
+  "options": [
+   "See is very happy.",
+   "She is very happy.",
+   "She is very hippy."
+  ],
+  "answer": "She is very happy.",
+  "image": "🎈",
+  "audio": "She is very happy."
+ },
+ {
+  "id": "G10-T3-0003",
+  "game": 10,
+  "tier": 3,
+  "stage": 1,
+  "type": "speak_repeat",
+  "prompt": "I walk to school every day.",
+  "options": [
+   "I work to school every day.",
+   "I walk to school every day.",
+   "I walked to school every day."
+  ],
+  "answer": "I walk to school every day.",
+  "image": "",
+  "audio": "I walk to school every day."
+ },
+ {
+  "id": "G10-T3-0004",
+  "game": 10,
+  "tier": 3,
+  "stage": 1,
+  "type": "speak_repeat",
+  "prompt": "My father reads the newspaper.",
+  "options": [
+   "My father reads the newspaper.",
+   "My feather reads the newspaper.",
+   "My father needs the newspaper."
+  ],
+  "answer": "My father reads the newspaper.",
+  "image": "",
+  "audio": "My father reads the newspaper."
+ },
+ {
+  "id": "G10-T3-0005",
+  "game": 10,
+  "tier": 3,
+  "stage": 1,
+  "type": "speak_repeat",
+  "prompt": "She does not like spicy food.",
+  "options": [
+   "She does not like icy food.",
+   "She does like spicy food.",
+   "She does not like spicy food."
+  ],
+  "answer": "She does not like spicy food.",
+  "image": "",
+  "audio": "She does not like spicy food."
+ },
+ {
+  "id": "G10-T3-0006",
+  "game": 10,
+  "tier": 3,
+  "stage": 1,
+  "type": "speak_repeat",
+  "prompt": "Do you have any brothers?",
+  "options": [
+   "Do you have any brothers?",
+   "Do you have many brothers?",
+   "Do you have any mothers?"
+  ],
+  "answer": "Do you have any brothers?",
+  "image": "",
+  "audio": "Do you have any brothers?"
+ },
+ {
+  "id": "G10-T3-0007",
+  "game": 10,
+  "tier": 3,
+  "stage": 1,
+  "type": "speak_repeat",
+  "prompt": "We played football yesterday.",
+  "options": [
+   "We play football yesterday.",
+   "We played basketball yesterday.",
+   "We played football yesterday."
+  ],
+  "answer": "We played football yesterday.",
+  "image": "",
+  "audio": "We played football yesterday."
+ },
+ {
+  "id": "G10-T3-0008",
+  "game": 10,
+  "tier": 3,
+  "stage": 1,
+  "type": "speak_repeat",
+  "prompt": "I visited my grandmother last week.",
+  "options": [
+   "I visited my grandmother last week.",
+   "I visit my grandmother last week.",
+   "I visited my grandfather last week."
+  ],
+  "answer": "I visited my grandmother last week.",
+  "image": "",
+  "audio": "I visited my grandmother last week."
+ },
+ {
+  "id": "G10-T3-0009",
+  "game": 10,
+  "tier": 3,
+  "stage": 1,
+  "type": "speak_repeat",
+  "prompt": "They watched a funny movie.",
+  "options": [
+   "They washed a funny movie.",
+   "They watched a funny movie.",
+   "They watched a sunny movie."
+  ],
+  "answer": "They watched a funny movie.",
+  "image": "",
+  "audio": "They watched a funny movie."
+ },
+ {
+  "id": "G10-T3-0010",
+  "game": 10,
+  "tier": 3,
+  "stage": 1,
+  "type": "speak_repeat",
+  "prompt": "He did not finish his lunch.",
+  "options": [
+   "He did not finish his lunch.",
+   "He did not finish his lunch box.",
+   "He did finish his lunch."
+  ],
+  "answer": "He did not finish his lunch.",
+  "image": "",
+  "audio": "He did not finish his lunch."
+ },
+ {
+  "id": "G10-T3-0011",
+  "game": 10,
+  "tier": 3,
+  "stage": 2,
+  "type": "speak_repeat",
+  "prompt": "Did you see the rainbow?",
+  "options": [
+   "Did you see the rainbow?",
+   "Did you see the rain?",
+   "Do you see the rainbow?"
+  ],
+  "answer": "Did you see the rainbow?",
+  "image": "",
+  "audio": "Did you see the rainbow?"
+ },
+ {
+  "id": "G10-T3-0012",
+  "game": 10,
+  "tier": 3,
+  "stage": 2,
+  "type": "speak_repeat",
+  "prompt": "The weather is very hot today.",
+  "options": [
+   "The weather is very cold today.",
+   "The weather is very hot today.",
+   "The feather is very hot today."
+  ],
+  "answer": "The weather is very hot today.",
+  "image": "",
+  "audio": "The weather is very hot today."
+ },
+ {
+  "id": "G10-T3-0013",
+  "game": 10,
+  "tier": 3,
+  "stage": 2,
+  "type": "speak_repeat",
+  "prompt": "It was raining all night.",
+  "options": [
+   "It was training all night.",
+   "It was raining all night.",
+   "It is raining all night."
+  ],
+  "answer": "It was raining all night.",
+  "image": "",
+  "audio": "It was raining all night."
+ },
+ {
+  "id": "G10-T3-0014",
+  "game": 10,
+  "tier": 3,
+  "stage": 2,
+  "type": "speak_repeat",
+  "prompt": "I like reading, but I do not like writing.",
+  "options": [
+   "I like reading, and I like writing.",
+   "I like reading, but I do not like writing.",
+   "I like riding, but I do not like writing."
+  ],
+  "answer": "I like reading, but I do not like writing.",
+  "image": "",
+  "audio": "I like reading, but I do not like writing."
+ },
+ {
+  "id": "G10-T3-0015",
+  "game": 10,
+  "tier": 3,
+  "stage": 2,
+  "type": "speak_repeat",
+  "prompt": "I am tired because I ran a lot.",
+  "options": [
+   "I am tired because I ran a lot.",
+   "I am tired because I run a lot.",
+   "I am tired because I rang a lot."
+  ],
+  "answer": "I am tired because I ran a lot.",
+  "image": "",
+  "audio": "I am tired because I ran a lot."
+ },
+ {
+  "id": "G10-T3-0016",
+  "game": 10,
+  "tier": 3,
+  "stage": 2,
+  "type": "speak_repeat",
+  "prompt": "My brother is taller than me.",
+  "options": [
+   "My mother is taller than me.",
+   "My brother is taller than me.",
+   "My brother is smaller than me."
+  ],
+  "answer": "My brother is taller than me.",
+  "image": "",
+  "audio": "My brother is taller than me."
+ },
+ {
+  "id": "G10-T3-0017",
+  "game": 10,
+  "tier": 3,
+  "stage": 2,
+  "type": "speak_repeat",
+  "prompt": "This is the best day ever!",
+  "options": [
+   "This is the last day ever!",
+   "This is the best day ever!",
+   "This is the best way ever!"
+  ],
+  "answer": "This is the best day ever!",
+  "image": "",
+  "audio": "This is the best day ever!"
+ },
+ {
+  "id": "G10-T3-0018",
+  "game": 10,
+  "tier": 3,
+  "stage": 2,
+  "type": "speak_repeat",
+  "prompt": "Could you open the window, please?",
+  "options": [
+   "Could you open the widow, please?",
+   "Could you open the window, please?",
+   "Could you close the window, please?"
+  ],
+  "answer": "Could you open the window, please?",
+  "image": "",
+  "audio": "Could you open the window, please?"
+ },
+ {
+  "id": "G10-T3-0019",
+  "game": 10,
+  "tier": 3,
+  "stage": 2,
+  "type": "speak_repeat",
+  "prompt": "What did you have for breakfast?",
+  "options": [
+   "What did you have for breakfast?",
+   "What do you have for breakfast?",
+   "What did you have for breakfast time?"
+  ],
+  "answer": "What did you have for breakfast?",
+  "image": "",
+  "audio": "What did you have for breakfast?"
+ },
+ {
+  "id": "G10-T3-0020",
+  "game": 10,
+  "tier": 3,
+  "stage": 2,
+  "type": "speak_repeat",
+  "prompt": "Where were you last night?",
+  "options": [
+   "Where were you last night?",
+   "Were you here last night?",
+   "Where are you last night?"
+  ],
+  "answer": "Where were you last night?",
+  "image": "",
+  "audio": "Where were you last night?"
+ },
+ {
+  "id": "G10-T3-0021",
+  "game": 10,
+  "tier": 3,
+  "stage": 3,
+  "type": "speak_repeat",
+  "prompt": "I usually get up at six o'clock.",
+  "options": [
+   "I usually get up at seven o'clock.",
+   "I usually get up at six o'cock.",
+   "I usually get up at six o'clock."
+  ],
+  "answer": "I usually get up at six o'clock.",
+  "image": "",
+  "audio": "I usually get up at six o'clock."
+ },
+ {
+  "id": "G10-T3-0022",
+  "game": 10,
+  "tier": 3,
+  "stage": 3,
+  "type": "speak_repeat",
+  "prompt": "She always helps her friends.",
+  "options": [
+   "She always helps her friends.",
+   "She always helps her fiends.",
+   "She always helped her friends."
+  ],
+  "answer": "She always helps her friends.",
+  "image": "",
+  "audio": "She always helps her friends."
+ },
+ {
+  "id": "G10-T3-0023",
+  "game": 10,
+  "tier": 3,
+  "stage": 3,
+  "type": "speak_repeat",
+  "prompt": "We should protect the environment.",
+  "options": [
+   "We should protect the government.",
+   "We should protect the environment.",
+   "We should project the environment."
+  ],
+  "answer": "We should protect the environment.",
+  "image": "",
+  "audio": "We should protect the environment."
+ },
+ {
+  "id": "G10-T3-0024",
+  "game": 10,
+  "tier": 3,
+  "stage": 3,
+  "type": "speak_repeat",
+  "prompt": "Please be quiet in the library.",
+  "options": [
+   "Please be quiet in the laboratory.",
+   "Please be quite in the library.",
+   "Please be quiet in the library."
+  ],
+  "answer": "Please be quiet in the library.",
+  "image": "",
+  "audio": "Please be quiet in the library."
+ },
+ {
+  "id": "G10-T3-0025",
+  "game": 10,
+  "tier": 3,
+  "stage": 3,
+  "type": "speak_repeat",
+  "prompt": "The elephant is bigger than the horse.",
+  "options": [
+   "The elephant is bigger than the mouse.",
+   "The elephant is bigger than the house.",
+   "The elephant is bigger than the horse."
+  ],
+  "answer": "The elephant is bigger than the horse.",
+  "image": "",
+  "audio": "The elephant is bigger than the horse."
+ },
+ {
+  "id": "G10-T3-0026",
+  "game": 10,
+  "tier": 3,
+  "stage": 3,
+  "type": "speak_repeat",
+  "prompt": "I was excited about the trip.",
+  "options": [
+   "I was excited about the ship.",
+   "I was exited about the trip.",
+   "I was excited about the trip."
+  ],
+  "answer": "I was excited about the trip.",
+  "image": "",
+  "audio": "I was excited about the trip."
+ },
+ {
+  "id": "G10-T3-0027",
+  "game": 10,
+  "tier": 3,
+  "stage": 3,
+  "type": "speak_repeat",
+  "prompt": "He felt nervous before the test.",
+  "options": [
+   "He felt famous before the test.",
+   "He felt nervous before the rest.",
+   "He felt nervous before the test."
+  ],
+  "answer": "He felt nervous before the test.",
+  "image": "",
+  "audio": "He felt nervous before the test."
+ },
+ {
+  "id": "G10-T3-0028",
+  "game": 10,
+  "tier": 3,
+  "stage": 3,
+  "type": "speak_repeat",
+  "prompt": "Thank you for helping me.",
+  "options": [
+   "Thank you for helping me.",
+   "Thank you for helping her.",
+   "Thank you for hoping me."
+  ],
+  "answer": "Thank you for helping me.",
+  "image": "",
+  "audio": "Thank you for helping me."
+ },
+ {
+  "id": "G10-T3-0029",
+  "game": 10,
+  "tier": 3,
+  "stage": 3,
+  "type": "speak_repeat",
+  "prompt": "If it rains, we will stay home.",
+  "options": [
+   "If it rains, we will stay alone.",
+   "If it rains, we will stay home.",
+   "If it rained, we would stay home."
+  ],
+  "answer": "If it rains, we will stay home.",
+  "image": "",
+  "audio": "If it rains, we will stay home."
+ },
+ {
+  "id": "G10-T3-0030",
+  "game": 10,
+  "tier": 3,
+  "stage": 3,
+  "type": "speak_repeat",
+  "prompt": "My favorite subject is science.",
+  "options": [
+   "My favorite object is science.",
+   "My favorite subject is silence.",
+   "My favorite subject is science."
+  ],
+  "answer": "My favorite subject is science.",
+  "image": "",
+  "audio": "My favorite subject is science."
+ },
+ {
+  "id": "G10-T3-0031",
+  "game": 10,
+  "tier": 3,
+  "stage": 4,
+  "type": "speak_repeat",
+  "prompt": "Can you tell me the way to the museum?",
+  "options": [
+   "Can you tell me the day to the museum?",
+   "Can you tell me the way to the music?",
+   "Can you tell me the way to the museum?"
+  ],
+  "answer": "Can you tell me the way to the museum?",
+  "image": "",
+  "audio": "Can you tell me the way to the museum?"
+ },
+ {
+  "id": "G10-T3-0032",
+  "game": 10,
+  "tier": 3,
+  "stage": 4,
+  "type": "speak_repeat",
+  "prompt": "There are seven days in a week.",
+  "options": [
+   "There are eleven days in a week.",
+   "There are seven days in a week.",
+   "There are seven bays in a week."
+  ],
+  "answer": "There are seven days in a week.",
+  "image": "",
+  "audio": "There are seven days in a week."
+ },
+ {
+  "id": "G10-T3-0033",
+  "game": 10,
+  "tier": 3,
+  "stage": 4,
+  "type": "speak_repeat",
+  "prompt": "The moon goes around the Earth.",
+  "options": [
+   "The moon goes around the Earth.",
+   "The noon goes around the Earth.",
+   "The moon goes around the ears."
+  ],
+  "answer": "The moon goes around the Earth.",
+  "image": "",
+  "audio": "The moon goes around the Earth."
+ },
+ {
+  "id": "G10-T3-0034",
+  "game": 10,
+  "tier": 3,
+  "stage": 4,
+  "type": "speak_repeat",
+  "prompt": "Plants need water and sunlight.",
+  "options": [
+   "Planes need water and sunlight.",
+   "Plants need water and sunlight.",
+   "Plants need water and sunshine."
+  ],
+  "answer": "Plants need water and sunlight.",
+  "image": "",
+  "audio": "Plants need water and sunlight."
+ },
+ {
+  "id": "G10-T3-0035",
+  "game": 10,
+  "tier": 3,
+  "stage": 4,
+  "type": "speak_repeat",
+  "prompt": "I have never been to Japan.",
+  "options": [
+   "I have ever been to Japan.",
+   "I have never been to Japan.",
+   "I have never been to a pan."
+  ],
+  "answer": "I have never been to Japan.",
+  "image": "",
+  "audio": "I have never been to Japan."
+ },
+ {
+  "id": "G10-T3-0036",
+  "game": 10,
+  "tier": 3,
+  "stage": 4,
+  "type": "speak_repeat",
+  "prompt": "She is good at playing the piano.",
+  "options": [
+   "She is good at playing the radio.",
+   "She is good at praying the piano.",
+   "She is good at playing the piano."
+  ],
+  "answer": "She is good at playing the piano.",
+  "image": "",
+  "audio": "She is good at playing the piano."
+ },
+ {
+  "id": "G10-T3-0037",
+  "game": 10,
+  "tier": 3,
+  "stage": 4,
+  "type": "speak_repeat",
+  "prompt": "We were late because of the traffic.",
+  "options": [
+   "We were late because of the trophy.",
+   "We were late because of the traffic.",
+   "We were late because of the graphic."
+  ],
+  "answer": "We were late because of the traffic.",
+  "image": "",
+  "audio": "We were late because of the traffic."
+ },
+ {
+  "id": "G10-T3-0038",
+  "game": 10,
+  "tier": 3,
+  "stage": 4,
+  "type": "speak_repeat",
+  "prompt": "Don't forget to bring your umbrella.",
+  "options": [
+   "Don't forget to bring your yellow.",
+   "Don't forget to ring your umbrella.",
+   "Don't forget to bring your umbrella."
+  ],
+  "answer": "Don't forget to bring your umbrella.",
+  "image": "",
+  "audio": "Don't forget to bring your umbrella."
+ },
+ {
+  "id": "G10-T3-0039",
+  "game": 10,
+  "tier": 3,
+  "stage": 4,
+  "type": "speak_repeat",
+  "prompt": "What do you want to be when you grow up?",
+  "options": [
+   "What do you want to be when you go up?",
+   "What do you want to be when you grow up?",
+   "What do you want to see when you grow up?"
+  ],
+  "answer": "What do you want to be when you grow up?",
+  "image": "",
+  "audio": "What do you want to be when you grow up?"
+ },
+ {
+  "id": "G10-T3-0040",
+  "game": 10,
+  "tier": 3,
+  "stage": 4,
+  "type": "speak_repeat",
+  "prompt": "Reading books makes me smarter.",
+  "options": [
+   "Reading books makes me smarter.",
+   "Reading books makes me smaller.",
+   "Reading looks makes me smarter."
+  ],
+  "answer": "Reading books makes me smarter.",
+  "image": "",
+  "audio": "Reading books makes me smarter."
+ }
+]
