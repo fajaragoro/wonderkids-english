@@ -7,6 +7,7 @@
 
   var current = null;
   var activeStage = null; // { game, stage }
+  var activeDeck = null;  // id dek Card Game yang dipilih
 
   /* ---------- Router ---------- */
   function show(name) {
@@ -20,11 +21,14 @@
     if (name === 'summary' && !lastSummary) name = 'map';
     // Meninggalkan stage yang sedang berjalan (mis. lewat tombol) menghentikan engine.
     if (current === 'stage' && name !== 'stage') WK.Stage.stop();
+    if (current === 'card' && name !== 'card') WK.Cards.stop();
+    if (name === 'howto' && !activeDeck) name = 'cards';
+    if (name === 'card' && !activeDeck) name = 'cards';
 
     document.querySelectorAll('.screen').forEach(function (el) {
       el.hidden = el.dataset.screen !== name;
     });
-    document.getElementById('topbar').hidden = name === 'gate' || name === 'stage' || name === 'summary';
+    document.getElementById('topbar').hidden = name === 'gate' || name === 'stage' || name === 'summary' || name === 'card';
     current = name;
 
     if (name !== 'home' && name !== 'gate' && history.state && history.state.wk === 'root') armBack();
@@ -38,6 +42,9 @@
       WK.Stage.preload(WK.Progress.currentGame(S.getTier()));
     }
     if (name === 'stage') renderStage();
+    if (name === 'cards') WK.Cards.renderMenu(function (id) { activeDeck = id; show('howto'); });
+    if (name === 'howto') WK.Cards.renderHowto(activeDeck);
+    if (name === 'card') WK.Cards.start(activeDeck);
     if (name === 'summary') WK.Stage.renderSummary(lastSummary, { play: startStage, map: function () { show('map'); } });
 
     if (name === 'map') WK.Map.scrollToCurrent();
@@ -213,7 +220,7 @@
 
   /* ---------- Tombol Back (Android/browser) ---------- */
   // Satu entri riwayat "jebakan" dijaga di atas halaman; tombol Back diterjemahkan menjadi navigasi di dalam game.
-  var PARENT = { map: 'home', tier: 'home', summary: 'map', soon: 'home' };
+  var PARENT = { map: 'mode', tier: 'mode', summary: 'map', soon: 'home', mode: 'home', cards: 'mode', howto: 'cards', card: 'cards' };
 
   function armBack() {
     try { history.pushState({ wk: 'trap' }, ''); } catch (e) { /* abaikan */ }
@@ -244,9 +251,13 @@
     WK.Access.init({ onSuccess: function () { show('home'); } });
     initSettings();
 
-    document.getElementById('btn-play').addEventListener('click', function () {
+    document.getElementById('btn-play').addEventListener('click', function () { show('mode'); });
+    document.getElementById('mode-adventure').addEventListener('click', function () {
       show(S.getTier() ? 'map' : 'tier');
     });
+    document.getElementById('mode-cards').addEventListener('click', function () { show('cards'); });
+    document.getElementById('howto-start').addEventListener('click', function () { show('card'); });
+    WK.Cards.init(function () { show('cards'); });
     document.getElementById('btn-edit-avatar').addEventListener('click', function () { show('avatar'); });
     document.getElementById('stage-quit').addEventListener('click', quitStage);
     WK.Stage.init();

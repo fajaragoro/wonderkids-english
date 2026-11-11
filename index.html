@@ -134,6 +134,80 @@
       </div>
     </section>
 
+    <!-- LAYAR: Pilih permainan (Petualangan / Card Game) -->
+    <section class="screen" id="screen-mode" data-screen="mode" hidden>
+      <div>
+        <p class="title display">Mau main apa?</p>
+        <p class="sub">Pilih salah satu permainan.</p>
+      </div>
+      <div class="mode-list">
+        <button class="mode-card adventure" type="button" id="mode-adventure">
+          <span class="mode-art" aria-hidden="true">🗺️</span>
+          <span class="mode-info">
+            <span class="mode-name display">Petualangan</span>
+            <span class="mode-desc">10 game seru di peta. Kumpulkan bintang dan hadiah!</span>
+          </span>
+        </button>
+        <button class="mode-card cardgame" type="button" id="mode-cards">
+          <span class="mode-art" aria-hidden="true">🎴</span>
+          <span class="mode-info">
+            <span class="mode-name display">Card Game</span>
+            <span class="mode-desc">Main kartu bersama Ayah, Bunda, atau teman.</span>
+          </span>
+        </button>
+      </div>
+      <button class="btn white" type="button" data-go="home">Kembali</button>
+    </section>
+
+    <!-- LAYAR: Menu Card Game -->
+    <section class="screen" id="screen-cards" data-screen="cards" hidden>
+      <div>
+        <p class="title display">Card Game</p>
+        <p class="sub">Pilih dek kartu. Setiap dek punya 100 kartu.</p>
+      </div>
+      <div class="deck-list" id="deck-list"></div>
+      <button class="btn white" type="button" data-go="mode">Kembali</button>
+    </section>
+
+    <!-- LAYAR: Cara main dek kartu -->
+    <section class="screen" id="screen-howto" data-screen="howto" hidden>
+      <div class="panel howto-panel">
+        <div class="howto-head">
+          <span class="deck-icon" id="howto-icon" aria-hidden="true"></span>
+          <div>
+            <p class="sub">Cara main</p>
+            <p class="title display" id="howto-title"></p>
+          </div>
+        </div>
+        <ol class="howto-steps" id="howto-steps"></ol>
+      </div>
+      <button class="btn big sun" type="button" id="howto-start">Mulai!</button>
+      <button class="btn white" type="button" data-go="cards">Kembali</button>
+    </section>
+
+    <!-- LAYAR: Main kartu -->
+    <section class="screen" id="screen-card" data-screen="card" hidden>
+      <div class="stage-top">
+        <button class="round" type="button" id="card-quit" aria-label="Kembali ke menu kartu">
+          <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="3.4" stroke-linecap="round" d="M6 6l12 12M18 6L6 18"/></svg>
+        </button>
+        <p class="stage-title display grow" id="card-deck-name"></p>
+        <span class="chip" id="card-count" aria-live="polite"></span>
+      </div>
+      <div class="card-stage" id="card-stage"></div>
+      <div class="card-actions">
+        <button class="btn sky small-full" type="button" id="card-listen"><span aria-hidden="true">🔊</span> Dengarkan</button>
+        <button class="hold-btn" type="button" id="card-hold" data-silent>
+          <span class="hold-fill" aria-hidden="true"></span>
+          <span class="hold-label display">Tahan untuk membuka</span>
+        </button>
+        <div class="row two">
+          <button class="btn white small-full" type="button" id="card-prev">◀ Sebelumnya</button>
+          <button class="btn sun small-full" type="button" id="card-next">Berikutnya ▶</button>
+        </div>
+      </div>
+    </section>
+
     <!-- LAYAR 4: Pilih tingkat -->
     <section class="screen" id="screen-tier" data-screen="tier" hidden>
       <div>
@@ -141,14 +215,14 @@
         <p class="sub">Pilih sesuai usia. Setiap tingkat punya progres sendiri.</p>
       </div>
       <div class="tier-list" id="tier-list"></div>
-      <button class="btn white" type="button" data-go="home">Kembali</button>
+      <button class="btn white" type="button" data-go="mode">Kembali</button>
     </section>
 
     <!-- LAYAR 5: Peta petualangan -->
     <section class="screen" id="screen-map" data-screen="map" hidden>
       <div class="map-head panel">
         <div class="row map-head-row">
-          <button class="round" type="button" data-go="home" aria-label="Kembali ke beranda">
+          <button class="round" type="button" data-go="mode" aria-label="Kembali ke pilih permainan">
             <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" d="M15 5l-7 7 7 7"/></svg>
           </button>
           <div class="grow">
@@ -289,6 +363,8 @@
   <script src="js/games/game08.js"></script>
   <script src="js/games/game09.js"></script>
   <script src="js/games/game10.js"></script>
+  <script src="js/cards-figure.js"></script>
+  <script src="js/cards.js"></script>
   <script src="js/app.js"></script>
 </body>
 </html>

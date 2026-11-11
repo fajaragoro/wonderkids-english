@@ -1,0 +1,1518 @@
+[
+ {
+  "id": "J001",
+  "name": "doctor",
+  "clue": "I help sick people feel better. I listen to your heart.",
+  "tool": "🩺",
+  "figure": {
+   "coat": "#ffffff",
+   "top": "#22b0f2",
+   "bottom": "#3654e8",
+   "skin": "#a86b45",
+   "hair": "long",
+   "hairColor": "#2b1d16"
+  }
+ },
+ {
+  "id": "J002",
+  "name": "nurse",
+  "clue": "I work in a hospital. I help the doctor and take care of patients.",
+  "tool": "💉",
+  "figure": {
+   "top": "#ff8fab",
+   "bottom": "#ff8fab",
+   "hat": "nurse",
+   "skin": "#f1b98c",
+   "hair": "bun",
+   "hairColor": "#6b3e26"
+  }
+ },
+ {
+  "id": "J003",
+  "name": "dentist",
+  "clue": "I check your teeth. I tell you to brush every day.",
+  "tool": "🦷",
+  "figure": {
+   "top": "#2fd07d",
+   "bottom": "#2fd07d",
+   "hat": "mask",
+   "skin": "#7a4a2c",
+   "hair": "long",
+   "hairColor": "#2b1d16"
+  }
+ },
+ {
+  "id": "J004",
+  "name": "surgeon",
+  "clue": "I do operations in the hospital to make people well.",
+  "tool": "🏥",
+  "figure": {
+   "top": "#2fd07d",
+   "bottom": "#2fd07d",
+   "hat": "mask",
+   "skin": "#d99a6c",
+   "hair": "short",
+   "hairColor": "#1f1a17"
+  }
+ },
+ {
+  "id": "J005",
+  "name": "veterinarian",
+  "clue": "I am a doctor for animals. I help sick cats and dogs.",
+  "tool": "🐾",
+  "figure": {
+   "coat": "#ffffff",
+   "top": "#22b0f2",
+   "bottom": "#3654e8",
+   "skin": "#ffd2ac",
+   "hair": "long",
+   "hairColor": "#8b5a3c"
+  }
+ },
+ {
+  "id": "J006",
+  "name": "pharmacist",
+  "clue": "I give you medicine at the pharmacy.",
+  "tool": "💊",
+  "figure": {
+   "coat": "#ffffff",
+   "top": "#7a3df0",
+   "bottom": "#3a3550",
+   "badge": "#22b0f2",
+   "skin": "#a86b45",
+   "hair": "hijab",
+   "hairColor": "#22b0f2",
+   "hijabColor": "#22b0f2"
+  }
+ },
+ {
+  "id": "J007",
+  "name": "paramedic",
+  "clue": "I drive an ambulance and help people in an emergency.",
+  "tool": "🚑",
+  "figure": {
+   "top": "#f8312f",
+   "bottom": "#1f2260",
+   "stripe": "#ffffff",
+   "skin": "#f1b98c",
+   "hair": "bun",
+   "hairColor": "#2b1d16"
+  }
+ },
+ {
+  "id": "J008",
+  "name": "optometrist",
+  "clue": "I check your eyes. I can help you get glasses.",
+  "tool": "👓",
+  "figure": {
+   "coat": "#ffffff",
+   "top": "#22b0f2",
+   "bottom": "#3654e8",
+   "skin": "#7a4a2c",
+   "hair": "short",
+   "hairColor": "#4a2f23"
+  }
+ },
+ {
+  "id": "J009",
+  "name": "teacher",
+  "clue": "I work at a school. I help children learn to read and write.",
+  "tool": "📚",
+  "figure": {
+   "top": "#7a3df0",
+   "bottom": "#3a3550",
+   "tie": "#ffc928",
+   "skin": "#d99a6c",
+   "hair": "long",
+   "hairColor": "#2b1d16"
+  }
+ },
+ {
+  "id": "J010",
+  "name": "principal",
+  "clue": "I am the leader of a school.",
+  "tool": "🏫",
+  "figure": {
+   "top": "#ffffff",
+   "coat": "#1f2260",
+   "tie": "#f8312f",
+   "bottom": "#1f2260",
+   "skin": "#ffd2ac",
+   "hair": "bun",
+   "hairColor": "#6b3e26"
+  }
+ },
+ {
+  "id": "J011",
+  "name": "librarian",
+  "clue": "I work in a library. I help you find books.",
+  "tool": "📖",
+  "figure": {
+   "top": "#7a3df0",
+   "bottom": "#3a3550",
+   "tie": "#ffc928",
+   "skin": "#a86b45",
+   "hair": "hijab",
+   "hairColor": "#7a3df0",
+   "hijabColor": "#22b0f2"
+  }
+ },
+ {
+  "id": "J012",
+  "name": "professor",
+  "clue": "I teach big students at a university.",
+  "tool": "🎓",
+  "figure": {
+   "top": "#1f2260",
+   "bottom": "#1f2260",
+   "hat": "grad",
+   "hatColor": "#1f2260",
+   "skin": "#f1b98c",
+   "hair": "short",
+   "hairColor": "#1f1a17"
+  }
+ },
+ {
+  "id": "J013",
+  "name": "scientist",
+  "clue": "I do experiments in a lab to learn new things.",
+  "tool": "🧪",
+  "figure": {
+   "coat": "#ffffff",
+   "top": "#7a3df0",
+   "bottom": "#3a3550",
+   "badge": "#22b0f2",
+   "skin": "#7a4a2c",
+   "hair": "long",
+   "hairColor": "#8b5a3c"
+  }
+ },
+ {
+  "id": "J014",
+  "name": "astronomer",
+  "clue": "I look at the stars and planets with a telescope.",
+  "tool": "🔭",
+  "figure": {
+   "coat": "#ffffff",
+   "top": "#7a3df0",
+   "bottom": "#3a3550",
+   "badge": "#22b0f2",
+   "skin": "#d99a6c",
+   "hair": "hijab",
+   "hairColor": "#22b0f2",
+   "hijabColor": "#ff8a2a"
+  }
+ },
+ {
+  "id": "J015",
+  "name": "biologist",
+  "clue": "I study plants and animals with a microscope.",
+  "tool": "🔬",
+  "figure": {
+   "coat": "#ffffff",
+   "top": "#7a3df0",
+   "bottom": "#3a3550",
+   "badge": "#22b0f2",
+   "skin": "#ffd2ac",
+   "hair": "bun",
+   "hairColor": "#2b1d16"
+  }
+ },
+ {
+  "id": "J016",
+  "name": "chemist",
+  "clue": "I mix liquids carefully in a laboratory.",
+  "tool": "⚗️",
+  "figure": {
+   "coat": "#ffffff",
+   "top": "#7a3df0",
+   "bottom": "#3a3550",
+   "badge": "#22b0f2",
+   "skin": "#a86b45",
+   "hair": "short",
+   "hairColor": "#4a2f23"
+  }
+ },
+ {
+  "id": "J017",
+  "name": "astronaut",
+  "clue": "I fly a rocket and go to space.",
+  "tool": "🚀",
+  "figure": {
+   "top": "#e9eef8",
+   "bottom": "#e9eef8",
+   "shoes": "#9aa5c4",
+   "hat": "astro",
+   "badge": "#f8312f",
+   "skin": "#f1b98c",
+   "hair": "long",
+   "hairColor": "#2b1d16"
+  }
+ },
+ {
+  "id": "J018",
+  "name": "pilot",
+  "clue": "I fly an airplane in the sky.",
+  "tool": "✈️",
+  "figure": {
+   "top": "#ffffff",
+   "coat": "#1f2260",
+   "tie": "#1f2260",
+   "bottom": "#1f2260",
+   "hat": "pilot",
+   "hatColor": "#1f2260",
+   "skin": "#7a4a2c",
+   "hair": "bun",
+   "hairColor": "#6b3e26"
+  }
+ },
+ {
+  "id": "J019",
+  "name": "flight attendant",
+  "clue": "I help passengers on an airplane. I give them drinks.",
+  "tool": "🧃",
+  "figure": {
+   "top": "#22b0f2",
+   "bottom": "#1f2260",
+   "skirt": true,
+   "tie": "#ffc928",
+   "hat": "cap",
+   "hatColor": "#22b0f2",
+   "skin": "#d99a6c",
+   "hair": "long",
+   "hairColor": "#2b1d16"
+  }
+ },
+ {
+  "id": "J020",
+  "name": "chef",
+  "clue": "I cook delicious food in a restaurant kitchen.",
+  "tool": "🍳",
+  "figure": {
+   "top": "#ffffff",
+   "apron": "#ff8a2a",
+   "bottom": "#3a3550",
+   "hat": "chef",
+   "skin": "#ffd2ac",
+   "hair": "short",
+   "hairColor": "#1f1a17"
+  }
+ },
+ {
+  "id": "J021",
+  "name": "baker",
+  "clue": "I make bread and cakes early in the morning.",
+  "tool": "🥖",
+  "figure": {
+   "top": "#ffffff",
+   "apron": "#ff8a2a",
+   "bottom": "#3a3550",
+   "hat": "chef",
+   "skin": "#a86b45",
+   "hair": "long",
+   "hairColor": "#8b5a3c"
+  }
+ },
+ {
+  "id": "J022",
+  "name": "waiter",
+  "clue": "I bring food to your table in a restaurant.",
+  "tool": "🍽️",
+  "figure": {
+   "top": "#ffffff",
+   "vest": "#1f2260",
+   "tie": "#1f2260",
+   "bottom": "#1f2260",
+   "skin": "#f1b98c",
+   "hair": "hijab",
+   "hairColor": "#22b0f2",
+   "hijabColor": "#2fd07d"
+  }
+ },
+ {
+  "id": "J023",
+  "name": "barista",
+  "clue": "I make coffee and hot chocolate in a cafe.",
+  "tool": "☕",
+  "figure": {
+   "top": "#ffc928",
+   "apron": "#ffffff",
+   "bottom": "#3654e8",
+   "skin": "#7a4a2c",
+   "hair": "bun",
+   "hairColor": "#2b1d16"
+  }
+ },
+ {
+  "id": "J024",
+  "name": "butcher",
+  "clue": "I cut and sell meat in a shop.",
+  "tool": "🥩",
+  "figure": {
+   "top": "#ffc928",
+   "apron": "#ffffff",
+   "bottom": "#3654e8",
+   "skin": "#d99a6c",
+   "hair": "short",
+   "hairColor": "#4a2f23"
+  }
+ },
+ {
+  "id": "J025",
+  "name": "pizza maker",
+  "clue": "I make round food with cheese and tomato.",
+  "tool": "🍕",
+  "figure": {
+   "top": "#ffffff",
+   "apron": "#ff8a2a",
+   "bottom": "#3a3550",
+   "hat": "chef",
+   "skin": "#ffd2ac",
+   "hair": "long",
+   "hairColor": "#2b1d16"
+  }
+ },
+ {
+  "id": "J026",
+  "name": "ice cream seller",
+  "clue": "I sell cold and sweet treats on hot days.",
+  "tool": "🍦",
+  "figure": {
+   "top": "#2fd07d",
+   "apron": "#ffffff",
+   "bottom": "#3a3550",
+   "hat": "cap",
+   "hatColor": "#2fd07d",
+   "skin": "#a86b45",
+   "hair": "bun",
+   "hairColor": "#6b3e26"
+  }
+ },
+ {
+  "id": "J027",
+  "name": "farmer",
+  "clue": "I grow rice and vegetables. I drive a tractor.",
+  "tool": "🚜",
+  "figure": {
+   "top": "#f8312f",
+   "vest": "#3654e8",
+   "bottom": "#3654e8",
+   "hat": "straw",
+   "skin": "#f1b98c",
+   "hair": "long",
+   "hairColor": "#2b1d16"
+  }
+ },
+ {
+  "id": "J028",
+  "name": "gardener",
+  "clue": "I take care of plants and flowers in a garden.",
+  "tool": "🪴",
+  "figure": {
+   "top": "#2fd07d",
+   "apron": "#8b5a3c",
+   "bottom": "#3a3550",
+   "hat": "straw",
+   "skin": "#7a4a2c",
+   "hair": "short",
+   "hairColor": "#1f1a17"
+  }
+ },
+ {
+  "id": "J029",
+  "name": "florist",
+  "clue": "I sell flowers and make beautiful bouquets.",
+  "tool": "💐",
+  "figure": {
+   "top": "#ffc928",
+   "apron": "#ffffff",
+   "bottom": "#3654e8",
+   "skin": "#d99a6c",
+   "hair": "long",
+   "hairColor": "#8b5a3c"
+  }
+ },
+ {
+  "id": "J030",
+  "name": "fisherman",
+  "clue": "I go to the sea in a boat to catch fish.",
+  "tool": "🪝",
+  "figure": {
+   "top": "#ffffff",
+   "bottom": "#1f2260",
+   "tie": "#3654e8",
+   "hat": "cap",
+   "hatColor": "#ffffff",
+   "skin": "#ffd2ac",
+   "hair": "long",
+   "hairColor": "#2b1d16"
+  }
+ },
+ {
+  "id": "J031",
+  "name": "beekeeper",
+  "clue": "I take care of bees and collect honey.",
+  "tool": "🍯",
+  "figure": {
+   "top": "#2fd07d",
+   "apron": "#8b5a3c",
+   "bottom": "#3a3550",
+   "hat": "straw",
+   "skin": "#a86b45",
+   "hair": "bun",
+   "hairColor": "#2b1d16"
+  }
+ },
+ {
+  "id": "J032",
+  "name": "rancher",
+  "clue": "I take care of cows and horses on a big farm.",
+  "tool": "🪢",
+  "figure": {
+   "top": "#f8312f",
+   "vest": "#8b5a3c",
+   "bottom": "#3654e8",
+   "hat": "cowboy",
+   "hatColor": "#8b5a3c",
+   "skin": "#f1b98c",
+   "hair": "short",
+   "hairColor": "#4a2f23"
+  }
+ },
+ {
+  "id": "J033",
+  "name": "firefighter",
+  "clue": "I put out fires with water. I drive a red truck.",
+  "tool": "🚒",
+  "figure": {
+   "top": "#ffc928",
+   "bottom": "#ffc928",
+   "stripe": "#ffffff",
+   "hat": "fire",
+   "hatColor": "#f8312f",
+   "skin": "#7a4a2c",
+   "hair": "long",
+   "hairColor": "#2b1d16"
+  }
+ },
+ {
+  "id": "J034",
+  "name": "police officer",
+  "clue": "I keep people safe and catch thieves.",
+  "tool": "🚓",
+  "figure": {
+   "top": "#3654e8",
+   "bottom": "#26389b",
+   "badge": "#ffc928",
+   "belt": "#222a44",
+   "hat": "police",
+   "hatColor": "#26389b",
+   "skin": "#d99a6c",
+   "hair": "bun",
+   "hairColor": "#6b3e26"
+  }
+ },
+ {
+  "id": "J035",
+  "name": "soldier",
+  "clue": "I protect my country.",
+  "tool": "🪖",
+  "figure": {
+   "top": "#5b7a3a",
+   "bottom": "#4a6330",
+   "belt": "#3a3020",
+   "hat": "hard",
+   "hatColor": "#4a6330",
+   "skin": "#ffd2ac",
+   "hair": "long",
+   "hairColor": "#2b1d16"
+  }
+ },
+ {
+  "id": "J036",
+  "name": "security guard",
+  "clue": "I watch the building at night to keep it safe.",
+  "tool": "🔦",
+  "figure": {
+   "top": "#1f2260",
+   "bottom": "#1f2260",
+   "badge": "#ffc928",
+   "hat": "cap",
+   "hatColor": "#1f2260",
+   "skin": "#a86b45",
+   "hair": "short",
+   "hairColor": "#1f1a17"
+  }
+ },
+ {
+  "id": "J037",
+  "name": "lifeguard",
+  "clue": "I watch swimmers at the beach and the pool.",
+  "tool": "🛟",
+  "figure": {
+   "top": "#f8312f",
+   "bottom": "#ffc928",
+   "hat": "cap",
+   "hatColor": "#f8312f",
+   "skin": "#f1b98c",
+   "hair": "long",
+   "hairColor": "#8b5a3c"
+  }
+ },
+ {
+  "id": "J038",
+  "name": "detective",
+  "clue": "I look for clues to solve mysteries.",
+  "tool": "🔍",
+  "figure": {
+   "top": "#ffffff",
+   "coat": "#8b5a3c",
+   "bottom": "#5a4030",
+   "hat": "cowboy",
+   "hatColor": "#5a4030",
+   "skin": "#7a4a2c",
+   "hair": "long",
+   "hairColor": "#2b1d16"
+  }
+ },
+ {
+  "id": "J039",
+  "name": "judge",
+  "clue": "I listen to both sides and decide in a court.",
+  "tool": "⚖️",
+  "figure": {
+   "top": "#1f2260",
+   "coat": "#1f2260",
+   "bottom": "#1f2260",
+   "tie": "#ffffff",
+   "skin": "#d99a6c",
+   "hair": "bun",
+   "hairColor": "#2b1d16"
+  }
+ },
+ {
+  "id": "J040",
+  "name": "lawyer",
+  "clue": "I help people with the law in court.",
+  "tool": "💼",
+  "figure": {
+   "top": "#ffffff",
+   "coat": "#1f2260",
+   "tie": "#f8312f",
+   "bottom": "#1f2260",
+   "skin": "#ffd2ac",
+   "hair": "short",
+   "hairColor": "#4a2f23"
+  }
+ },
+ {
+  "id": "J041",
+  "name": "mail carrier",
+  "clue": "I bring letters to your house.",
+  "tool": "✉️",
+  "figure": {
+   "top": "#22b0f2",
+   "bottom": "#1f2260",
+   "badge": "#f8312f",
+   "hat": "cap",
+   "hatColor": "#1f2260",
+   "skin": "#a86b45",
+   "hair": "long",
+   "hairColor": "#2b1d16"
+  }
+ },
+ {
+  "id": "J042",
+  "name": "delivery driver",
+  "clue": "I bring boxes and packages to people.",
+  "tool": "📦",
+  "figure": {
+   "top": "#ffffff",
+   "vest": "#2fd07d",
+   "bottom": "#3a3550",
+   "hat": "cap",
+   "hatColor": "#2fd07d",
+   "skin": "#f1b98c",
+   "hair": "bun",
+   "hairColor": "#6b3e26"
+  }
+ },
+ {
+  "id": "J043",
+  "name": "bus driver",
+  "clue": "I drive a big vehicle that takes many people to school and work.",
+  "tool": "🚌",
+  "figure": {
+   "top": "#ffffff",
+   "vest": "#2fd07d",
+   "bottom": "#3a3550",
+   "hat": "cap",
+   "hatColor": "#2fd07d",
+   "skin": "#7a4a2c",
+   "hair": "long",
+   "hairColor": "#2b1d16"
+  }
+ },
+ {
+  "id": "J044",
+  "name": "taxi driver",
+  "clue": "I drive a yellow car and take you where you want to go.",
+  "tool": "🚕",
+  "figure": {
+   "top": "#ffffff",
+   "vest": "#2fd07d",
+   "bottom": "#3a3550",
+   "hat": "cap",
+   "hatColor": "#2fd07d",
+   "skin": "#d99a6c",
+   "hair": "short",
+   "hairColor": "#1f1a17"
+  }
+ },
+ {
+  "id": "J045",
+  "name": "truck driver",
+  "clue": "I drive a big vehicle that carries heavy things on long roads.",
+  "tool": "🚚",
+  "figure": {
+   "top": "#ffffff",
+   "vest": "#2fd07d",
+   "bottom": "#3a3550",
+   "hat": "cap",
+   "hatColor": "#2fd07d",
+   "skin": "#ffd2ac",
+   "hair": "long",
+   "hairColor": "#8b5a3c"
+  }
+ },
+ {
+  "id": "J046",
+  "name": "train driver",
+  "clue": "I drive a long vehicle on the railway.",
+  "tool": "🚂",
+  "figure": {
+   "top": "#3654e8",
+   "bottom": "#3654e8",
+   "belt": "#3a3550",
+   "hat": "cap",
+   "hatColor": "#f8312f",
+   "skin": "#a86b45",
+   "hair": "long",
+   "hairColor": "#2b1d16"
+  }
+ },
+ {
+  "id": "J047",
+  "name": "captain",
+  "clue": "I am the leader of a ship.",
+  "tool": "⚓",
+  "figure": {
+   "top": "#ffffff",
+   "coat": "#1f2260",
+   "bottom": "#1f2260",
+   "hat": "pilot",
+   "hatColor": "#ffffff",
+   "skin": "#f1b98c",
+   "hair": "bun",
+   "hairColor": "#2b1d16"
+  }
+ },
+ {
+  "id": "J048",
+  "name": "sailor",
+  "clue": "I work on a ship on the sea.",
+  "tool": "⛵",
+  "figure": {
+   "top": "#ffffff",
+   "bottom": "#1f2260",
+   "tie": "#3654e8",
+   "hat": "cap",
+   "hatColor": "#ffffff",
+   "skin": "#7a4a2c",
+   "hair": "short",
+   "hairColor": "#4a2f23"
+  }
+ },
+ {
+  "id": "J049",
+  "name": "mechanic",
+  "clue": "I fix cars and motorbikes.",
+  "tool": "🔧",
+  "figure": {
+   "top": "#3654e8",
+   "bottom": "#3654e8",
+   "belt": "#3a3550",
+   "hat": "cap",
+   "hatColor": "#f8312f",
+   "skin": "#d99a6c",
+   "hair": "long",
+   "hairColor": "#2b1d16"
+  }
+ },
+ {
+  "id": "J050",
+  "name": "electrician",
+  "clue": "I fix lights and electric wires.",
+  "tool": "🔌",
+  "figure": {
+   "top": "#3654e8",
+   "bottom": "#3654e8",
+   "belt": "#3a3550",
+   "hat": "cap",
+   "hatColor": "#f8312f",
+   "skin": "#ffd2ac",
+   "hair": "bun",
+   "hairColor": "#6b3e26"
+  }
+ },
+ {
+  "id": "J051",
+  "name": "plumber",
+  "clue": "I fix water pipes and sinks.",
+  "tool": "🪠",
+  "figure": {
+   "top": "#3654e8",
+   "bottom": "#3654e8",
+   "belt": "#3a3550",
+   "hat": "cap",
+   "hatColor": "#f8312f",
+   "skin": "#a86b45",
+   "hair": "long",
+   "hairColor": "#2b1d16"
+  }
+ },
+ {
+  "id": "J052",
+  "name": "carpenter",
+  "clue": "I make tables and chairs from wood.",
+  "tool": "🪚",
+  "figure": {
+   "top": "#8b5a3c",
+   "apron": "#5a4030",
+   "bottom": "#3a3550",
+   "skin": "#f1b98c",
+   "hair": "short",
+   "hairColor": "#1f1a17"
+  }
+ },
+ {
+  "id": "J053",
+  "name": "builder",
+  "clue": "I build houses with bricks.",
+  "tool": "🧱",
+  "figure": {
+   "top": "#3654e8",
+   "vest": "#ff8a2a",
+   "stripe": "#e3e8fb",
+   "bottom": "#3a3550",
+   "hat": "hard",
+   "hatColor": "#ffc928",
+   "skin": "#7a4a2c",
+   "hair": "long",
+   "hairColor": "#8b5a3c"
+  }
+ },
+ {
+  "id": "J054",
+  "name": "architect",
+  "clue": "I draw plans for new buildings.",
+  "tool": "📐",
+  "figure": {
+   "top": "#ffffff",
+   "bottom": "#3a3550",
+   "tie": "#3654e8",
+   "skin": "#d99a6c",
+   "hair": "hijab",
+   "hairColor": "#22b0f2",
+   "hijabColor": "#ff8a2a"
+  }
+ },
+ {
+  "id": "J055",
+  "name": "engineer",
+  "clue": "I design machines, roads, and bridges.",
+  "tool": "⚙️",
+  "figure": {
+   "top": "#3654e8",
+   "vest": "#ff8a2a",
+   "stripe": "#e3e8fb",
+   "bottom": "#3a3550",
+   "hat": "hard",
+   "hatColor": "#ffc928",
+   "skin": "#ffd2ac",
+   "hair": "bun",
+   "hairColor": "#2b1d16"
+  }
+ },
+ {
+  "id": "J056",
+  "name": "house painter",
+  "clue": "I paint the walls of houses.",
+  "tool": "🖌️",
+  "figure": {
+   "top": "#3654e8",
+   "vest": "#ff8a2a",
+   "stripe": "#e3e8fb",
+   "bottom": "#3a3550",
+   "hat": "hard",
+   "hatColor": "#ffc928",
+   "skin": "#a86b45",
+   "hair": "short",
+   "hairColor": "#4a2f23"
+  }
+ },
+ {
+  "id": "J057",
+  "name": "artist",
+  "clue": "I paint beautiful pictures with many colors.",
+  "tool": "🎨",
+  "figure": {
+   "top": "#ffc928",
+   "apron": "#ffffff",
+   "bottom": "#3654e8",
+   "hat": "beret",
+   "hatColor": "#f8312f",
+   "skin": "#f1b98c",
+   "hair": "long",
+   "hairColor": "#2b1d16"
+  }
+ },
+ {
+  "id": "J058",
+  "name": "photographer",
+  "clue": "I take pictures with my camera.",
+  "tool": "📷",
+  "figure": {
+   "top": "#ffffff",
+   "bottom": "#3a3550",
+   "tie": "#3654e8",
+   "skin": "#7a4a2c",
+   "hair": "bun",
+   "hairColor": "#6b3e26"
+  }
+ },
+ {
+  "id": "J059",
+  "name": "musician",
+  "clue": "I play music on my guitar.",
+  "tool": "🎸",
+  "figure": {
+   "top": "#7a3df0",
+   "bottom": "#3a3550",
+   "hat": "headset",
+   "hatColor": "#1f2260",
+   "skin": "#d99a6c",
+   "hair": "long",
+   "hairColor": "#2b1d16"
+  }
+ },
+ {
+  "id": "J060",
+  "name": "singer",
+  "clue": "I sing songs on the stage.",
+  "tool": "🎤",
+  "figure": {
+   "top": "#ff4f7b",
+   "bottom": "#3a3550",
+   "badge": "#ffc928",
+   "skin": "#ffd2ac",
+   "hair": "short",
+   "hairColor": "#1f1a17"
+  }
+ },
+ {
+  "id": "J061",
+  "name": "drummer",
+  "clue": "I play the drums in a band.",
+  "tool": "🥁",
+  "figure": {
+   "top": "#7a3df0",
+   "bottom": "#3a3550",
+   "hat": "headset",
+   "hatColor": "#1f2260",
+   "skin": "#a86b45",
+   "hair": "long",
+   "hairColor": "#8b5a3c"
+  }
+ },
+ {
+  "id": "J062",
+  "name": "pianist",
+  "clue": "I play the piano.",
+  "tool": "🎹",
+  "figure": {
+   "top": "#ffffff",
+   "coat": "#1f2260",
+   "tie": "#f8312f",
+   "bottom": "#1f2260",
+   "skin": "#f1b98c",
+   "hair": "hijab",
+   "hairColor": "#22b0f2",
+   "hijabColor": "#2fd07d"
+  }
+ },
+ {
+  "id": "J063",
+  "name": "dancer",
+  "clue": "I move to the music on the stage.",
+  "tool": "🩰",
+  "figure": {
+   "top": "#ff8fab",
+   "bottom": "#ff8fab",
+   "skirt": true,
+   "hair": "bun",
+   "skin": "#7a4a2c"
+  }
+ },
+ {
+  "id": "J064",
+  "name": "actor",
+  "clue": "I act in movies and plays.",
+  "tool": "🎞️",
+  "figure": {
+   "top": "#ff4f7b",
+   "bottom": "#3a3550",
+   "badge": "#ffc928",
+   "skin": "#d99a6c",
+   "hair": "short",
+   "hairColor": "#4a2f23"
+  }
+ },
+ {
+  "id": "J065",
+  "name": "film director",
+  "clue": "I tell actors what to do when we make a movie.",
+  "tool": "🎬",
+  "figure": {
+   "top": "#ffffff",
+   "bottom": "#3a3550",
+   "tie": "#3654e8",
+   "skin": "#ffd2ac",
+   "hair": "long",
+   "hairColor": "#2b1d16"
+  }
+ },
+ {
+  "id": "J066",
+  "name": "writer",
+  "clue": "I write stories and books.",
+  "tool": "📝",
+  "figure": {
+   "top": "#ffffff",
+   "bottom": "#3a3550",
+   "tie": "#3654e8",
+   "skin": "#a86b45",
+   "hair": "bun",
+   "hairColor": "#6b3e26"
+  }
+ },
+ {
+  "id": "J067",
+  "name": "poet",
+  "clue": "I write poems with beautiful words.",
+  "tool": "📜",
+  "figure": {
+   "top": "#ffc928",
+   "apron": "#ffffff",
+   "bottom": "#3654e8",
+   "hat": "beret",
+   "hatColor": "#f8312f",
+   "skin": "#f1b98c",
+   "hair": "long",
+   "hairColor": "#2b1d16"
+  }
+ },
+ {
+  "id": "J068",
+  "name": "journalist",
+  "clue": "I write news for the newspaper.",
+  "tool": "📰",
+  "figure": {
+   "top": "#ffffff",
+   "bottom": "#3a3550",
+   "tie": "#3654e8",
+   "skin": "#7a4a2c",
+   "hair": "short",
+   "hairColor": "#1f1a17"
+  }
+ },
+ {
+  "id": "J069",
+  "name": "news reporter",
+  "clue": "I tell people what happens today on TV.",
+  "tool": "🎙️",
+  "figure": {
+   "top": "#ffffff",
+   "coat": "#1f2260",
+   "tie": "#f8312f",
+   "bottom": "#1f2260",
+   "skin": "#d99a6c",
+   "hair": "long",
+   "hairColor": "#8b5a3c"
+  }
+ },
+ {
+  "id": "J070",
+  "name": "radio host",
+  "clue": "I talk and play songs. You can hear me but you cannot see me.",
+  "tool": "📻",
+  "figure": {
+   "top": "#7a3df0",
+   "bottom": "#3a3550",
+   "hat": "headset",
+   "hatColor": "#1f2260",
+   "skin": "#ffd2ac",
+   "hair": "long",
+   "hairColor": "#2b1d16"
+  }
+ },
+ {
+  "id": "J071",
+  "name": "DJ",
+  "clue": "I play music at parties.",
+  "tool": "🎧",
+  "figure": {
+   "top": "#7a3df0",
+   "bottom": "#3a3550",
+   "hat": "headset",
+   "hatColor": "#1f2260",
+   "skin": "#a86b45",
+   "hair": "bun",
+   "hairColor": "#2b1d16"
+  }
+ },
+ {
+  "id": "J072",
+  "name": "programmer",
+  "clue": "I write code to make apps and games on the computer.",
+  "tool": "💻",
+  "figure": {
+   "top": "#3654e8",
+   "bottom": "#3a3550",
+   "hat": "headset",
+   "hatColor": "#3a3550",
+   "skin": "#f1b98c",
+   "hair": "short",
+   "hairColor": "#4a2f23"
+  }
+ },
+ {
+  "id": "J073",
+  "name": "game designer",
+  "clue": "I create fun video games.",
+  "tool": "🎮",
+  "figure": {
+   "top": "#3654e8",
+   "bottom": "#3a3550",
+   "hat": "headset",
+   "hatColor": "#3a3550",
+   "skin": "#7a4a2c",
+   "hair": "long",
+   "hairColor": "#2b1d16"
+  }
+ },
+ {
+  "id": "J074",
+  "name": "cashier",
+  "clue": "I take your money at the shop.",
+  "tool": "🧾",
+  "figure": {
+   "top": "#2fd07d",
+   "apron": "#ffffff",
+   "bottom": "#3a3550",
+   "hat": "cap",
+   "hatColor": "#2fd07d",
+   "skin": "#d99a6c",
+   "hair": "bun",
+   "hairColor": "#6b3e26"
+  }
+ },
+ {
+  "id": "J075",
+  "name": "shopkeeper",
+  "clue": "I sell things in my small shop.",
+  "tool": "🏪",
+  "figure": {
+   "top": "#2fd07d",
+   "apron": "#ffffff",
+   "bottom": "#3a3550",
+   "hat": "cap",
+   "hatColor": "#2fd07d",
+   "skin": "#ffd2ac",
+   "hair": "long",
+   "hairColor": "#2b1d16"
+  }
+ },
+ {
+  "id": "J076",
+  "name": "banker",
+  "clue": "I work in a bank. I keep money safe.",
+  "tool": "🏦",
+  "figure": {
+   "top": "#ffffff",
+   "coat": "#1f2260",
+   "tie": "#f8312f",
+   "bottom": "#1f2260",
+   "skin": "#a86b45",
+   "hair": "short",
+   "hairColor": "#1f1a17"
+  }
+ },
+ {
+  "id": "J077",
+  "name": "accountant",
+  "clue": "I count money and numbers for a company.",
+  "tool": "🧮",
+  "figure": {
+   "top": "#ffffff",
+   "bottom": "#3a3550",
+   "tie": "#3654e8",
+   "skin": "#f1b98c",
+   "hair": "long",
+   "hairColor": "#8b5a3c"
+  }
+ },
+ {
+  "id": "J078",
+  "name": "tailor",
+  "clue": "I make and fix clothes with a needle and thread.",
+  "tool": "🧵",
+  "figure": {
+   "top": "#8b5a3c",
+   "apron": "#5a4030",
+   "bottom": "#3a3550",
+   "skin": "#7a4a2c",
+   "hair": "hijab",
+   "hairColor": "#22b0f2",
+   "hijabColor": "#ff4f7b"
+  }
+ },
+ {
+  "id": "J079",
+  "name": "fashion designer",
+  "clue": "I design new clothes and dresses.",
+  "tool": "👗",
+  "figure": {
+   "top": "#ffc928",
+   "apron": "#ffffff",
+   "bottom": "#3654e8",
+   "hat": "beret",
+   "hatColor": "#f8312f",
+   "skin": "#d99a6c",
+   "hair": "bun",
+   "hairColor": "#2b1d16"
+  }
+ },
+ {
+  "id": "J080",
+  "name": "barber",
+  "clue": "I cut hair for men and boys.",
+  "tool": "💈",
+  "figure": {
+   "top": "#ffc928",
+   "apron": "#ffffff",
+   "bottom": "#3654e8",
+   "skin": "#ffd2ac",
+   "hair": "short",
+   "hairColor": "#4a2f23"
+  }
+ },
+ {
+  "id": "J081",
+  "name": "hairdresser",
+  "clue": "I cut and style hair in a salon.",
+  "tool": "🪮",
+  "figure": {
+   "top": "#ffc928",
+   "apron": "#ffffff",
+   "bottom": "#3654e8",
+   "skin": "#a86b45",
+   "hair": "long",
+   "hairColor": "#2b1d16"
+  }
+ },
+ {
+  "id": "J082",
+  "name": "cleaner",
+  "clue": "I clean rooms and floors.",
+  "tool": "🧹",
+  "figure": {
+   "top": "#22b0f2",
+   "apron": "#ffc928",
+   "bottom": "#3654e8",
+   "hat": "bandana",
+   "hatColor": "#ffc928",
+   "skin": "#f1b98c",
+   "hair": "bun",
+   "hairColor": "#6b3e26"
+  }
+ },
+ {
+  "id": "J083",
+  "name": "garbage collector",
+  "clue": "I take away the trash from the street.",
+  "tool": "🗑️",
+  "figure": {
+   "top": "#22b0f2",
+   "apron": "#ffc928",
+   "bottom": "#3654e8",
+   "hat": "bandana",
+   "hatColor": "#ffc928",
+   "skin": "#7a4a2c",
+   "hair": "long",
+   "hairColor": "#2b1d16"
+  }
+ },
+ {
+  "id": "J084",
+  "name": "window cleaner",
+  "clue": "I clean the windows of tall buildings.",
+  "tool": "🧽",
+  "figure": {
+   "top": "#22b0f2",
+   "apron": "#ffc928",
+   "bottom": "#3654e8",
+   "hat": "bandana",
+   "hatColor": "#ffc928",
+   "skin": "#d99a6c",
+   "hair": "short",
+   "hairColor": "#1f1a17"
+  }
+ },
+ {
+  "id": "J085",
+  "name": "football player",
+  "clue": "I kick the ball and score goals.",
+  "tool": "⚽",
+  "figure": {
+   "top": "#f8312f",
+   "bottom": "#ffffff",
+   "badge": "#ffffff",
+   "skin": "#ffd2ac",
+   "hair": "long",
+   "hairColor": "#8b5a3c"
+  }
+ },
+ {
+  "id": "J086",
+  "name": "basketball player",
+  "clue": "I bounce the ball and throw it into the hoop.",
+  "tool": "🏀",
+  "figure": {
+   "top": "#f8312f",
+   "bottom": "#ffffff",
+   "badge": "#ffffff",
+   "skin": "#a86b45",
+   "hair": "hijab",
+   "hairColor": "#22b0f2",
+   "hijabColor": "#22b0f2"
+  }
+ },
+ {
+  "id": "J087",
+  "name": "tennis player",
+  "clue": "I hit a small ball with a racket.",
+  "tool": "🎾",
+  "figure": {
+   "top": "#f8312f",
+   "bottom": "#ffffff",
+   "badge": "#ffffff",
+   "skin": "#f1b98c",
+   "hair": "bun",
+   "hairColor": "#2b1d16"
+  }
+ },
+ {
+  "id": "J088",
+  "name": "swimmer",
+  "clue": "I race in the pool.",
+  "tool": "🥽",
+  "figure": {
+   "top": "#f8312f",
+   "bottom": "#ffffff",
+   "badge": "#ffffff",
+   "skin": "#7a4a2c",
+   "hair": "short",
+   "hairColor": "#4a2f23"
+  }
+ },
+ {
+  "id": "J089",
+  "name": "cyclist",
+  "clue": "I ride my bike very fast in races.",
+  "tool": "🚲",
+  "figure": {
+   "top": "#f8312f",
+   "bottom": "#ffffff",
+   "badge": "#ffffff",
+   "skin": "#d99a6c",
+   "hair": "long",
+   "hairColor": "#2b1d16"
+  }
+ },
+ {
+  "id": "J090",
+  "name": "boxer",
+  "clue": "I wear big gloves in the ring.",
+  "tool": "🥊",
+  "figure": {
+   "top": "#f8312f",
+   "bottom": "#ffffff",
+   "badge": "#ffffff",
+   "skin": "#ffd2ac",
+   "hair": "bun",
+   "hairColor": "#6b3e26"
+  }
+ },
+ {
+  "id": "J091",
+  "name": "coach",
+  "clue": "I help players train and win.",
+  "tool": "📋",
+  "figure": {
+   "top": "#2fd07d",
+   "bottom": "#1f2260",
+   "hat": "cap",
+   "hatColor": "#1f2260",
+   "skin": "#a86b45",
+   "hair": "long",
+   "hairColor": "#2b1d16"
+  }
+ },
+ {
+  "id": "J092",
+  "name": "referee",
+  "clue": "I make sure players follow the rules of the game.",
+  "tool": "🟨",
+  "figure": {
+   "top": "#2fd07d",
+   "bottom": "#1f2260",
+   "hat": "cap",
+   "hatColor": "#1f2260",
+   "skin": "#f1b98c",
+   "hair": "short",
+   "hairColor": "#1f1a17"
+  }
+ },
+ {
+  "id": "J093",
+  "name": "magician",
+  "clue": "I do magic tricks with my hat.",
+  "tool": "🎩",
+  "figure": {
+   "top": "#7a3df0",
+   "coat": "#1f2260",
+   "bottom": "#1f2260",
+   "tie": "#f8312f",
+   "hat": "cowboy",
+   "hatColor": "#1f2260",
+   "skin": "#7a4a2c",
+   "hair": "long",
+   "hairColor": "#8b5a3c"
+  }
+ },
+ {
+  "id": "J094",
+  "name": "miner",
+  "clue": "I dig deep under the ground.",
+  "tool": "⛏️",
+  "figure": {
+   "top": "#5a4030",
+   "bottom": "#3a3550",
+   "stripe": "#ffc928",
+   "hat": "hard",
+   "hatColor": "#ffc928",
+   "skin": "#d99a6c",
+   "hair": "long",
+   "hairColor": "#2b1d16"
+  }
+ },
+ {
+  "id": "J095",
+  "name": "lumberjack",
+  "clue": "I cut down trees in the forest.",
+  "tool": "🪓",
+  "figure": {
+   "top": "#f8312f",
+   "vest": "#8b5a3c",
+   "bottom": "#3654e8",
+   "hat": "cowboy",
+   "hatColor": "#8b5a3c",
+   "skin": "#ffd2ac",
+   "hair": "bun",
+   "hairColor": "#2b1d16"
+  }
+ },
+ {
+  "id": "J096",
+  "name": "locksmith",
+  "clue": "I make keys and fix locks.",
+  "tool": "🔑",
+  "figure": {
+   "top": "#8b5a3c",
+   "apron": "#5a4030",
+   "bottom": "#3a3550",
+   "skin": "#a86b45",
+   "hair": "short",
+   "hairColor": "#4a2f23"
+  }
+ },
+ {
+  "id": "J097",
+  "name": "jeweler",
+  "clue": "I make rings and necklaces.",
+  "tool": "💍",
+  "figure": {
+   "top": "#ffffff",
+   "coat": "#1f2260",
+   "tie": "#f8312f",
+   "bottom": "#1f2260",
+   "skin": "#f1b98c",
+   "hair": "long",
+   "hairColor": "#2b1d16"
+  }
+ },
+ {
+  "id": "J098",
+  "name": "potter",
+  "clue": "I make pots and vases from clay.",
+  "tool": "🏺",
+  "figure": {
+   "top": "#8b5a3c",
+   "apron": "#5a4030",
+   "bottom": "#3a3550",
+   "skin": "#7a4a2c",
+   "hair": "bun",
+   "hairColor": "#6b3e26"
+  }
+ },
+ {
+  "id": "J099",
+  "name": "tour guide",
+  "clue": "I show tourists interesting places.",
+  "tool": "🗺️",
+  "figure": {
+   "top": "#2fd07d",
+   "vest": "#ffc928",
+   "bottom": "#8b5a3c",
+   "hat": "straw",
+   "skin": "#d99a6c",
+   "hair": "long",
+   "hairColor": "#2b1d16"
+  }
+ },
+ {
+  "id": "J100",
+  "name": "receptionist",
+  "clue": "I welcome guests at the hotel desk.",
+  "tool": "🛎️",
+  "figure": {
+   "top": "#ffffff",
+   "bottom": "#3a3550",
+   "tie": "#3654e8",
+   "skin": "#ffd2ac",
+   "hair": "short",
+   "hairColor": "#1f1a17"
+  }
+ }
+]

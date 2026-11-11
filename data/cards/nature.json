@@ -1,0 +1,702 @@
+[
+ {
+  "id": "A001",
+  "kind": "animal",
+  "name": "dog",
+  "clue": "I am a good pet. I say \"woof woof\".",
+  "image": "cards/animals/dog.svg"
+ },
+ {
+  "id": "A002",
+  "kind": "animal",
+  "name": "cat",
+  "clue": "I am a pet. I say \"meow\". I like milk and fish.",
+  "image": "cards/animals/cat.svg"
+ },
+ {
+  "id": "A003",
+  "kind": "animal",
+  "name": "tiger",
+  "clue": "I am a big orange cat with black stripes.",
+  "image": "cards/animals/tiger.svg"
+ },
+ {
+  "id": "A004",
+  "kind": "animal",
+  "name": "leopard",
+  "clue": "I am a fast cat with spots. I can climb trees.",
+  "image": "cards/animals/leopard.svg"
+ },
+ {
+  "id": "A005",
+  "kind": "animal",
+  "name": "horse",
+  "clue": "I run fast. People can ride on my back.",
+  "image": "cards/animals/horse.svg"
+ },
+ {
+  "id": "A006",
+  "kind": "animal",
+  "name": "cow",
+  "clue": "I live on a farm. I give you milk. I say \"moo\".",
+  "image": "cards/animals/cow.svg"
+ },
+ {
+  "id": "A007",
+  "kind": "animal",
+  "name": "water buffalo",
+  "clue": "I am big and strong. I help farmers in the rice field.",
+  "image": "cards/animals/water-buffalo.svg"
+ },
+ {
+  "id": "A008",
+  "kind": "animal",
+  "name": "pig",
+  "clue": "I am pink and I love mud. I say \"oink\".",
+  "image": "cards/animals/pig.svg"
+ },
+ {
+  "id": "A009",
+  "kind": "animal",
+  "name": "sheep",
+  "clue": "I have soft white wool. I say \"baa\".",
+  "image": "cards/animals/sheep.svg"
+ },
+ {
+  "id": "A010",
+  "kind": "animal",
+  "name": "goat",
+  "clue": "I have horns and a beard. I like to climb.",
+  "image": "cards/animals/goat.svg"
+ },
+ {
+  "id": "A011",
+  "kind": "animal",
+  "name": "camel",
+  "clue": "I live in the desert. I have a hump on my back.",
+  "image": "cards/animals/camel.svg"
+ },
+ {
+  "id": "A012",
+  "kind": "animal",
+  "name": "llama",
+  "clue": "I have a long neck and soft fur. I live in the mountains.",
+  "image": "cards/animals/llama.svg"
+ },
+ {
+  "id": "A013",
+  "kind": "animal",
+  "name": "giraffe",
+  "clue": "I am the tallest animal. I have a very long neck.",
+  "image": "cards/animals/giraffe.svg"
+ },
+ {
+  "id": "A014",
+  "kind": "animal",
+  "name": "elephant",
+  "clue": "I am very big. I have a long trunk and big ears.",
+  "image": "cards/animals/elephant.svg"
+ },
+ {
+  "id": "A015",
+  "kind": "animal",
+  "name": "rhinoceros",
+  "clue": "I am big and grey. I have a horn on my nose.",
+  "image": "cards/animals/rhinoceros.svg"
+ },
+ {
+  "id": "A016",
+  "kind": "animal",
+  "name": "hippopotamus",
+  "clue": "I am big and I love to stay in the river.",
+  "image": "cards/animals/hippopotamus.svg"
+ },
+ {
+  "id": "A017",
+  "kind": "animal",
+  "name": "rabbit",
+  "clue": "I have long ears. I hop and I love carrots.",
+  "image": "cards/animals/rabbit.svg"
+ },
+ {
+  "id": "A018",
+  "kind": "animal",
+  "name": "squirrel",
+  "clue": "I have a big fluffy tail. I love nuts.",
+  "image": "cards/animals/squirrel.svg"
+ },
+ {
+  "id": "A019",
+  "kind": "animal",
+  "name": "bat",
+  "clue": "I fly at night. I sleep upside down.",
+  "image": "cards/animals/bat.svg"
+ },
+ {
+  "id": "A020",
+  "kind": "animal",
+  "name": "skunk",
+  "clue": "I am black and white. I can make a bad smell.",
+  "image": "cards/animals/skunk.svg"
+ },
+ {
+  "id": "A021",
+  "kind": "animal",
+  "name": "kangaroo",
+  "clue": "I jump very high. My baby lives in my pocket.",
+  "image": "cards/animals/kangaroo.svg"
+ },
+ {
+  "id": "A022",
+  "kind": "animal",
+  "name": "turkey",
+  "clue": "I am a big bird with a big round tail.",
+  "image": "cards/animals/turkey.svg"
+ },
+ {
+  "id": "A023",
+  "kind": "animal",
+  "name": "rooster",
+  "clue": "I wake you up in the morning. I say \"cock-a-doodle-doo\".",
+  "image": "cards/animals/rooster.svg"
+ },
+ {
+  "id": "A024",
+  "kind": "animal",
+  "name": "bird",
+  "clue": "I have wings and feathers. I can fly and sing.",
+  "image": "cards/animals/bird.svg"
+ },
+ {
+  "id": "A025",
+  "kind": "animal",
+  "name": "penguin",
+  "clue": "I am a bird but I cannot fly. I swim in cold water.",
+  "image": "cards/animals/penguin.svg"
+ },
+ {
+  "id": "A026",
+  "kind": "animal",
+  "name": "eagle",
+  "clue": "I am a big bird. I fly very high in the sky.",
+  "image": "cards/animals/eagle.svg"
+ },
+ {
+  "id": "A027",
+  "kind": "animal",
+  "name": "duck",
+  "clue": "I swim in the pond. I say \"quack quack\".",
+  "image": "cards/animals/duck.svg"
+ },
+ {
+  "id": "A028",
+  "kind": "animal",
+  "name": "swan",
+  "clue": "I am a white bird with a long neck. I swim on the lake.",
+  "image": "cards/animals/swan.svg"
+ },
+ {
+  "id": "A029",
+  "kind": "animal",
+  "name": "flamingo",
+  "clue": "I am a pink bird. I stand on one leg.",
+  "image": "cards/animals/flamingo.svg"
+ },
+ {
+  "id": "A030",
+  "kind": "animal",
+  "name": "peacock",
+  "clue": "I have a beautiful big tail with many colors.",
+  "image": "cards/animals/peacock.svg"
+ },
+ {
+  "id": "A031",
+  "kind": "animal",
+  "name": "parrot",
+  "clue": "I am a colorful bird. I can copy your words.",
+  "image": "cards/animals/parrot.svg"
+ },
+ {
+  "id": "A032",
+  "kind": "animal",
+  "name": "crocodile",
+  "clue": "I live in the river. I have a long mouth and many teeth.",
+  "image": "cards/animals/crocodile.svg"
+ },
+ {
+  "id": "A033",
+  "kind": "animal",
+  "name": "turtle",
+  "clue": "I walk slowly. I carry my house on my back.",
+  "image": "cards/animals/turtle.svg"
+ },
+ {
+  "id": "A034",
+  "kind": "animal",
+  "name": "lizard",
+  "clue": "I am small and green. I like to sit in the sun.",
+  "image": "cards/animals/lizard.svg"
+ },
+ {
+  "id": "A035",
+  "kind": "animal",
+  "name": "snake",
+  "clue": "I have no legs. I move on my belly. I say \"hiss\".",
+  "image": "cards/animals/snake.svg"
+ },
+ {
+  "id": "A036",
+  "kind": "animal",
+  "name": "whale",
+  "clue": "I am the biggest animal in the sea.",
+  "image": "cards/animals/whale.svg"
+ },
+ {
+  "id": "A037",
+  "kind": "animal",
+  "name": "dolphin",
+  "clue": "I am smart and friendly. I jump out of the sea.",
+  "image": "cards/animals/dolphin.svg"
+ },
+ {
+  "id": "A038",
+  "kind": "animal",
+  "name": "fish",
+  "clue": "I live in water. I swim with my fins.",
+  "image": "cards/animals/fish.svg"
+ },
+ {
+  "id": "A039",
+  "kind": "animal",
+  "name": "shark",
+  "clue": "I am a big fish with sharp teeth.",
+  "image": "cards/animals/shark.svg"
+ },
+ {
+  "id": "A040",
+  "kind": "animal",
+  "name": "snail",
+  "clue": "I am very slow. I carry a shell on my back.",
+  "image": "cards/animals/snail.svg"
+ },
+ {
+  "id": "A041",
+  "kind": "animal",
+  "name": "butterfly",
+  "clue": "I have beautiful wings. I was a caterpillar before.",
+  "image": "cards/animals/butterfly.svg"
+ },
+ {
+  "id": "A042",
+  "kind": "animal",
+  "name": "ant",
+  "clue": "I am very small but very strong. I live with many friends.",
+  "image": "cards/animals/ant.svg"
+ },
+ {
+  "id": "A043",
+  "kind": "animal",
+  "name": "bee",
+  "clue": "I am yellow and black. I make honey. I say \"buzz\".",
+  "image": "cards/animals/bee.svg"
+ },
+ {
+  "id": "A044",
+  "kind": "animal",
+  "name": "crab",
+  "clue": "I live on the beach. I walk sideways.",
+  "image": "cards/animals/crab.svg"
+ },
+ {
+  "id": "A045",
+  "kind": "animal",
+  "name": "shrimp",
+  "clue": "I am small and live in the sea. I turn pink when cooked.",
+  "image": "cards/animals/shrimp.svg"
+ },
+ {
+  "id": "A046",
+  "kind": "animal",
+  "name": "jellyfish",
+  "clue": "I live in the sea. I am soft and I have long arms.",
+  "image": "cards/animals/jellyfish.svg"
+ },
+ {
+  "id": "A047",
+  "kind": "animal",
+  "name": "goose",
+  "clue": "I am a big bird. I say \"honk honk\".",
+  "image": "cards/animals/goose.svg"
+ },
+ {
+  "id": "A048",
+  "kind": "animal",
+  "name": "deer",
+  "clue": "I live in the forest. I have antlers on my head.",
+  "image": "cards/animals/deer.svg"
+ },
+ {
+  "id": "A049",
+  "kind": "animal",
+  "name": "zebra",
+  "clue": "I look like a horse with black and white stripes.",
+  "image": "cards/animals/zebra.svg"
+ },
+ {
+  "id": "A050",
+  "kind": "animal",
+  "name": "mammoth",
+  "clue": "I lived a long time ago. I was big and hairy.",
+  "image": "cards/animals/mammoth.svg"
+ },
+ {
+  "id": "A051",
+  "kind": "animal",
+  "name": "bison",
+  "clue": "I am big and hairy. I have short horns.",
+  "image": "cards/animals/bison.svg"
+ },
+ {
+  "id": "A052",
+  "kind": "animal",
+  "name": "beetle",
+  "clue": "I am a small insect with a hard, shiny shell.",
+  "image": "cards/animals/beetle.svg"
+ },
+ {
+  "id": "A053",
+  "kind": "animal",
+  "name": "worm",
+  "clue": "I am long and thin. I live in the soil.",
+  "image": "cards/animals/worm.svg"
+ },
+ {
+  "id": "A054",
+  "kind": "animal",
+  "name": "cricket",
+  "clue": "I am a green insect. I jump and chirp at night.",
+  "image": "cards/animals/cricket.svg"
+ },
+ {
+  "id": "A055",
+  "kind": "animal",
+  "name": "badger",
+  "clue": "I dig holes in the ground. I have stripes on my head.",
+  "image": "cards/animals/badger.svg"
+ },
+ {
+  "id": "A056",
+  "kind": "animal",
+  "name": "ladybug",
+  "clue": "I am a small red insect with black dots.",
+  "image": "cards/animals/ladybug.svg"
+ },
+ {
+  "id": "A057",
+  "kind": "animal",
+  "name": "spider",
+  "clue": "I have eight legs. I make a web.",
+  "image": "cards/animals/spider.svg"
+ },
+ {
+  "id": "A058",
+  "kind": "animal",
+  "name": "mouse",
+  "clue": "I am small and grey. I love cheese. I say \"squeak\".",
+  "image": "cards/animals/mouse.svg"
+ },
+ {
+  "id": "A059",
+  "kind": "animal",
+  "name": "hedgehog",
+  "clue": "I am small and I have spikes on my back.",
+  "image": "cards/animals/hedgehog.svg"
+ },
+ {
+  "id": "A060",
+  "kind": "animal",
+  "name": "lobster",
+  "clue": "I live in the sea. I have two big claws.",
+  "image": "cards/animals/lobster.svg"
+ },
+ {
+  "id": "F001",
+  "kind": "fruit",
+  "name": "apple",
+  "clue": "I am red and round. I grow on a tree.",
+  "image": "🍎"
+ },
+ {
+  "id": "F002",
+  "kind": "fruit",
+  "name": "green apple",
+  "clue": "I am green, sour, and crunchy. I grow on a tree.",
+  "image": "🍏"
+ },
+ {
+  "id": "F003",
+  "kind": "fruit",
+  "name": "pear",
+  "clue": "I am green. My shape is like a bell.",
+  "image": "🍐"
+ },
+ {
+  "id": "F004",
+  "kind": "fruit",
+  "name": "orange",
+  "clue": "I am round and full of sweet juice. My name is also a color.",
+  "image": "🍊"
+ },
+ {
+  "id": "F005",
+  "kind": "fruit",
+  "name": "lemon",
+  "clue": "I am yellow and very sour.",
+  "image": "🍋"
+ },
+ {
+  "id": "F006",
+  "kind": "fruit",
+  "name": "banana",
+  "clue": "I am long and yellow. Monkeys love me.",
+  "image": "🍌"
+ },
+ {
+  "id": "F007",
+  "kind": "fruit",
+  "name": "watermelon",
+  "clue": "I am green outside and red inside. I have black seeds.",
+  "image": "🍉"
+ },
+ {
+  "id": "F008",
+  "kind": "fruit",
+  "name": "grapes",
+  "clue": "We are small and round. We grow together in a bunch.",
+  "image": "🍇"
+ },
+ {
+  "id": "F009",
+  "kind": "fruit",
+  "name": "strawberry",
+  "clue": "I am red with tiny seeds on my skin.",
+  "image": "🍓"
+ },
+ {
+  "id": "F010",
+  "kind": "fruit",
+  "name": "blueberries",
+  "clue": "We are small and blue. We are sweet.",
+  "image": "🫐"
+ },
+ {
+  "id": "F011",
+  "kind": "fruit",
+  "name": "melon",
+  "clue": "I am big and round. I am green and sweet inside.",
+  "image": "🍈"
+ },
+ {
+  "id": "F012",
+  "kind": "fruit",
+  "name": "cherries",
+  "clue": "We are small and red. We have long stems.",
+  "image": "🍒"
+ },
+ {
+  "id": "F013",
+  "kind": "fruit",
+  "name": "peach",
+  "clue": "I am soft and fuzzy. I am pink and orange.",
+  "image": "🍑"
+ },
+ {
+  "id": "F014",
+  "kind": "fruit",
+  "name": "mango",
+  "clue": "I am sweet and yellow inside. I have a big seed.",
+  "image": "🥭"
+ },
+ {
+  "id": "F015",
+  "kind": "fruit",
+  "name": "pineapple",
+  "clue": "I have a spiky skin and green leaves on top.",
+  "image": "🍍"
+ },
+ {
+  "id": "F016",
+  "kind": "fruit",
+  "name": "coconut",
+  "clue": "I am brown and hard. I have water inside.",
+  "image": "🥥"
+ },
+ {
+  "id": "F017",
+  "kind": "fruit",
+  "name": "kiwi",
+  "clue": "I am brown and hairy outside. I am green inside.",
+  "image": "🥝"
+ },
+ {
+  "id": "F018",
+  "kind": "fruit",
+  "name": "tomato",
+  "clue": "I am red and round. People put me in salad.",
+  "image": "🍅"
+ },
+ {
+  "id": "F019",
+  "kind": "fruit",
+  "name": "avocado",
+  "clue": "I am green. I have a big round seed in the middle.",
+  "image": "🥑"
+ },
+ {
+  "id": "F020",
+  "kind": "fruit",
+  "name": "olive",
+  "clue": "I am small and green. People make oil from me.",
+  "image": "🫒"
+ },
+ {
+  "id": "F021",
+  "kind": "fruit",
+  "name": "papaya",
+  "clue": "I am orange inside with many black seeds.",
+  "image": "cards/fruits/papaya.svg"
+ },
+ {
+  "id": "F022",
+  "kind": "fruit",
+  "name": "durian",
+  "clue": "I have big spikes and a very strong smell.",
+  "image": "cards/fruits/durian.svg"
+ },
+ {
+  "id": "F023",
+  "kind": "fruit",
+  "name": "rambutan",
+  "clue": "I am red and hairy. I am white and sweet inside.",
+  "image": "cards/fruits/rambutan.svg"
+ },
+ {
+  "id": "F024",
+  "kind": "fruit",
+  "name": "mangosteen",
+  "clue": "I am dark purple outside and white inside.",
+  "image": "cards/fruits/mangosteen.svg"
+ },
+ {
+  "id": "F025",
+  "kind": "fruit",
+  "name": "snake fruit",
+  "clue": "My brown skin looks like snake skin.",
+  "image": "cards/fruits/snake-fruit.svg"
+ },
+ {
+  "id": "F026",
+  "kind": "fruit",
+  "name": "jackfruit",
+  "clue": "I am very big and green. I am yellow inside.",
+  "image": "cards/fruits/jackfruit.svg"
+ },
+ {
+  "id": "F027",
+  "kind": "fruit",
+  "name": "guava",
+  "clue": "I am green outside and pink inside.",
+  "image": "cards/fruits/guava.svg"
+ },
+ {
+  "id": "F028",
+  "kind": "fruit",
+  "name": "dragon fruit",
+  "clue": "I am pink outside and white inside with black seeds.",
+  "image": "cards/fruits/dragon-fruit.svg"
+ },
+ {
+  "id": "F029",
+  "kind": "fruit",
+  "name": "starfruit",
+  "clue": "When you cut me, I look like a star.",
+  "image": "cards/fruits/starfruit.svg"
+ },
+ {
+  "id": "F030",
+  "kind": "fruit",
+  "name": "lychee",
+  "clue": "I am small and red. I am white and juicy inside.",
+  "image": "cards/fruits/lychee.svg"
+ },
+ {
+  "id": "F031",
+  "kind": "fruit",
+  "name": "pomegranate",
+  "clue": "I am red. I have many small red seeds inside.",
+  "image": "cards/fruits/pomegranate.svg"
+ },
+ {
+  "id": "F032",
+  "kind": "fruit",
+  "name": "plum",
+  "clue": "I am small, round, and purple.",
+  "image": "cards/fruits/plum.svg"
+ },
+ {
+  "id": "F033",
+  "kind": "fruit",
+  "name": "fig",
+  "clue": "I am purple outside and pink inside.",
+  "image": "cards/fruits/fig.svg"
+ },
+ {
+  "id": "F034",
+  "kind": "fruit",
+  "name": "raspberry",
+  "clue": "I am a small red berry made of tiny balls.",
+  "image": "cards/fruits/raspberry.svg"
+ },
+ {
+  "id": "F035",
+  "kind": "fruit",
+  "name": "blackberry",
+  "clue": "I am a small dark purple berry.",
+  "image": "cards/fruits/blackberry.svg"
+ },
+ {
+  "id": "F036",
+  "kind": "fruit",
+  "name": "passion fruit",
+  "clue": "I am purple outside. I am yellow with seeds inside.",
+  "image": "cards/fruits/passion-fruit.svg"
+ },
+ {
+  "id": "F037",
+  "kind": "fruit",
+  "name": "grapefruit",
+  "clue": "I look like a big orange. I am pink inside.",
+  "image": "cards/fruits/grapefruit.svg"
+ },
+ {
+  "id": "F038",
+  "kind": "fruit",
+  "name": "persimmon",
+  "clue": "I am orange and I have green leaves on top.",
+  "image": "cards/fruits/persimmon.svg"
+ },
+ {
+  "id": "F039",
+  "kind": "fruit",
+  "name": "apricot",
+  "clue": "I am small and orange. I look like a little peach.",
+  "image": "cards/fruits/apricot.svg"
+ },
+ {
+  "id": "F040",
+  "kind": "fruit",
+  "name": "lime",
+  "clue": "I am small, green, and sour.",
+  "image": "🍋‍🟩"
+ }
+]

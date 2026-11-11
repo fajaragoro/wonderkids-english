@@ -114,8 +114,33 @@ Setelah pembaruan, pengguna mendapat versi baru pada pembukaan berikutnya (versi
   lalu `python3 tools/update_sw.py`. Emoji yang tidak punya file tetap tampil sebagai emoji biasa.
 - Karakter (avatar, maskot Wondi, hewan) memakai gaya yang sama lewat `tools/style2d.py` (aman dijalankan berulang).
 
+
+## Card Game
+
+Setelah menekan **Ayo Main!**, anak memilih **Petualangan** (10 game di peta) atau **Card Game**.
+Card Game punya 3 dek, masing-masing 100 kartu, tanpa skor dan bintang. Setiap dek selalu menampilkan
+layar **Cara main** dulu, dan urutan kartu diacak setiap kali dimulai.
+
+| Dek | Yang terlihat | Yang tertutup | Suara |
+|---|---|---|---|
+| Where is…? | Gambar & nama benda, pertanyaan "Where is the …?" | Lokasi ("It is under the bed.") | Pertanyaan, lalu kalimat jawaban |
+| The Profession | Clue berbahasa Inggris | Figur profesi (faceless) + alatnya + nama | Clue, lalu "A doctor!" |
+| Animals & Fruits | Clue berbahasa Inggris | Gambar hewan/buah + nama (60 hewan, 40 buah) | Clue, lalu namanya |
+
+- Jawaban hanya terbuka dengan **menahan** tombol kuning ±1 detik (`HOLD_MS` di `js/cards.js`), agar tidak terbuka tak sengaja.
+- Isi dek ada di `tools/cards/where.py`, `jobs.py`, `nature.py`. Setelah mengubah, jalankan:
+  ```bash
+  python3 tools/cards/build.py
+  ```
+  Validator memeriksa 100 kartu per dek, nama unik, gambar ada, emoji tanpa wajah, dan clue tidak menyebut jawabannya.
+  Lalu jalankan `node tools/emoji/build.js` (jika ada emoji baru) dan `python3 tools/update_sw.py`.
+- Figur profesi digambar di browser oleh `js/cards-figure.js` (gaya pakaian di `OUTFIT` pada `tools/cards/jobs.py`),
+  selalu tanpa mata, hidung, mulut, dan alis.
+- Gambar hewan `assets/cards/animals/` berasal dari Fluent Emoji Flat yang mata, hidung, dan mulutnya sudah dihapus
+  (ditandai `data-faceless`). Buah yang tidak ada di emoji digambar oleh `tools/cards/fruits.py` ke `assets/cards/fruits/`.
+
 ## Kredit
 
-- Gambar emoji: [Fluent Emoji](https://github.com/microsoft/fluentui-emoji) © Microsoft, lisensi MIT
+- Gambar emoji dan hewan kartu: [Fluent Emoji](https://github.com/microsoft/fluentui-emoji) © Microsoft, lisensi MIT
   (lewat paket `@iconify-json/fluent-emoji-flat`).
 - Font: Lilita One dan Baloo 2 (Google Fonts, SIL Open Font License).
