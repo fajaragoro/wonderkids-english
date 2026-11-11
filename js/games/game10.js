@@ -70,6 +70,7 @@
   function mountMic(q, ctx) {
     var mic = K.el('button', 'mic-btn');
     mic.type = 'button';
+    mic.setAttribute('data-silent', ''); // bunyi klik jangan ikut terekam mikrofon
     mic.appendChild(K.el('span', 'mic-icon', '🎤'));
     mic.appendChild(K.el('span', 'mic-label display', 'Ucapkan'));
     var heard = K.el('p', 'heard', 'Tekan tombol mikrofon, lalu ucapkan.');

@@ -4,7 +4,7 @@
  * Setelah mengubah file, jalankan  python3 tools/update_sw.py  agar versi naik dan cache diperbarui. */
 'use strict';
 
-var VERSION = 'wk-20261110-094348';
+var VERSION = 'wk-20261111-024944';
 var PRECACHE = [
   './',
   'assets/avatar/acc-b-backpack.svg',
@@ -113,6 +113,7 @@ var PRECACHE = [
   'js/games/game10.js',
   'js/games/kit.js',
   'js/map.js',
+  'js/sfx.js',
   'js/speech.js',
   'js/stage.js',
   'js/storage.js',

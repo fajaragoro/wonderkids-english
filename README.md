@@ -31,6 +31,7 @@ js/avatar.js      Render avatar berlapis + wizard kustomisasi
 js/config.js      Tingkat, daftar 10 game, aturan bintang (nilai awal, bisa diubah)
 js/map.js         Pilih tingkat, peta petualangan, aturan buka kunci (WK.Progress)
 js/speech.js      Suara: speechSynthesis (en-US, pilih suara terjernih) + SpeechRecognition (Game 10)
+js/sfx.js         Efek suara (klik, benar, salah, menang) dibuat dengan Web Audio, tanpa file audio
 js/stage.js       Engine stage: muat soal, salah/benar, skor, bintang, ringkasan, hadiah
 js/games/         kit.js (helper), choice.js (modul generik), game01.js … game10.js
 assets/images/    Logo, maskot, ikon
@@ -64,7 +65,10 @@ Aturan wajib gambar: tanpa makhluk berwajah (emoji hewan/orang/matahari berwajah
 ## Suara
 
 - Semua suara memakai suara bawaan browser (Web Speech API), bahasa English (US). Suara berbeda tiap perangkat.
-- Suara bisa dimatikan di Pengaturan. Saat suara mati atau tidak didukung, Game 7 menampilkan teksnya langsung.
+- Efek suara: setiap tombol berbunyi "pop" saat diketuk; jawaban benar, salah, dan selesai stage punya bunyi sendiri.
+  Dibuat langsung dengan Web Audio (jalan offline). Tombol dengan atribut `data-silent` tidak berbunyi (mis. tombol mikrofon Game 10).
+  Ubah nada atau volume di `js/sfx.js`.
+- Suara (ucapan dan efek) bisa dimatikan di Pengaturan. Saat suara mati atau tidak didukung, Game 7 menampilkan teksnya langsung.
 - Game 10 memakai mikrofon (SpeechRecognition) bila didukung: Chrome/Edge (butuh internet) dan Safari iOS 14.5+.
   Mikrofon hanya jalan di `https://` atau `localhost`. Jika tidak didukung, izin ditolak, atau tidak ada internet,
   game otomatis pindah ke mode pilih rekaman.

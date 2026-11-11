@@ -199,6 +199,7 @@
     if (ok) {
       run.correct++;
       run.results[run.index] = true;
+      if (WK.Sfx) WK.Sfx.play('correct');
       renderSegs();
       var text = praise();
       showFeedback('good', text, null);
@@ -209,6 +210,7 @@
     }
 
     run.attempts++;
+    if (WK.Sfx) WK.Sfx.play('wrong');
     var area = $('q-area');
     area.classList.remove('shake');
     void area.offsetWidth;
@@ -365,7 +367,7 @@
     $('sum-map').onclick = function () { actions.map(); };
     $('sum-map').hidden = !canNext;
 
-    if (sum.stars > 0) confetti($('screen-summary'));
+    if (sum.stars > 0) { confetti($('screen-summary')); if (WK.Sfx) WK.Sfx.play('win'); }
     setTimeout(function () { say(mood.en); }, 400);
   }
 
