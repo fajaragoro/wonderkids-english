@@ -1541,14 +1541,14 @@
   "type": "memory_card",
   "prompt": "",
   "options": [
-   "theater",
-   "cinema",
-   "concert",
-   "circus"
+   "ticket",
+   "receipt",
+   "card",
+   "coupon"
   ],
-  "answer": "theater",
-  "image": "🎭",
-  "audio": "theater"
+  "answer": "ticket",
+  "image": "🎟️",
+  "audio": "ticket"
  },
  {
   "id": "G6-T3-0034",
@@ -1558,14 +1558,14 @@
   "type": "memory_card",
   "prompt": "",
   "options": [
-   "statue",
-   "monument",
    "tower",
-   "bridge"
+   "statue",
+   "bridge",
+   "castle"
   ],
-  "answer": "statue",
-  "image": "🗽",
-  "audio": "statue"
+  "answer": "tower",
+  "image": "🗼",
+  "audio": "tower"
  },
  {
   "id": "G6-T3-0035",

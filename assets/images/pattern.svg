@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 260" width="260" height="260">
+  <!-- Pola doodle garis untuk latar halaman (benda sekolah & alam, tanpa makhluk hidup). -->
+  <g fill="none" stroke="#ffffff" stroke-opacity=".14" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <!-- buku terbuka -->
+    <path d="M14 40 q22 -10 40 0 v34 q-18 -10 -40 0 z M54 40 q18 -10 40 0 v34 q-22 -10 -40 0"/>
+    <!-- pensil -->
+    <path d="M150 18 l42 42 l-12 12 l-42 -42 z M138 30 l-8 22 l22 -8 M182 50 l12 12"/>
+    <!-- bintang -->
+    <path d="M222 92 l7 15 l16 2 l-12 11 l3 16 l-14 -8 l-14 8 l3 -16 l-12 -11 l16 -2 z"/>
+    <!-- apel -->
+    <path d="M40 130 c-18 -10 -32 6 -26 26 c5 16 16 24 26 18 c10 6 21 -2 26 -18 c6 -20 -8 -36 -26 -26 z M40 130 v-12 q8 -8 16 -4"/>
+    <!-- bola -->
+    <circle cx="120" cy="130" r="22"/>
+    <path d="M98 130 h44 M120 108 q-14 22 0 44 M120 108 q14 22 0 44"/>
+    <!-- huruf ABC -->
+    <path d="M168 196 l10 -30 l10 30 M172 186 h12 M196 166 v30 h10 q9 0 9 -8 q0 -7 -9 -7 h-10 M196 181 h8 q8 0 8 -7 q0 -8 -8 -8 h-8 M246 170 q-6 -5 -13 -3 q-10 4 -10 14 q0 10 10 14 q7 2 13 -3"/>
+    <!-- awan -->
+    <path d="M24 228 q0 -16 16 -16 q6 -14 22 -10 q14 -6 20 10 q14 0 14 16 z"/>
+    <!-- not musik -->
+    <path d="M122 238 v-40 l28 -8 v38 M122 238 a8 6 0 1 1 -1 -2 M150 228 a8 6 0 1 1 -1 -2"/>
+    <!-- pesawat kertas -->
+    <path d="M196 236 l52 -22 l-30 38 l-6 -14 z M212 238 l36 -24"/>
+    <!-- titik & lingkaran kecil -->
+    <circle cx="100" cy="66" r="4"/>
+    <circle cx="214" cy="140" r="3"/>
+    <circle cx="70" cy="196" r="5"/>
+  </g>
+</svg>

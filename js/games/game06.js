@@ -43,7 +43,8 @@
       c.setAttribute('aria-label', 'Kartu tertutup');
       var inner = K.el('span', 'mem-inner');
       inner.appendChild(K.el('span', 'mem-back', '★'));
-      var front = K.el('span', 'mem-front', word);
+      var longest = word.split(' ').reduce(function (m, w) { return Math.max(m, w.length); }, 0);
+      var front = K.el('span', 'mem-front' + (longest > 7 ? ' xlong' : longest > 5 ? ' long' : ''), word);
       front.lang = 'en';
       inner.appendChild(front);
       c.appendChild(inner);

@@ -22,7 +22,7 @@ Kode masuk: `3016` (diatur di `js/access.js`, konstanta `ACCESS_CODE`).
 ```
 index.html        Halaman utama, kode masuk, kerangka layar
 manifest.webmanifest, sw.js   Pasang di layar utama + mode offline (PWA)
-css/style.css     Tema (komik ceria, mobile-first)
+css/style.css     Tema ilustrasi 2D datar (latar biru berpola, kartu berbingkai putih, gelombang ungu), mobile-first
 js/storage.js     Wrapper localStorage (key: wonderkids-english)
 js/access.js      Kode masuk
 js/app.js         Routing layar, pengaturan (Keluar, Reset progres, Ubah avatar)
@@ -34,10 +34,13 @@ js/speech.js      Suara: speechSynthesis (en-US, pilih suara terjernih) + Speech
 js/sfx.js         Efek suara (klik, benar, salah, menang) dibuat dengan Web Audio, tanpa file audio
 js/stage.js       Engine stage: muat soal, salah/benar, skor, bintang, ringkasan, hadiah
 js/games/         kit.js (helper), choice.js (modul generik), game01.js … game10.js
-assets/images/    Logo, maskot, ikon
+assets/images/    Logo, maskot, ikon, pola latar (pattern.svg), gelombang kartu (wave.svg)
+assets/emoji/     Gambar 2D untuk setiap emoji yang dipakai (Fluent Emoji Flat), dibuat oleh tools/emoji
 assets/avatar/    SVG item avatar, semua viewBox 0 0 200 280 (placeholder, ganti dengan desain final dengan nama file sama)
 data/             game01.json … game10.json (1000 soal: 30/30/40 per game)
 tools/update_sw.py  Perbarui daftar file offline di sw.js
+tools/emoji/      build.js: salin SVG Fluent Emoji Flat untuk semua emoji yang dipakai ke assets/emoji
+tools/style2d.py  Ubah SVG karakter (avatar, maskot, hewan) ke gaya 2D: garis ungu tua, warna cerah, bayangan & kilau
 tools/content/    Sumber soal (g01.py … g10.py) + build.py (validasi & tulis data/*.json)
 ```
 
@@ -99,3 +102,20 @@ Setelah pembaruan, pengguna mendapat versi baru pada pembukaan berikutnya (versi
 
 - Tombol Back Android/browser bergerak di dalam game (stage → konfirmasi keluar, ringkasan → peta, peta → beranda); dari beranda baru keluar.
 - Setelah dibuka sekali lewat HTTPS, seluruh game (1000 soal, gambar, avatar) bisa dimainkan tanpa internet.
+
+## Gambar 2D
+
+- Emoji di soal dan tampilan **tidak** digambar oleh HP, tetapi diganti otomatis oleh `js/emoji.js` dengan file
+  `assets/emoji/<kode>.svg`, supaya gayanya sama di semua perangkat dan tetap jalan offline.
+- Setelah menambah emoji baru di soal atau kode, jalankan:
+  ```bash
+  cd tools/emoji && npm install && node build.js
+  ```
+  lalu `python3 tools/update_sw.py`. Emoji yang tidak punya file tetap tampil sebagai emoji biasa.
+- Karakter (avatar, maskot Wondi, hewan) memakai gaya yang sama lewat `tools/style2d.py` (aman dijalankan berulang).
+
+## Kredit
+
+- Gambar emoji: [Fluent Emoji](https://github.com/microsoft/fluentui-emoji) © Microsoft, lisensi MIT
+  (lewat paket `@iconify-json/fluent-emoji-flat`).
+- Font: Lilita One dan Baloo 2 (Google Fonts, SIL Open Font License).

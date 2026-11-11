@@ -1,0 +1,6 @@
+{
+  "name": "wonderkids-emoji-tool",
+  "private": true,
+  "description": "Alat pengembang: salin SVG Fluent Emoji Flat ke assets/emoji",
+  "dependencies": { "@iconify-json/fluent-emoji-flat": "1.2.6" }
+}

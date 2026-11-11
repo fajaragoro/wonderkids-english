@@ -27,7 +27,8 @@
       b.style.setProperty('--bc', COLORS[i % COLORS.length]);
       b.style.setProperty('--delay', (i * 0.35) + 's');
       b.style.setProperty('--dur', (2.6 + (i % 3) * 0.5) + 's');
-      b.appendChild(K.el('span', 'balloon-text' + (opt.length > 12 ? ' long' : ''), opt));
+      var longest = opt.split(' ').reduce(function (m, w) { return Math.max(m, w.length); }, 0);
+      b.appendChild(K.el('span', 'balloon-text' + (longest > 8 ? ' xlong' : longest > 6 ? ' long' : ''), opt));
       b.appendChild(K.el('span', 'balloon-string'));
       b.addEventListener('click', function () {
         if (ctx.locked() || b.disabled) return;

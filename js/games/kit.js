@@ -55,10 +55,12 @@
   // Tombol pilihan standar. onPick(opt, btn) dipanggil sebelum ctx.submit.
   function options(q, ctx, opts) {
     opts = opts || {};
-    var grid = el('div', 'options' + (opts.cls ? ' ' + opts.cls : ''));
+    var grid = el('div', 'options n' + (q.options || []).length + (opts.cls ? ' ' + opts.cls : ''));
     var list = opts.keepOrder ? (q.options || []) : shuffle(q.options || []);
     var buttons = list.map(function (opt) {
-      var b = el('button', 'opt', opt);
+      // Kata panjang (mis. "watermelon") dikecilkan agar tidak terpotong di tengah kata.
+      var longest = String(opt).split(' ').reduce(function (m, w) { return Math.max(m, w.length); }, 0);
+      var b = el('button', 'opt' + (longest > 7 ? ' long-word' : ''), opt);
       b.type = 'button';
       b.dataset.value = opt;
       b.addEventListener('click', function () {

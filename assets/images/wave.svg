@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 60" preserveAspectRatio="none">
+  <!-- Gelombang ungu di bagian bawah kartu (seperti kartu referensi). -->
+  <path d="M0 22 C40 4 70 34 110 20 S170 2 200 16 V60 H0 Z" fill="#7a3df0"/>
+  <path d="M0 22 C40 4 70 34 110 20 S170 2 200 16" fill="none" stroke="#9a6bff" stroke-width="3"/>
+</svg>
