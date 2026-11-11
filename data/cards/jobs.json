@@ -11,7 +11,8 @@
    "skin": "#a86b45",
    "hair": "long",
    "hairColor": "#2b1d16"
-  }
+  },
+  "clue3": "You visit me when you have a fever. I check you in my clinic."
  },
  {
   "id": "J002",
@@ -25,7 +26,8 @@
    "skin": "#f1b98c",
    "hair": "bun",
    "hairColor": "#6b3e26"
-  }
+  },
+  "clue3": "I wear a uniform and help patients get well. I give injections."
  },
  {
   "id": "J003",
@@ -39,7 +41,8 @@
    "skin": "#7a4a2c",
    "hair": "long",
    "hairColor": "#2b1d16"
-  }
+  },
+  "clue3": "I fix holes in your teeth. Open your mouth wide!"
  },
  {
   "id": "J004",
@@ -53,7 +56,8 @@
    "skin": "#d99a6c",
    "hair": "short",
    "hairColor": "#1f1a17"
-  }
+  },
+  "clue3": "I wear a mask and gloves. I work in the operating room."
  },
  {
   "id": "J005",
@@ -67,7 +71,8 @@
    "skin": "#ffd2ac",
    "hair": "long",
    "hairColor": "#8b5a3c"
-  }
+  },
+  "clue3": "Bring your sick pet to me. I give medicine to cats, dogs, and birds."
  },
  {
   "id": "J006",
@@ -83,7 +88,8 @@
    "hair": "hijab",
    "hairColor": "#22b0f2",
    "hijabColor": "#22b0f2"
-  }
+  },
+  "clue3": "Show me the doctor's paper and I give you the right pills."
  },
  {
   "id": "J007",
@@ -97,7 +103,8 @@
    "skin": "#f1b98c",
    "hair": "bun",
    "hairColor": "#2b1d16"
-  }
+  },
+  "clue3": "Wee-woo! I come fast in a white car with a red light."
  },
  {
   "id": "J008",
@@ -111,7 +118,8 @@
    "skin": "#7a4a2c",
    "hair": "short",
    "hairColor": "#4a2f23"
-  }
+  },
+  "clue3": "Read the letters on the chart for me. I test how well you can see."
  },
  {
   "id": "J009",
@@ -125,7 +133,8 @@
    "skin": "#d99a6c",
    "hair": "long",
    "hairColor": "#2b1d16"
-  }
+  },
+  "clue3": "I stand in front of the class. I write on the board."
  },
  {
   "id": "J010",
@@ -140,7 +149,8 @@
    "skin": "#ffd2ac",
    "hair": "bun",
    "hairColor": "#6b3e26"
-  }
+  },
+  "clue3": "I am the boss of all the teachers at school."
  },
  {
   "id": "J011",
@@ -155,7 +165,8 @@
    "hair": "hijab",
    "hairColor": "#7a3df0",
    "hijabColor": "#22b0f2"
-  }
+  },
+  "clue3": "Shh! Please be quiet. You can borrow books from me."
  },
  {
   "id": "J012",
@@ -170,7 +181,8 @@
    "skin": "#f1b98c",
    "hair": "short",
    "hairColor": "#1f1a17"
-  }
+  },
+  "clue3": "I teach at a university. I know a lot about one subject."
  },
  {
   "id": "J013",
@@ -185,7 +197,8 @@
    "skin": "#7a4a2c",
    "hair": "long",
    "hairColor": "#8b5a3c"
-  }
+  },
+  "clue3": "I wear a white coat and goggles. I test my ideas."
  },
  {
   "id": "J014",
@@ -201,7 +214,8 @@
    "hair": "hijab",
    "hairColor": "#22b0f2",
    "hijabColor": "#ff8a2a"
-  }
+  },
+  "clue3": "I watch the night sky. I know the names of the planets."
  },
  {
   "id": "J015",
@@ -216,7 +230,8 @@
    "skin": "#ffd2ac",
    "hair": "bun",
    "hairColor": "#2b1d16"
-  }
+  },
+  "clue3": "I study living things, like frogs, trees, and tiny cells."
  },
  {
   "id": "J016",
@@ -231,7 +246,8 @@
    "skin": "#a86b45",
    "hair": "short",
    "hairColor": "#4a2f23"
-  }
+  },
+  "clue3": "I mix colorful liquids in glass tubes. Sometimes they bubble!"
  },
  {
   "id": "J017",
@@ -247,7 +263,8 @@
    "skin": "#f1b98c",
    "hair": "long",
    "hairColor": "#2b1d16"
-  }
+  },
+  "clue3": "I wear a big white suit and a helmet. I float in space."
  },
  {
   "id": "J018",
@@ -264,7 +281,8 @@
    "skin": "#7a4a2c",
    "hair": "bun",
    "hairColor": "#6b3e26"
-  }
+  },
+  "clue3": "I sit in the cockpit. I say, \"Please fasten your seat belts.\""
  },
  {
   "id": "J019",
@@ -281,7 +299,8 @@
    "skin": "#d99a6c",
    "hair": "long",
    "hairColor": "#2b1d16"
-  }
+  },
+  "clue3": "I show you the safety rules on the plane. I serve snacks."
  },
  {
   "id": "J020",
@@ -296,7 +315,8 @@
    "skin": "#ffd2ac",
    "hair": "short",
    "hairColor": "#1f1a17"
-  }
+  },
+  "clue3": "I wear a tall white hat. I am the boss of the kitchen."
  },
  {
   "id": "J021",
@@ -311,7 +331,8 @@
    "skin": "#a86b45",
    "hair": "long",
    "hairColor": "#8b5a3c"
-  }
+  },
+  "clue3": "I use flour, eggs, and an oven. My shop smells sweet."
  },
  {
   "id": "J022",
@@ -327,7 +348,8 @@
    "hair": "hijab",
    "hairColor": "#22b0f2",
    "hijabColor": "#2fd07d"
-  }
+  },
+  "clue3": "I write your order and bring your food and drinks."
  },
  {
   "id": "J023",
@@ -341,7 +363,8 @@
    "skin": "#7a4a2c",
    "hair": "bun",
    "hairColor": "#2b1d16"
-  }
+  },
+  "clue3": "I draw a heart on top of your coffee in a cafe."
  },
  {
   "id": "J024",
@@ -355,7 +378,8 @@
    "skin": "#d99a6c",
    "hair": "short",
    "hairColor": "#4a2f23"
-  }
+  },
+  "clue3": "I sell chicken and beef. I use a big knife."
  },
  {
   "id": "J025",
@@ -370,7 +394,8 @@
    "skin": "#ffd2ac",
    "hair": "long",
    "hairColor": "#2b1d16"
-  }
+  },
+  "clue3": "I throw the dough in the air. I bake it in a hot oven."
  },
  {
   "id": "J026",
@@ -386,7 +411,8 @@
    "skin": "#a86b45",
    "hair": "bun",
    "hairColor": "#6b3e26"
-  }
+  },
+  "clue3": "Ding ding! I push a cart and sell cold cones."
  },
  {
   "id": "J027",
@@ -401,7 +427,8 @@
    "skin": "#f1b98c",
    "hair": "long",
    "hairColor": "#2b1d16"
-  }
+  },
+  "clue3": "I wake up early to feed my animals and work in the field."
  },
  {
   "id": "J028",
@@ -416,7 +443,8 @@
    "skin": "#7a4a2c",
    "hair": "short",
    "hairColor": "#1f1a17"
-  }
+  },
+  "clue3": "I water plants, cut the grass, and pull weeds."
  },
  {
   "id": "J029",
@@ -430,7 +458,8 @@
    "skin": "#d99a6c",
    "hair": "long",
    "hairColor": "#8b5a3c"
-  }
+  },
+  "clue3": "I sell roses and tulips in my shop."
  },
  {
   "id": "J030",
@@ -446,7 +475,8 @@
    "skin": "#ffd2ac",
    "hair": "long",
    "hairColor": "#2b1d16"
-  }
+  },
+  "clue3": "I use a net and a hook. I sell what I catch at the market."
  },
  {
   "id": "J031",
@@ -461,7 +491,8 @@
    "skin": "#a86b45",
    "hair": "bun",
    "hairColor": "#2b1d16"
-  }
+  },
+  "clue3": "I wear a special suit and a net on my hat so I do not get stung."
  },
  {
   "id": "J032",
@@ -477,7 +508,8 @@
    "skin": "#f1b98c",
    "hair": "short",
    "hairColor": "#4a2f23"
-  }
+  },
+  "clue3": "I ride a horse and use a rope to take care of cattle."
  },
  {
   "id": "J033",
@@ -493,7 +525,8 @@
    "skin": "#7a4a2c",
    "hair": "long",
    "hairColor": "#2b1d16"
-  }
+  },
+  "clue3": "I wear a helmet and climb a tall ladder. I use a big hose."
  },
  {
   "id": "J034",
@@ -510,7 +543,8 @@
    "skin": "#d99a6c",
    "hair": "bun",
    "hairColor": "#6b3e26"
-  }
+  },
+  "clue3": "I wear a uniform and a badge. I help you when you are lost."
  },
  {
   "id": "J035",
@@ -526,7 +560,8 @@
    "skin": "#ffd2ac",
    "hair": "long",
    "hairColor": "#2b1d16"
-  }
+  },
+  "clue3": "I wear green clothes and a helmet. I march in the army."
  },
  {
   "id": "J036",
@@ -542,7 +577,8 @@
    "skin": "#a86b45",
    "hair": "short",
    "hairColor": "#1f1a17"
-  }
+  },
+  "clue3": "I stand at the gate. I check who comes in."
  },
  {
   "id": "J037",
@@ -557,7 +593,8 @@
    "skin": "#f1b98c",
    "hair": "long",
    "hairColor": "#8b5a3c"
-  }
+  },
+  "clue3": "I sit on a tall chair at the pool. I save people who cannot swim."
  },
  {
   "id": "J038",
@@ -573,7 +610,8 @@
    "skin": "#7a4a2c",
    "hair": "long",
    "hairColor": "#2b1d16"
-  }
+  },
+  "clue3": "I use a magnifying glass to find out who did it."
  },
  {
   "id": "J039",
@@ -588,7 +626,8 @@
    "skin": "#d99a6c",
    "hair": "bun",
    "hairColor": "#2b1d16"
-  }
+  },
+  "clue3": "I wear a black robe. I hit my wooden hammer and say who is right."
  },
  {
   "id": "J040",
@@ -603,7 +642,8 @@
    "skin": "#ffd2ac",
    "hair": "short",
    "hairColor": "#4a2f23"
-  }
+  },
+  "clue3": "I speak for you in court. I know all the rules."
  },
  {
   "id": "J041",
@@ -619,7 +659,8 @@
    "skin": "#a86b45",
    "hair": "long",
    "hairColor": "#2b1d16"
-  }
+  },
+  "clue3": "I put letters in your mailbox every day."
  },
  {
   "id": "J042",
@@ -635,7 +676,8 @@
    "skin": "#f1b98c",
    "hair": "bun",
    "hairColor": "#6b3e26"
-  }
+  },
+  "clue3": "Ding dong! Your package is here. I drive a van."
  },
  {
   "id": "J043",
@@ -651,7 +693,8 @@
    "skin": "#7a4a2c",
    "hair": "long",
    "hairColor": "#2b1d16"
-  }
+  },
+  "clue3": "I stop at every stop to pick up passengers."
  },
  {
   "id": "J044",
@@ -667,7 +710,8 @@
    "skin": "#d99a6c",
    "hair": "short",
    "hairColor": "#1f1a17"
-  }
+  },
+  "clue3": "You pay me to drive you to the airport or the mall."
  },
  {
   "id": "J045",
@@ -683,7 +727,8 @@
    "skin": "#ffd2ac",
    "hair": "long",
    "hairColor": "#8b5a3c"
-  }
+  },
+  "clue3": "My vehicle has many wheels. I drive across the country."
  },
  {
   "id": "J046",
@@ -699,7 +744,8 @@
    "skin": "#a86b45",
    "hair": "long",
    "hairColor": "#2b1d16"
-  }
+  },
+  "clue3": "I drive on rails from station to station. Choo choo!"
  },
  {
   "id": "J047",
@@ -715,7 +761,8 @@
    "skin": "#f1b98c",
    "hair": "bun",
    "hairColor": "#2b1d16"
-  }
+  },
+  "clue3": "I steer the ship and give orders to the sailors."
  },
  {
   "id": "J048",
@@ -731,7 +778,8 @@
    "skin": "#7a4a2c",
    "hair": "short",
    "hairColor": "#4a2f23"
-  }
+  },
+  "clue3": "I tie ropes and wear a white hat on the boat."
  },
  {
   "id": "J049",
@@ -747,7 +795,8 @@
    "skin": "#d99a6c",
    "hair": "long",
    "hairColor": "#2b1d16"
-  }
+  },
+  "clue3": "I change tires and fix engines in a garage."
  },
  {
   "id": "J050",
@@ -763,7 +812,8 @@
    "skin": "#ffd2ac",
    "hair": "bun",
    "hairColor": "#6b3e26"
-  }
+  },
+  "clue3": "I fix plugs and lamps. I am careful with electricity."
  },
  {
   "id": "J051",
@@ -779,7 +829,8 @@
    "skin": "#a86b45",
    "hair": "long",
    "hairColor": "#2b1d16"
-  }
+  },
+  "clue3": "When your toilet is blocked, call me!"
  },
  {
   "id": "J052",
@@ -793,7 +844,8 @@
    "skin": "#f1b98c",
    "hair": "short",
    "hairColor": "#1f1a17"
-  }
+  },
+  "clue3": "I use a hammer, nails, and a saw to make furniture."
  },
  {
   "id": "J053",
@@ -810,7 +862,8 @@
    "skin": "#7a4a2c",
    "hair": "long",
    "hairColor": "#8b5a3c"
-  }
+  },
+  "clue3": "I use cement and bricks. I wear a hard hat."
  },
  {
   "id": "J054",
@@ -825,7 +878,8 @@
    "hair": "hijab",
    "hairColor": "#22b0f2",
    "hijabColor": "#ff8a2a"
-  }
+  },
+  "clue3": "I draw the design of a house before it is built."
  },
  {
   "id": "J055",
@@ -842,7 +896,8 @@
    "skin": "#ffd2ac",
    "hair": "bun",
    "hairColor": "#2b1d16"
-  }
+  },
+  "clue3": "I use math to make strong bridges and big machines."
  },
  {
   "id": "J056",
@@ -859,7 +914,8 @@
    "skin": "#a86b45",
    "hair": "short",
    "hairColor": "#4a2f23"
-  }
+  },
+  "clue3": "I use a big roller and buckets of paint on walls."
  },
  {
   "id": "J057",
@@ -875,7 +931,8 @@
    "skin": "#f1b98c",
    "hair": "long",
    "hairColor": "#2b1d16"
-  }
+  },
+  "clue3": "I use a brush and a canvas. My art is in a museum."
  },
  {
   "id": "J058",
@@ -889,7 +946,8 @@
    "skin": "#7a4a2c",
    "hair": "bun",
    "hairColor": "#6b3e26"
-  }
+  },
+  "clue3": "Smile! Say cheese! Click!"
  },
  {
   "id": "J059",
@@ -904,7 +962,8 @@
    "skin": "#d99a6c",
    "hair": "long",
    "hairColor": "#2b1d16"
-  }
+  },
+  "clue3": "I play songs on instruments. I practice every day."
  },
  {
   "id": "J060",
@@ -918,7 +977,8 @@
    "skin": "#ffd2ac",
    "hair": "short",
    "hairColor": "#1f1a17"
-  }
+  },
+  "clue3": "I hold a microphone and sing to the crowd."
  },
  {
   "id": "J061",
@@ -933,7 +993,8 @@
    "skin": "#a86b45",
    "hair": "long",
    "hairColor": "#8b5a3c"
-  }
+  },
+  "clue3": "Boom boom! I hit my instrument with two sticks."
  },
  {
   "id": "J062",
@@ -949,7 +1010,8 @@
    "hair": "hijab",
    "hairColor": "#22b0f2",
    "hijabColor": "#2fd07d"
-  }
+  },
+  "clue3": "I press the black and white keys."
  },
  {
   "id": "J063",
@@ -962,7 +1024,8 @@
    "skirt": true,
    "hair": "bun",
    "skin": "#7a4a2c"
-  }
+  },
+  "clue3": "I do ballet. I spin on my toes."
  },
  {
   "id": "J064",
@@ -976,7 +1039,8 @@
    "skin": "#d99a6c",
    "hair": "short",
    "hairColor": "#4a2f23"
-  }
+  },
+  "clue3": "I learn my lines and play a character in a movie."
  },
  {
   "id": "J065",
@@ -990,7 +1054,8 @@
    "skin": "#ffd2ac",
    "hair": "long",
    "hairColor": "#2b1d16"
-  }
+  },
+  "clue3": "I say, \"Lights, camera, action!\""
  },
  {
   "id": "J066",
@@ -1004,7 +1069,8 @@
    "skin": "#a86b45",
    "hair": "bun",
    "hairColor": "#6b3e26"
-  }
+  },
+  "clue3": "I use my imagination to write stories for you to read."
  },
  {
   "id": "J067",
@@ -1020,7 +1086,8 @@
    "skin": "#f1b98c",
    "hair": "long",
    "hairColor": "#2b1d16"
-  }
+  },
+  "clue3": "My words rhyme, like cat, hat, and bat."
  },
  {
   "id": "J068",
@@ -1034,7 +1101,8 @@
    "skin": "#7a4a2c",
    "hair": "short",
    "hairColor": "#1f1a17"
-  }
+  },
+  "clue3": "I ask questions and write articles about what happens."
  },
  {
   "id": "J069",
@@ -1049,7 +1117,8 @@
    "skin": "#d99a6c",
    "hair": "long",
    "hairColor": "#8b5a3c"
-  }
+  },
+  "clue3": "I hold a microphone and tell you about events on TV."
  },
  {
   "id": "J070",
@@ -1064,7 +1133,8 @@
    "skin": "#ffd2ac",
    "hair": "long",
    "hairColor": "#2b1d16"
-  }
+  },
+  "clue3": "I talk into a microphone in a studio. You hear me in the car."
  },
  {
   "id": "J071",
@@ -1079,7 +1149,8 @@
    "skin": "#a86b45",
    "hair": "bun",
    "hairColor": "#2b1d16"
-  }
+  },
+  "clue3": "I play songs with turntables and make people dance."
  },
  {
   "id": "J072",
@@ -1094,7 +1165,8 @@
    "skin": "#f1b98c",
    "hair": "short",
    "hairColor": "#4a2f23"
-  }
+  },
+  "clue3": "I type on the keyboard all day to build apps."
  },
  {
   "id": "J073",
@@ -1109,7 +1181,8 @@
    "skin": "#7a4a2c",
    "hair": "long",
    "hairColor": "#2b1d16"
-  }
+  },
+  "clue3": "I make characters and levels for fun things you play on a computer."
  },
  {
   "id": "J074",
@@ -1125,7 +1198,8 @@
    "skin": "#d99a6c",
    "hair": "bun",
    "hairColor": "#6b3e26"
-  }
+  },
+  "clue3": "Beep! I scan your shopping and give you change."
  },
  {
   "id": "J075",
@@ -1141,7 +1215,8 @@
    "skin": "#ffd2ac",
    "hair": "long",
    "hairColor": "#2b1d16"
-  }
+  },
+  "clue3": "I open my store in the morning and sell snacks and soap."
  },
  {
   "id": "J076",
@@ -1156,7 +1231,8 @@
    "skin": "#a86b45",
    "hair": "short",
    "hairColor": "#1f1a17"
-  }
+  },
+  "clue3": "I help you save your money and open an account."
  },
  {
   "id": "J077",
@@ -1170,7 +1246,8 @@
    "skin": "#f1b98c",
    "hair": "long",
    "hairColor": "#8b5a3c"
-  }
+  },
+  "clue3": "I use a calculator to count money and pay taxes."
  },
  {
   "id": "J078",
@@ -1185,7 +1262,8 @@
    "hair": "hijab",
    "hairColor": "#22b0f2",
    "hijabColor": "#ff4f7b"
-  }
+  },
+  "clue3": "I measure you and sew a shirt that fits."
  },
  {
   "id": "J079",
@@ -1201,7 +1279,8 @@
    "skin": "#d99a6c",
    "hair": "bun",
    "hairColor": "#2b1d16"
-  }
+  },
+  "clue3": "I draw new clothes and show them on a runway."
  },
  {
   "id": "J080",
@@ -1215,7 +1294,8 @@
    "skin": "#ffd2ac",
    "hair": "short",
    "hairColor": "#4a2f23"
-  }
+  },
+  "clue3": "I use scissors and a razor. I give short haircuts."
  },
  {
   "id": "J081",
@@ -1229,7 +1309,8 @@
    "skin": "#a86b45",
    "hair": "long",
    "hairColor": "#2b1d16"
-  }
+  },
+  "clue3": "I wash, cut, and curl your hair."
  },
  {
   "id": "J082",
@@ -1245,7 +1326,8 @@
    "skin": "#f1b98c",
    "hair": "bun",
    "hairColor": "#6b3e26"
-  }
+  },
+  "clue3": "I use a mop and a broom. I make everything shiny."
  },
  {
   "id": "J083",
@@ -1261,7 +1343,8 @@
    "skin": "#7a4a2c",
    "hair": "long",
    "hairColor": "#2b1d16"
-  }
+  },
+  "clue3": "I ride on a big truck and empty the bins."
  },
  {
   "id": "J084",
@@ -1277,7 +1360,8 @@
    "skin": "#d99a6c",
    "hair": "short",
    "hairColor": "#1f1a17"
-  }
+  },
+  "clue3": "I hang on a rope high up and wash the glass."
  },
  {
   "id": "J085",
@@ -1291,7 +1375,8 @@
    "skin": "#ffd2ac",
    "hair": "long",
    "hairColor": "#8b5a3c"
-  }
+  },
+  "clue3": "I play on a green field. I wear boots and a jersey."
  },
  {
   "id": "J086",
@@ -1306,7 +1391,8 @@
    "hair": "hijab",
    "hairColor": "#22b0f2",
    "hijabColor": "#22b0f2"
-  }
+  },
+  "clue3": "I am very tall. I dribble and shoot."
  },
  {
   "id": "J087",
@@ -1320,7 +1406,8 @@
    "skin": "#f1b98c",
    "hair": "bun",
    "hairColor": "#2b1d16"
-  }
+  },
+  "clue3": "I hit the ball over the net on a court."
  },
  {
   "id": "J088",
@@ -1334,7 +1421,8 @@
    "skin": "#7a4a2c",
    "hair": "short",
    "hairColor": "#4a2f23"
-  }
+  },
+  "clue3": "I wear goggles and a cap. I go fast in the water."
  },
  {
   "id": "J089",
@@ -1348,7 +1436,8 @@
    "skin": "#d99a6c",
    "hair": "long",
    "hairColor": "#2b1d16"
-  }
+  },
+  "clue3": "I wear a helmet and pedal very fast."
  },
  {
   "id": "J090",
@@ -1362,7 +1451,8 @@
    "skin": "#ffd2ac",
    "hair": "bun",
    "hairColor": "#6b3e26"
-  }
+  },
+  "clue3": "I punch in the ring. I wear big red gloves."
  },
  {
   "id": "J091",
@@ -1377,7 +1467,8 @@
    "skin": "#a86b45",
    "hair": "long",
    "hairColor": "#2b1d16"
-  }
+  },
+  "clue3": "I blow my whistle and say, \"Run faster!\""
  },
  {
   "id": "J092",
@@ -1392,7 +1483,8 @@
    "skin": "#f1b98c",
    "hair": "short",
    "hairColor": "#1f1a17"
-  }
+  },
+  "clue3": "I blow a whistle and show a yellow or red card."
  },
  {
   "id": "J093",
@@ -1409,7 +1501,8 @@
    "skin": "#7a4a2c",
    "hair": "long",
    "hairColor": "#8b5a3c"
-  }
+  },
+  "clue3": "I pull a rabbit out of my hat. Abracadabra!"
  },
  {
   "id": "J094",
@@ -1425,7 +1518,8 @@
    "skin": "#d99a6c",
    "hair": "long",
    "hairColor": "#2b1d16"
-  }
+  },
+  "clue3": "I wear a hard hat with a light. I dig for gold and coal."
  },
  {
   "id": "J095",
@@ -1441,7 +1535,8 @@
    "skin": "#ffd2ac",
    "hair": "bun",
    "hairColor": "#2b1d16"
-  }
+  },
+  "clue3": "I use an axe to chop wood. I wear a checked shirt."
  },
  {
   "id": "J096",
@@ -1455,7 +1550,8 @@
    "skin": "#a86b45",
    "hair": "short",
    "hairColor": "#4a2f23"
-  }
+  },
+  "clue3": "When you lose your key, I can open your door."
  },
  {
   "id": "J097",
@@ -1470,7 +1566,8 @@
    "skin": "#f1b98c",
    "hair": "long",
    "hairColor": "#2b1d16"
-  }
+  },
+  "clue3": "I work with gold, silver, and shiny diamonds."
  },
  {
   "id": "J098",
@@ -1484,7 +1581,8 @@
    "skin": "#7a4a2c",
    "hair": "bun",
    "hairColor": "#6b3e26"
-  }
+  },
+  "clue3": "I spin wet clay on a wheel to make bowls."
  },
  {
   "id": "J099",
@@ -1499,7 +1597,8 @@
    "skin": "#d99a6c",
    "hair": "long",
    "hairColor": "#2b1d16"
-  }
+  },
+  "clue3": "Follow me! I show you famous places on a trip."
  },
  {
   "id": "J100",
@@ -1513,6 +1612,7 @@
    "skin": "#ffd2ac",
    "hair": "short",
    "hairColor": "#1f1a17"
-  }
+  },
+  "clue3": "I answer the phone and give you your room key."
  }
 ]

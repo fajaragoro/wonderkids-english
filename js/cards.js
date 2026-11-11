@@ -9,13 +9,13 @@
   var DECKS = [
     {
       id: 'where', name: 'Where is…?', icon: '🔍', color: 'sky',
-      desc: 'Di mana bendanya? Jawab dengan bahasa Inggris.',
+      desc: 'Belajar kata posisi: in, on, under, behind…',
       hide: 'bottom',
       steps: [
-        'Lihat gambar dan nama benda di kartu. Dengarkan suaranya, misalnya <b lang="en">"Where is the ball?"</b>',
-        'Anak menjawab di mana benda itu dengan bahasa Inggris, misalnya <b lang="en">"It is under the bed."</b>',
-        'Orang tua boleh ikut membacakan nama benda. Tekan <b>Dengarkan</b> untuk mengulang suara.',
-        '<b>Tahan</b> tombol kuning sampai penuh untuk membuka jawabannya.',
+        'Lihat gambar di kartu: di mana bendanya? Dengarkan pertanyaannya, misalnya <b lang="en">"Where are the glasses?"</b>',
+        'Anak menjawab dengan kata posisi, misalnya <b lang="en">"They are on the book."</b>',
+        'Kata posisi yang dipelajari: <b lang="en">in, inside, on, under, above, below, behind, in front of, next to, beside, near, between, at</b>.',
+        '<b>Tahan</b> tombol kuning sampai penuh untuk membuka jawaban dan arti kata posisinya.',
         'Tekan <b>Berikutnya</b> untuk kartu lain. Urutan kartu selalu acak.'
       ]
     },
@@ -26,7 +26,7 @@
       steps: [
         'Dengarkan <b>clue</b> (petunjuk) berbahasa Inggris di kartu. Orang tua boleh ikut membacakannya.',
         'Anak menebak nama profesinya dengan bahasa Inggris, misalnya <b lang="en">"A doctor!"</b>',
-        'Tekan <b>Dengarkan</b> untuk mengulang clue.',
+        'Masih sulit? Tekan <b>Clue 2</b> untuk melihat gambar alat kerjanya, lalu <b>Clue 3</b> untuk petunjuk yang lebih jelas.',
         '<b>Tahan</b> tombol kuning sampai penuh untuk membuka gambar dan nama profesinya.',
         'Tekan <b>Berikutnya</b> untuk kartu lain. Urutan kartu selalu acak.'
       ]
@@ -38,7 +38,7 @@
       steps: [
         'Dengarkan <b>clue</b> (petunjuk) berbahasa Inggris di kartu. Orang tua boleh ikut membacakannya.',
         'Anak menebak nama hewan atau buahnya dengan bahasa Inggris, misalnya <b lang="en">"A rabbit!"</b>',
-        'Tekan <b>Dengarkan</b> untuk mengulang clue.',
+        'Masih sulit? Tekan <b>Clue 2</b> untuk melihat bayangannya, lalu <b>Clue 3</b> untuk petunjuk yang lebih jelas.',
         '<b>Tahan</b> tombol kuning sampai penuh untuk membuka gambar dan namanya.',
         'Tekan <b>Berikutnya</b> untuk kartu lain. Urutan kartu selalu acak.'
       ]
@@ -125,6 +125,58 @@
     return box;
   }
 
+  // Adegan "Where is": benda + tempat disusun sesuai kata posisinya (x, y = titik tengah dalam %,
+  // s = ukuran px pada panggung 260x190; z lebih besar = lebih depan).
+  var LAYOUT = {
+    'in':          { place: [50, 68, 118, 2], obj: [50, 36, 66, 1] },
+    'inside':      { place: [50, 54, 140, 2], obj: [50, 56, 62, 1] },
+    'on':          { place: [50, 70, 118, 1], obj: [50, 25, 66, 2] },
+    'under':       { place: [50, 38, 132, 2], obj: [50, 80, 62, 1] },
+    'above':       { place: [50, 74, 100, 1], obj: [50, 17, 62, 2] },
+    'below':       { place: [50, 19, 84, 1], obj: [50, 74, 84, 2] },
+    'behind':      { place: [57, 63, 118, 2], obj: [37, 38, 92, 1] },
+    'in front of': { place: [50, 42, 128, 1], obj: [50, 74, 76, 2] },
+    'next to':     { place: [36, 54, 124, 1], obj: [78, 62, 82, 2] },
+    'beside':      { place: [64, 54, 124, 1], obj: [22, 62, 82, 2] },
+    'near':        { place: [30, 52, 122, 1], obj: [80, 64, 92, 2] },
+    'between':     { place: [16, 56, 92, 1], obj: [50, 60, 74, 2], place2: [84, 56, 92, 1] },
+    'at':          { place: [60, 50, 140, 1], obj: [22, 70, 76, 2] }
+  };
+  function sceneItem(emo, spec, cls) {
+    var e = el('span', 'sc-item ' + cls, emo);
+    e.style.left = spec[0] + '%';
+    e.style.top = spec[1] + '%';
+    e.style.fontSize = spec[2] + 'px';
+    e.style.zIndex = spec[3];
+    return e;
+  }
+  function scene(c) {
+    var L = LAYOUT[c.prep] || LAYOUT['next to'];
+    var box = el('div', 'cc-scene prep-' + c.prep.replace(/ /g, '-'));
+    box.setAttribute('role', 'img');
+    box.setAttribute('aria-label', c.sentence);
+    box.appendChild(sceneItem(c.place, L.place, 'sc-place'));
+    if (c.place2 && L.place2) box.appendChild(sceneItem(c.place2, L.place2, 'sc-place'));
+    var o = L.obj.slice();
+    if (c.adjust) { o[0] += c.adjust[0]; o[1] += c.adjust[1]; }
+    box.appendChild(sceneItem(c.image, o, 'sc-obj'));
+    return box;
+  }
+
+  // Huruf awal + kotak kosong untuk Clue 3: "D _ _ _ _ _".
+  function letterHint(name) {
+    var box = el('p', 'cc-letters');
+    box.setAttribute('aria-label', 'Huruf awal ' + name.charAt(0).toUpperCase());
+    name.split(' ').forEach(function (w, wi) {
+      var word = el('span', 'cc-word');
+      for (var i = 0; i < w.length; i++) {
+        word.appendChild(el('span', 'cc-letter' + (wi === 0 && i === 0 ? ' first' : ''), wi === 0 && i === 0 ? w.charAt(0).toUpperCase() : (w.charAt(i) === '-' ? '-' : '')));
+      }
+      box.appendChild(word);
+    });
+    return box;
+  }
+
   // Kartu: bagian atas (langit + gelombang) dan bawah (ungu). Salah satunya tertutup sampai ditahan.
   function cardEl(d, c, n) {
     var card = el('article', 'cc-card ' + d.id + ' hide-' + d.hide);
@@ -133,13 +185,24 @@
     var bottom = el('div', 'cc-bottom');
     var speak = { front: '', back: '' };
 
+    var hint = null; // isi penutup saat Clue 2 dibuka
+    var clue3 = null;
     if (d.id === 'where') {
-      top.appendChild(picture(c.image));
+      top.appendChild(scene(c));
       top.appendChild(el('p', 'cc-name display', c.name));
       bottom.appendChild(el('p', 'cc-ask', c.ask));
       var ans = el('div', 'cc-answer');
-      ans.appendChild(el('span', 'cc-place', c.place));
-      ans.appendChild(el('p', 'cc-loc', c.answer));
+      var loc = el('p', 'cc-loc');
+      var lead = c.answer.slice(0, c.answer.indexOf(' ' + c.prep + ' ') + 1);
+      loc.appendChild(document.createTextNode(lead));
+      loc.appendChild(el('b', 'cc-prep', c.prep));
+      loc.appendChild(document.createTextNode(c.answer.slice(lead.length + c.prep.length)));
+      ans.appendChild(loc);
+      var mean = el('p', 'cc-mean');
+      mean.appendChild(el('b', 'display', c.prep.toUpperCase()));
+      mean.appendChild(document.createTextNode(' = ' + c.meaning));
+      mean.setAttribute('lang', 'id');
+      ans.appendChild(mean);
       bottom.appendChild(ans);
       speak.front = c.ask;
       speak.back = c.sentence;
@@ -151,15 +214,28 @@
         art.appendChild(fig);
         var tool = el('span', 'cc-tool', c.tool);
         art.appendChild(tool);
+        hint = el('div', 'cc-hint tool');
+        hint.appendChild(el('span', 'cc-hint-tool', c.tool));
+        hint.appendChild(el('span', 'cc-hint-label', 'Clue 2: alat kerjaku'));
       } else {
         art.appendChild(picture(c.image));
         art.classList.add(c.kind);
+        hint = el('div', 'cc-hint shadow');
+        hint.appendChild(picture(c.image));
+        hint.appendChild(el('span', 'cc-hint-label', 'Clue 2: bayanganku'));
       }
       top.appendChild(art);
       top.appendChild(el('p', 'cc-name display', c.name));
       bottom.appendChild(el('p', 'cc-tag', d.id === 'jobs' ? 'Who am I?' : (c.kind === 'fruit' ? 'What fruit am I?' : 'What animal am I?')));
       bottom.appendChild(el('p', 'cc-clue', c.clue));
+      clue3 = el('div', 'cc-clue3');
+      clue3.appendChild(el('span', 'cc-clue3-tag display', 'Clue 3'));
+      clue3.appendChild(el('p', 'cc-clue3-text', c.clue3));
+      clue3.appendChild(letterHint(c.name));
+      clue3.hidden = true;
+      bottom.appendChild(clue3);
       speak.front = c.clue;
+      speak.clue3 = c.clue3 + ' It starts with the letter ' + c.name.charAt(0).toUpperCase() + '.';
       // "A doctor!", "An apple!"; nama jamak (grapes, cherries, blueberries) tanpa a/an.
       var plural = /(berries|cherries|grapes)$/.test(c.name);
       speak.back = plural ? c.name + '!' : (/^[aeiou]/i.test(c.name) ? 'An ' : 'A ') + c.name + '!';
@@ -171,16 +247,19 @@
 
     var cover = el('div', 'cc-cover');
     cover.setAttribute('aria-hidden', 'true');
-    cover.appendChild(el('span', 'cc-q display', '?'));
-    cover.appendChild(el('span', 'cc-cover-text', 'Tahan tombol kuning untuk membuka'));
+    var q = el('div', 'cc-cover-q');
+    q.appendChild(el('span', 'cc-q display', '?'));
+    q.appendChild(el('span', 'cc-cover-text', 'Tahan tombol kuning untuk membuka'));
+    cover.appendChild(q);
+    if (hint) { hint.hidden = true; cover.appendChild(hint); }
     (d.hide === 'top' ? top : bottom).appendChild(cover);
-    return { el: card, speak: speak };
+    return { el: card, speak: speak, hint: hint, cover: cover, clue3: clue3 };
   }
 
   /* ---------------- Main ---------------- */
   function start(id) {
     var d = deck(id);
-    run = { deck: d, cards: [], index: 0, opened: {}, node: null };
+    run = { deck: d, cards: [], index: 0, opened: {}, clues: {}, node: null };
     $('card-deck-name').textContent = d.name;
     $('card-stage').textContent = '';
     $('card-stage').appendChild(el('p', 'q-status', 'Menyiapkan kartu…'));
@@ -207,8 +286,37 @@
     $('card-count').textContent = (i + 1) + ' / ' + r.cards.length;
     $('card-prev').disabled = i === 0;
     $('card-next').textContent = i === r.cards.length - 1 ? 'Acak lagi ↻' : 'Berikutnya ▶';
+    $('card-clues').hidden = r.deck.id === 'where';
+    setClue(r.clues[c.id] || 1, true);
     setOpen(!!r.opened[c.id], true);
     say(built.speak.front);
+  }
+
+  // Tingkat clue yang terbuka: 1 (teks), 2 (+ gambar alat/bayangan), 3 (+ petunjuk spesifik & huruf awal).
+  function setClue(level, quiet) {
+    var r = run;
+    if (!r || !r.node || r.deck.id === 'where') return;
+    var n = r.node;
+    r.clues[r.cards[r.index].id] = level;
+    if (n.hint) {
+      n.hint.hidden = level < 2;
+      n.cover.classList.toggle('has-hint', level >= 2);
+    }
+    if (n.clue3) n.clue3.hidden = level < 3;
+    n.el.classList.toggle('lvl3', level >= 3);
+    var open = !!r.opened[r.cards[r.index].id];
+    var b2 = $('card-clue2'), b3 = $('card-clue3');
+    b2.disabled = open || level >= 2;
+    b3.disabled = open || level !== 2;
+    b2.classList.toggle('used', level >= 2);
+    b3.classList.toggle('used', level >= 3);
+    if (!quiet) {
+      if (WK.Sfx) WK.Sfx.play('correct');
+      if (level === 3) {
+        WK.Speech.say(n.speak.clue3, { queue: false });
+        n.clue3.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
+      }
+    }
   }
 
   function setOpen(open, quiet) {
@@ -219,6 +327,7 @@
     hold.disabled = open;
     hold.classList.toggle('done', open);
     hold.querySelector('.hold-label').textContent = open ? 'Jawaban terbuka!' : 'Tahan untuk membuka';
+    if (open) { $('card-clue2').disabled = true; $('card-clue3').disabled = true; }
     if (open && !quiet) {
       r.opened[r.cards[r.index].id] = true;
       if (WK.Sfx) WK.Sfx.play('correct');
@@ -261,8 +370,14 @@
     $('card-listen').addEventListener('click', function () {
       if (!run || !run.node) return;
       var c = run.cards[run.index];
-      say(run.opened[c.id] ? run.node.speak.back : run.node.speak.front);
+      if (run.opened[c.id]) say(run.node.speak.back);
+      else {
+        say(run.node.speak.front);
+        if ((run.clues[c.id] || 1) >= 3) WK.Speech.say(run.node.speak.clue3, { queue: true });
+      }
     });
+    $('card-clue2').addEventListener('click', function () { if (run && run.node) setClue(2); });
+    $('card-clue3').addEventListener('click', function () { if (run && run.node) setClue(3); });
     $('card-prev').addEventListener('click', function () {
       if (run && run.index > 0) show(run.index - 1, -1);
     });
@@ -273,6 +388,7 @@
         // Semua kartu sudah dilihat: acak ulang dan mulai lagi.
         run.cards = shuffle(run.cards);
         run.opened = {};
+        run.clues = {};
         WK.App.toast('Kartu diacak lagi!');
         show(0, 1);
       }

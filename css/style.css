@@ -1256,3 +1256,80 @@ img.emo { height: 1em; width: auto; vertical-align: -0.14em; display: inline-blo
   .cc-bottom { min-height: 100px; }
   .cc-name { font-size: 1.8rem; }
 }
+
+/* ---------- Card Game: adegan "Where is" ---------- */
+.cc-scene { position: relative; width: 260px; height: 190px; max-width: 100%; }
+.sc-item {
+  position: absolute; line-height: 1; transform: translate(-50%, -50%); white-space: nowrap;
+}
+.sc-item img.emo {
+  height: 1em; width: auto; display: block;
+  filter: drop-shadow(1.5px 0 0 var(--outline)) drop-shadow(-1.5px 0 0 var(--outline))
+          drop-shadow(0 1.5px 0 var(--outline)) drop-shadow(0 -1.5px 0 var(--outline)) drop-shadow(0 4px 0 rgba(20, 28, 110, .22));
+}
+/* "inside": tempat dibuat tembus pandang supaya benda di dalamnya terlihat */
+.prep-inside .sc-place { opacity: .5; }
+.prep-inside .sc-obj { animation: sc-peek 1.6s ease-in-out infinite alternate; }
+/* "above"/"below": garis putus-putus menunjukkan jarak (tidak menempel) */
+.prep-above::before, .prep-below::before {
+  content: ""; position: absolute; left: 50%; top: 31%; height: 15%; border-left: 4px dashed rgba(255, 255, 255, .8);
+}
+.prep-below::before { top: 42%; height: 9%; }
+.cc-prep { color: var(--sun); font-size: 1.15em; text-decoration: underline; text-decoration-thickness: 3px; text-underline-offset: 4px; }
+.cc-answer { flex-direction: column; gap: 4px; }
+.cc-loc { text-align: center; }
+.cc-mean { margin: 0; font-weight: 800; font-size: 1rem; padding: 3px 12px; border-radius: 999px; background: var(--white); color: var(--grape); }
+.cc-mean b { font-weight: 400; letter-spacing: .03em; }
+@keyframes sc-peek { from { transform: translate(-50%, -50%) scale(.94); } to { transform: translate(-50%, -54%) scale(1.04); } }
+
+/* ---------- Card Game: Clue 2 & Clue 3 ---------- */
+.clue-row .btn { background: #a37cf5; color: var(--white); }
+.clue-row .btn.used { background: var(--leaf); }
+.clue-row .btn:disabled:not(.used) { opacity: .45; }
+.clue-row .btn.used:disabled { opacity: .9; }
+.cc-cover-q { display: flex; flex-direction: column; align-items: center; gap: 6px; }
+.cc-cover.has-hint .cc-cover-q { display: none; }
+.cc-hint { display: flex; flex-direction: column; align-items: center; gap: 8px; animation: pop-in .4s ease-out both; }
+.cc-hint-tool {
+  width: 120px; height: 120px; border-radius: 50%; display: grid; place-items: center; font-size: 72px; line-height: 1;
+  background: var(--white); box-shadow: 0 0 0 5px var(--sun), 0 6px 0 5px rgba(20, 28, 110, .3);
+}
+.cc-hint-tool img.emo { height: 1em; width: auto; }
+.cc-hint.shadow .cc-pic img, .cc-hint.shadow .cc-pic img.emo { filter: brightness(0) opacity(.72); }
+.cc-hint.shadow .cc-pic { font-size: 120px; }
+.cc-hint.shadow .cc-pic img { width: 140px; height: 140px; }
+.cc-hint.shadow .cc-pic img.emo { height: 1em; width: auto; }
+.cc-hint-label { font-weight: 800; font-size: 1rem; padding: 3px 12px; border-radius: 999px; background: rgba(20, 28, 110, .35); }
+.cc-clue3 {
+  width: 100%; display: flex; flex-direction: column; align-items: center; gap: 6px; padding: 10px 12px 12px;
+  border-radius: 18px; background: rgba(255, 255, 255, .16); animation: pop-in .4s ease-out both;
+}
+.cc-clue3[hidden] { display: none; }
+.cc-clue3-tag { font-size: 1rem; color: var(--ink); background: var(--sun); padding: 2px 12px; border-radius: 999px; }
+.cc-clue3-text { margin: 0; font-size: 1.2rem; font-weight: 800; line-height: 1.3; }
+.cc-letters { margin: 2px 0 0; display: flex; flex-wrap: wrap; justify-content: center; gap: 4px 14px; }
+.cc-word { display: flex; gap: 4px; }
+.cc-letter {
+  width: 22px; height: 28px; display: grid; place-items: center; border-bottom: 4px solid var(--white);
+  font-family: var(--font-display); font-size: 1.4rem; line-height: 1;
+}
+.cc-letter.first { color: var(--sun); border-color: var(--sun); }
+.cc-card.open .cc-letters { display: none; }
+@media (max-height: 700px), (max-width: 360px) {
+  .cc-scene { transform: scale(.82); margin: -16px 0; }
+  .cc-hint-tool { width: 92px; height: 92px; font-size: 54px; }
+  .cc-hint.shadow .cc-pic { font-size: 92px; }
+  .cc-hint.shadow .cc-pic img { width: 106px; height: 106px; }
+  .cc-letter { width: 18px; height: 24px; font-size: 1.2rem; }
+}
+@media (orientation: landscape) and (max-height: 520px) {
+  .cc-scene { transform: scale(.66); margin: -32px 0; }
+}
+/* Clue 3 terbuka: bagian atas dipadatkan supaya tombol tetap terlihat */
+.cc-card.lvl3 .cc-top { min-height: 170px; padding-top: 22px; padding-bottom: 26px; }
+.cc-card.lvl3 .cc-hint-tool { width: 84px; height: 84px; font-size: 50px; }
+.cc-card.lvl3 .cc-hint.shadow .cc-pic { font-size: 84px; }
+.cc-card.lvl3 .cc-hint.shadow .cc-pic img { width: 96px; height: 96px; }
+.cc-card.lvl3 .cc-clue { font-size: 1.15rem; }
+.cc-card.lvl3 .cc-bottom { gap: 6px; }
+.cc-card.lvl3 .cc-tag { display: none; }

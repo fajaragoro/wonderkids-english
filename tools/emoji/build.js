@@ -33,14 +33,19 @@ for (const f of srcs) {
 
 fs.mkdirSync(OUT, { recursive: true });
 for (const f of fs.readdirSync(OUT)) fs.unlinkSync(path.join(OUT, f));
+// Penyesuaian faceless: bagian yang bisa terbaca seperti wajah dibuang.
+// 1f941 drum: ujung dua stik di tengah membran tampak seperti mata -> stik dihapus.
+const STRIP = { '1f941': [/<path fill="#f3c07b"[^>]*\/>/g, /<path fill="#f3ad61"[^>]*\/>/g] };
 const missing = [];
 for (const g of used) {
   const c = code(g);
   const name = chars[c] || chars[c.split('-')[0]];
   const ic = name && icons.icons[name];
   if (!ic) { missing.push(g + ' ' + c); continue; }
+  let body = ic.body;
+  for (const re of STRIP[c] || []) body = body.replace(re, '');
   const w = ic.width || icons.width || 32, h = ic.height || icons.height || 32;
   fs.writeFileSync(path.join(OUT, c + '.svg'),
-    `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${w} ${h}">${ic.body}</svg>\n`);
+    `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${w} ${h}">${body}</svg>\n`);
 }
 console.log('emoji:', used.size, 'svg:', used.size - missing.length, 'tidak ada:', missing.join(', ') || '-');

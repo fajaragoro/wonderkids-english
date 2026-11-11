@@ -123,16 +123,21 @@ layar **Cara main** dulu, dan urutan kartu diacak setiap kali dimulai.
 
 | Dek | Yang terlihat | Yang tertutup | Suara |
 |---|---|---|---|
-| Where is…? | Gambar & nama benda, pertanyaan "Where is the …?" | Lokasi ("It is under the bed.") | Pertanyaan, lalu kalimat jawaban |
-| The Profession | Clue berbahasa Inggris | Figur profesi (faceless) + alatnya + nama | Clue, lalu "A doctor!" |
-| Animals & Fruits | Clue berbahasa Inggris | Gambar hewan/buah + nama (60 hewan, 40 buah) | Clue, lalu namanya |
+| Where is…? | Adegan benda + tempatnya (gambar = clue), pertanyaan "Where is the …?" | Kalimat jawaban + arti kata posisi ("ON = di atas") | Pertanyaan, lalu kalimat jawaban |
+| The Profession | Clue 1 (teks) · Clue 2: gambar alat · Clue 3: petunjuk spesifik + huruf awal | Figur profesi (faceless) + alatnya + nama | Clue, lalu "A doctor!" |
+| Animals & Fruits | Clue 1 (teks) · Clue 2: bayangan · Clue 3: petunjuk spesifik + huruf awal | Gambar hewan/buah + nama (60 hewan, 40 buah) | Clue, lalu namanya |
+
+- **Where is…?** melatih 13 kata posisi: in, inside, on, under, above, below, behind, in front of, next to,
+  beside, near, between, at. Susunan adegan per kata posisi ada di `LAYOUT` (`js/cards.js`);
+  geseran khusus per kartu di `ADJUST` (`tools/cards/where.py`).
+- Clue 2 & Clue 3 dibuka berurutan dengan tombol di bawah kartu (Clue 3 aktif setelah Clue 2).
 
 - Jawaban hanya terbuka dengan **menahan** tombol kuning ±1 detik (`HOLD_MS` di `js/cards.js`), agar tidak terbuka tak sengaja.
 - Isi dek ada di `tools/cards/where.py`, `jobs.py`, `nature.py`. Setelah mengubah, jalankan:
   ```bash
   python3 tools/cards/build.py
   ```
-  Validator memeriksa 100 kartu per dek, nama unik, gambar ada, emoji tanpa wajah, dan clue tidak menyebut jawabannya.
+  Validator memeriksa 100 kartu per dek, nama unik, gambar ada, emoji tanpa wajah, kata posisi dikenal, clue 3 lengkap, dan clue tidak menyebut jawabannya.
   Lalu jalankan `node tools/emoji/build.js` (jika ada emoji baru) dan `python3 tools/update_sw.py`.
 - Figur profesi digambar di browser oleh `js/cards-figure.js` (gaya pakaian di `OUTFIT` pada `tools/cards/jobs.py`),
   selalu tanpa mata, hidung, mulut, dan alis.
